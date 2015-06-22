@@ -1,0 +1,41 @@
+ex1
+fetch("({handle:'wall'})-[*1..3]->(v)")
+fetch("({handle:'standing_human'})-[:`CAN_USE`]->(v)")
+
+ex2
+RaQuel query
+paths =fetch("({handle:'standing_human'})-[e*1..3]->({handle:'phone'})")
+SortBy(paths,'Belief')
+
+terminal input
+paths =fetch(\"({handle:'standing_human'})-[e*1..3]->({handle:'phone'})\")\nSortBy(paths,'Belief')
+
+
+
+ex3
+RaQueL query
+global affordances
+objects =fetch("({handle:'sitting_human'})-[:`CAN_USE`]->(V)")
+affordances=lambda n:fetch("({handle :'" + n + "'})-[:`HAS_AFFORDANCE`]->(v)")
+iter = imap( lambda u: affordances(u) ,objects[1])
+print iter.next()
+print iter.next()
+
+terminal input
+print processingRQL("global affordances\nobjects =fetch(\"({handle:'sitting_human'})-[:`CAN_USE`]->(V)\")\naffordances=lambda n:fetch(\"({handle :'\" + n + \"'})-[:`HAS_MATERIAL`]->(v)\")\niter = imap( lambda u: affordances(u) ,objects[1])\nprint iter.next()\nprint iter.next()")
+
+ex4
+RaQueL query
+
+global entities, media
+entities = lambda n: fetch("(v)-[:`HAS_MEDIA`]->({handle :'" + n + "'})")
+media = lambda n:fetch("({handle :'" + n + "'})-[:`HAS_MEDIA`]->(v)")
+ind_media = lambda a: ifilter(lambda u: len(entities(u)[1])==1,(media(a))[1])
+iter1= ind_media('tv')	
+print iter1.next()
+
+jt_media = lambda a1,a2: ifilter(lambda u: len((entities(u))[1])==2 and u in media(a2)[1],(media(a1))[1]) 
+iter2 = jt_media('tv','television_set')
+print iter2.next()
+
+

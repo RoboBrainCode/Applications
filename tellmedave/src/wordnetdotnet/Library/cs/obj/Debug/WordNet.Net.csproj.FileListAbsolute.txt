@@ -1,0 +1,16 @@
+C:\Users\AirRobot\Desktop\wordnetdotnet\Library\cs\bin\Debug\WordNetClasses.dll.config
+C:\Users\AirRobot\Desktop\wordnetdotnet\Library\cs\bin\Debug\WordNetClasses.dll
+C:\Users\AirRobot\Desktop\wordnetdotnet\Library\cs\bin\Debug\WordNetClasses.pdb
+C:\Users\AirRobot\Desktop\wordnetdotnet\Library\cs\bin\Debug\WordNetClasses.dll.xml
+C:\Users\AirRobot\Desktop\wordnetdotnet\Library\cs\obj\Debug\WordNetClasses.dll
+C:\Users\AirRobot\Desktop\wordnetdotnet\Library\cs\obj\Debug\WordNetClasses.dll.xml
+C:\Users\AirRobot\Desktop\wordnetdotnet\Library\cs\obj\Debug\WordNetClasses.pdb
+C:\Users\AirRobot\Desktop\wordnetdotnet\Library\cs\obj\Debug\WordNet.Net.csprojResolveAssemblyReference.cache
+C:\Users\AirRobot\Desktop\verbgrounding\wordnetdotnet\Library\cs\bin\Debug\WordNetClasses.dll.config
+C:\Users\AirRobot\Desktop\verbgrounding\wordnetdotnet\Library\cs\bin\Debug\WordNetClasses.dll
+C:\Users\AirRobot\Desktop\verbgrounding\wordnetdotnet\Library\cs\bin\Debug\WordNetClasses.pdb
+C:\Users\AirRobot\Desktop\verbgrounding\wordnetdotnet\Library\cs\bin\Debug\WordNetClasses.dll.xml
+C:\Users\AirRobot\Desktop\verbgrounding\wordnetdotnet\Library\cs\obj\Debug\WordNet.Net.csprojResolveAssemblyReference.cache
+C:\Users\AirRobot\Desktop\verbgrounding\wordnetdotnet\Library\cs\obj\Debug\WordNetClasses.dll
+C:\Users\AirRobot\Desktop\verbgrounding\wordnetdotnet\Library\cs\obj\Debug\WordNetClasses.dll.xml
+C:\Users\AirRobot\Desktop\verbgrounding\wordnetdotnet\Library\cs\obj\Debug\WordNetClasses.pdb

@@ -1,0 +1,21 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SynSet.cs">
+    <Files>
+      <File FileName="Index.cs" Line="1" Column="1" />
+      <File FileName="Lexeme.cs" Line="1" Column="1" />
+      <File FileName="AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="app.config" Line="1" Column="1" />
+      <File FileName="LexemeList.cs" Line="1" Column="1" />
+      <File FileName="Lexicon.cs" Line="1" Column="1" />
+      <File FileName="morph.cs" Line="1" Column="1" />
+      <File FileName="SemCor.cs" Line="1" Column="1" />
+      <File FileName="Synonym.cs" Line="1" Column="1" />
+      <File FileName="SynSet.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,8 @@
+(
+s           //state
+(lo e)      //location
+(q e)       // quantity
+(f e)       //furniture
+(d e)	    // dish
+(p e)       //person or robot
+)

@@ -1,0 +1,3872 @@
+<lexicon>
+<!--Lexical Items. Have the following form verb -> \lambda v. Post-Condition(v) ; \xi_v 
+    where v are the free-variables which map to objects and \xi_v is the original mapping.
+-->
+<lexical_item verb="Take">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(state $var1 LeftDoorIsOpen)^(state $var1 RightDoorIsOpen)^(Grasping $var2 $var3)</postcondition>
+<object>Fridge</object>
+<object>Robot</object>
+<object>BoiledEgg_1</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Mug_1</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(state $var1 CD)^(On $var1 $var2)</postcondition>
+<object>Xbox_1</object>
+<object>SnackTable_1</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Mug_1</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Mug_1</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(state $var1 Water)^(state $var2 TapIsOn)^(Grasping $var3 $var1)</postcondition>
+<object>Glass_1</object>
+<object>SinkKnob</object>
+<object>Robot</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Plate_1</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Ramen_1</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>IceCream_1</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(On $var1 $var2)^(On $var3 $var4)</postcondition>
+<object>Cd_1</object>
+<object>Loveseat_1</object>
+<object>Book_2</object>
+<object>CoffeeTable_1</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)^(On $var4 $var2)</postcondition>
+<object>LongCup_2</object>
+<object>Sink</object>
+<object>Plate_2</object>
+<object>Plate_1</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)</postcondition>
+<object>Xbox_1</object>
+<object>Loveseat_1</object>
+<object>Cd_1</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)</postcondition>
+<object>Robot</object>
+<object>Kettle</object>
+<object>InstantRamen_1</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Ramen_1</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(state $var1 Water)^(Grasping $var2 $var1)</postcondition>
+<object>Kettle</object>
+<object>Robot</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>InstantRamen_1</object>
+</lexical_item>
+<lexical_item verb="take">
+<postcondition>(state $var1 DoorIsOpen)^(state $var2 Water)^(Grasping $var3 $var4)</postcondition>
+<object>Microwave</object>
+<object>InstantRamen_1</object>
+<object>Robot</object>
+<object>Mug_1</object>
+</lexical_item>
+<lexical_item verb="take">
+<postcondition>(On $var1 $var2)^(On $var3 $var4)^(On $var5 $var4)</postcondition>
+<object>Tv_1Remote_1</object>
+<object>CoffeeTable_1</object>
+<object>XboxController_1</object>
+<object>Loveseat_1</object>
+<object>Xbox_1</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Book_2</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>BoiledEgg_1</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="take">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(state $var1 DoorIsOpen)^(Grasping $var2 $var3)</postcondition>
+<object>Microwave</object>
+<object>Robot</object>
+<object>Mug_1</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)</postcondition>
+<object>Robot</object>
+<object>Ramen_1</object>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Plate_1</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Ramen_1</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Mug_1</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)</postcondition>
+<object>Robot</object>
+<object>Book_2</object>
+<object>Book_1</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(state $var1 LeftDoorIsOpen)^(state $var1 RightDoorIsOpen)</postcondition>
+<object>Fridge</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="take">
+<postcondition>(state $var1 LeftDoorIsOpen)^(state $var1 RightDoorIsOpen)</postcondition>
+<object>Fridge</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>LongCup_2</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Mug_1</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Mug_1</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Book_2</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(state $var1 LeftDoorIsOpen)^(Grasping $var2 $var3)^(Grasping $var2 $var4)</postcondition>
+<object>Fridge</object>
+<object>Robot</object>
+<object>IceCream_1</object>
+<object>Syrup_2</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(state $var1 RightDoorIsOpen)^(state $var1 LeftDoorIsOpen)^(Grasping $var2 $var3)</postcondition>
+<object>Fridge</object>
+<object>Robot</object>
+<object>IceCream_1</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(state $var1 ScoopsLeft)^(Grasping $var2 $var1)^(Grasping $var2 $var3)</postcondition>
+<object>Spoon_1</object>
+<object>Robot</object>
+<object>IceCream_1</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Beer_1</object>
+<object>Loveseat_1</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(In $var1 $var2)</postcondition>
+<object>Cd_1</object>
+<object>Xbox_1</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(On $var1 $var2)^(state $var3 MicrowaveIsOn)</postcondition>
+<object>Mug_1</object>
+<object>Sink</object>
+<object>Microwave</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(In $var1 $var2)</postcondition>
+<object>Cd_1</object>
+<object>Xbox_1</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)^(Grasping $var1 $var4)^(Grasping $var1 $var5)^(Grasping $var1 $var6)^(Grasping $var1 $var7)</postcondition>
+<object>Robot</object>
+<object>Pillow_2</object>
+<object>Pillow_1</object>
+<object>Pillow_3</object>
+<object>Pillow_4</object>
+<object>Beer_1</object>
+<object>Coke_1</object>
+</lexical_item>
+<lexical_item verb="take">
+<postcondition>(state $var1 DoorIsOpen)</postcondition>
+<object>Microwave</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(state $var1 StoveFire1)</postcondition>
+<object>Stove</object>
+</lexical_item>
+<lexical_item verb="take">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>GarbageBag_1</object>
+<object>GarbageBin_1</object>
+</lexical_item>
+<lexical_item verb="Take">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>BagOfChips_1</object>
+<object>GarbageBin_1</object>
+</lexical_item>
+<lexical_item verb="fill">
+<postcondition>(state $var1 Water)^(state $var2 TapIsOn)</postcondition>
+<object>Kettle</object>
+<object>SinkKnob</object>
+</lexical_item>
+<lexical_item verb="Fill">
+<postcondition>(state $var1 Water)^(state $var2 MicrowaveIsOn)^(state $var3 TapIsOn)</postcondition>
+<object>Mug_1</object>
+<object>Microwave</object>
+<object>SinkKnob</object>
+</lexical_item>
+<lexical_item verb="fill">
+<postcondition>(state $var1 TapIsOn)</postcondition>
+<object>SinkKnob</object>
+</lexical_item>
+<lexical_item verb="Fill">
+<postcondition>(state $var1 StoveFire1)^(state $var2 Water)</postcondition>
+<object>Stove</object>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="fill">
+<postcondition>(state $var1 Water)^(state $var2 TapIsOn)</postcondition>
+<object>Kettle</object>
+<object>SinkKnob</object>
+</lexical_item>
+<lexical_item verb="fill">
+<postcondition>(state $var1 Water)</postcondition>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="fill">
+<postcondition>(state $var1 Water)^(state $var2 WaterDispenserIsOpen)</postcondition>
+<object>Mug_1</object>
+<object>Fridge</object>
+</lexical_item>
+<lexical_item verb="Fill">
+<postcondition>(state $var1 Water)^(state $var2 WaterDispenserIsOpen)^(Grasping $var3 $var1)</postcondition>
+<object>Mug_1</object>
+<object>Fridge</object>
+<object>Robot</object>
+</lexical_item>
+<lexical_item verb="fill">
+<postcondition>(state $var1 Water)^(state $var2 TapIsOn)</postcondition>
+<object>Kettle</object>
+<object>SinkKnob</object>
+</lexical_item>
+<lexical_item verb="fill">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="fill">
+<postcondition>(state $var1 Water)</postcondition>
+<object>InstantRamen_1</object>
+</lexical_item>
+<lexical_item verb="Fill">
+<postcondition>(state $var1 Water)^(state $var2 TapIsOn)^(Grasping $var3 $var1)</postcondition>
+<object>Kettle</object>
+<object>SinkKnob</object>
+<object>Robot</object>
+</lexical_item>
+<lexical_item verb="Fill">
+<postcondition>(state $var1 Water)^(state $var2 TapIsOn)^(On $var1 $var3)</postcondition>
+<object>Kettle</object>
+<object>SinkKnob</object>
+<object>Sink</object>
+</lexical_item>
+<lexical_item verb="fill">
+<postcondition>(state $var1 Water)^(state $var2 TapIsOn)^(Grasping $var3 $var1)</postcondition>
+<object>Kettle</object>
+<object>SinkKnob</object>
+<object>Robot</object>
+</lexical_item>
+<lexical_item verb="fill">
+<postcondition>(state $var1 Water)^(state $var2 TapIsOn)^(On $var1 $var3)</postcondition>
+<object>Kettle</object>
+<object>SinkKnob</object>
+<object>Sink</object>
+</lexical_item>
+<lexical_item verb="fill">
+<postcondition>(Grasping $var1 $var2)^(not (state $var3 TapIsOn))</postcondition>
+<object>Robot</object>
+<object>Kettle</object>
+<object>SinkKnob</object>
+</lexical_item>
+<lexical_item verb="Fill">
+<postcondition>(state $var1 Water)^(Grasping $var2 $var1)</postcondition>
+<object>Kettle</object>
+<object>Robot</object>
+</lexical_item>
+<lexical_item verb="Fill">
+<postcondition>(state $var1 Water)</postcondition>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="fill">
+<postcondition>(state $var1 Water)</postcondition>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="fill">
+<postcondition>(state $var1 Water)^(state $var2 WaterDispenserIsOpen)</postcondition>
+<object>Mug_1</object>
+<object>Fridge</object>
+</lexical_item>
+<lexical_item verb="fill">
+<postcondition>(state $var1 Water)^(state $var2 TapIsOn)</postcondition>
+<object>Kettle</object>
+<object>SinkKnob</object>
+</lexical_item>
+<lexical_item verb="Fill">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>LongCup_1</object>
+</lexical_item>
+<lexical_item verb="Fill">
+<postcondition>(state $var1 Water)^(Grasping $var2 $var1)</postcondition>
+<object>Kettle</object>
+<object>Robot</object>
+</lexical_item>
+<lexical_item verb="Fill">
+<postcondition>(state $var1 StoveFire4)^(state $var2 Water)^(state $var3 TapIsOn)^(Grasping $var4 $var2)^(Grasping $var4 $var5)</postcondition>
+<object>Stove</object>
+<object>LongCup_2</object>
+<object>SinkKnob</object>
+<object>Robot</object>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="fill">
+<postcondition>(state $var1 Water)^(state $var2 TapIsOn)</postcondition>
+<object>Kettle</object>
+<object>SinkKnob</object>
+</lexical_item>
+<lexical_item verb="Fill">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="Fill">
+<postcondition>(state $var1 Water)^(state $var2 TapIsOn)^(Grasping $var3 $var1)</postcondition>
+<object>Kettle</object>
+<object>SinkKnob</object>
+<object>Robot</object>
+</lexical_item>
+<lexical_item verb="fill">
+<postcondition>(state $var1 Water)^(state $var2 TapIsOn)^(On $var1 $var3)</postcondition>
+<object>Kettle</object>
+<object>SinkKnob</object>
+<object>Sink</object>
+</lexical_item>
+<lexical_item verb="fill">
+<postcondition>(state $var1 WaterDispenserIsOpen)^(state $var2 Water)</postcondition>
+<object>Fridge</object>
+<object>Glass_1</object>
+</lexical_item>
+<lexical_item verb="fill">
+<postcondition>(state $var1 StoveFire2)^(not (state $var2 TapIsOn))</postcondition>
+<object>Stove</object>
+<object>SinkKnob</object>
+</lexical_item>
+<lexical_item verb="Fill">
+<postcondition>(Grasping $var1 $var2)^(On $var3 $var4)</postcondition>
+<object>Robot</object>
+<object>Bowl_1</object>
+<object>BagOfChips_1</object>
+<object>SnackTable_1</object>
+</lexical_item>
+<lexical_item verb="Fill">
+<postcondition>(state $var1 Water)^(Grasping $var2 $var3)^(Grasping $var2 $var4)</postcondition>
+<object>Kettle</object>
+<object>Robot</object>
+<object>Plate_1</object>
+<object>Plate_2</object>
+</lexical_item>
+<lexical_item verb="Fill">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)^(Grasping $var1 $var4)</postcondition>
+<object>Robot</object>
+<object>Ramen_1</object>
+<object>InstantRamen_1</object>
+<object>Spoon_1</object>
+</lexical_item>
+<lexical_item verb="let">
+<postcondition>(state $var1 StoveFire4)^(state $var1 StoveFire1)^(state $var1 StoveFire2)^(state $var1 StoveFire3)^(On $var2 $var3)</postcondition>
+<object>Stove</object>
+<object>Kettle</object>
+<object>StoveFire_2</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>GarbageBag_1</object>
+<object>Loveseat_1</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)</postcondition>
+<object>Book_2</object>
+<object>CoffeeTable_1</object>
+<object>Book_1</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(state $var1 Water)^(state $var2 TapIsOn)^(On $var1 $var3)</postcondition>
+<object>InstantRamen_1</object>
+<object>SinkKnob</object>
+<object>Sink</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(state $var1 LeftDoorIsOpen)^(Grasping $var2 $var3)</postcondition>
+<object>Fridge</object>
+<object>Robot</object>
+<object>Plate_1</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>BagOfChips_1</object>
+<object>Shelf_1</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>XboxController_1</object>
+<object>Loveseat_1</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(state $var1 RightDoorIsOpen)^(state $var2 Egg)^(Grasping $var3 $var2)^(In $var4 $var2)</postcondition>
+<object>Fridge</object>
+<object>Plate_1</object>
+<object>Robot</object>
+<object>BoiledEgg_1</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Plate_1</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Xbox_1</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)^(On $var4 $var2)^(On $var5 $var2)^(On $var6 $var2)^(On $var7 $var2)^(On $var8 $var2)</postcondition>
+<object>Mug_1</object>
+<object>Sink</object>
+<object>LongCup_2</object>
+<object>LongCup_1</object>
+<object>Kettle</object>
+<object>Glass_1</object>
+<object>Spoon_1</object>
+<object>Plate_2</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(On $var1 $var2)^(not (state $var3 IsOn))</postcondition>
+<object>Pillow_1</object>
+<object>Loveseat_1</object>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(state $var1 CD)^(Grasping $var2 $var1)^(In $var3 $var1)</postcondition>
+<object>Xbox_1</object>
+<object>Robot</object>
+<object>Cd_1</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(On $var1 $var2)^(Grasping $var3 $var4)^(On $var5 $var2)</postcondition>
+<object>Coke_1</object>
+<object>CoffeeTable_1</object>
+<object>Robot</object>
+<object>BagOfChips_1</object>
+<object>Beer_1</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Xbox_1</object>
+<object>Loveseat_1</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(state $var1 StoveFire1)^(state $var2 Water)^(state $var3 TapIsOn)^(On $var2 $var4)</postcondition>
+<object>Stove</object>
+<object>Kettle</object>
+<object>SinkKnob</object>
+<object>StoveFire_1</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Coke_1</object>
+<object>GarbageBin_1</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Beer_1</object>
+<object>GarbageBin_1</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(state $var1 IsOn)^(state $var2 CD)^(In $var3 $var2)^(On $var2 $var4)</postcondition>
+<object>Tv_1</object>
+<object>Xbox_1</object>
+<object>Cd_1</object>
+<object>Loveseat_1</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(state $var1 Water)^(Grasping $var2 $var1)^(Grasping $var2 $var3)</postcondition>
+<object>InstantRamen_1</object>
+<object>Robot</object>
+<object>Plate_2</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(Grasping $var1 $var2)^(not (state $var3 DoorIsOpen))</postcondition>
+<object>Robot</object>
+<object>Salt_1</object>
+<object>Microwave</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)^(On $var4 $var2)</postcondition>
+<object>Pillow_3</object>
+<object>Loveseat_1</object>
+<object>Pillow_2</object>
+<object>Pillow_1</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)</postcondition>
+<object>Xbox_1</object>
+<object>Loveseat_1</object>
+<object>Cd_1</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Bowl_1</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Book_2</object>
+<object>CoffeeTable_1</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(state $var1 CD)^(On $var2 $var3)^(In $var4 $var1)</postcondition>
+<object>Xbox_1</object>
+<object>XboxController_1</object>
+<object>CoffeeTable_1</object>
+<object>Cd_2</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>BagOfChips_1</object>
+<object>Loveseat_1</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>XboxController_1</object>
+<object>Loveseat_1</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(state $var1 LeftDoorIsOpen)</postcondition>
+<object>Fridge</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>XboxController_1</object>
+<object>Loveseat_1</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(state $var1 CD)^(In $var2 $var1)</postcondition>
+<object>Xbox_1</object>
+<object>Cd_1</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)</postcondition>
+<object>Robot</object>
+<object>Pillow_1</object>
+<object>Pillow_2</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(state $var1 CD)^(Grasping $var2 $var1)^(In $var3 $var1)</postcondition>
+<object>Xbox_1</object>
+<object>Robot</object>
+<object>Cd_1</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>BagOfChips_1</object>
+<object>Shelf_1</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)</postcondition>
+<object>Pillow_2</object>
+<object>Loveseat_1</object>
+<object>Pillow_3</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)</postcondition>
+<object>Robot</object>
+<object>Xbox_1</object>
+<object>XboxController_1</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(state $var1 LeftDoorIsOpen)^(state $var2 ScoopsLeft)^(Grasping $var3 $var2)^(Grasping $var3 $var4)</postcondition>
+<object>Fridge</object>
+<object>Spoon_1</object>
+<object>Robot</object>
+<object>Mug_1</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)</postcondition>
+<object>Pillow_2</object>
+<object>Loveseat_1</object>
+<object>Pillow_1</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(state $var1 ScoopsLeft)^(Grasping $var2 $var1)</postcondition>
+<object>Spoon_1</object>
+<object>Robot</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(state $var1 RightDoorIsOpen)</postcondition>
+<object>Fridge</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(On $var1 $var2)^(On $var3 $var4)^(On $var5 $var2)^(On $var6 $var2)^(On $var7 $var2)^(On $var8 $var2)^(On $var9 $var2)^(On $var10 $var2)^(On $var11 $var12)</postcondition>
+<object>Plate_1</object>
+<object>Sink</object>
+<object>Kettle</object>
+<object>StoveFire_1</object>
+<object>Glass_1</object>
+<object>LongCup_2</object>
+<object>Plate_2</object>
+<object>Mug_1</object>
+<object>LongCup_1</object>
+<object>Fork_1</object>
+<object>Spoon_1</object>
+<object>StoveFire_2</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)</postcondition>
+<object>Robot</object>
+<object>Syrup_2</object>
+<object>Syrup_1</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)^(On $var4 $var2)^(On $var5 $var2)^(On $var6 $var2)^(On $var7 $var2)</postcondition>
+<object>LongCup_1</object>
+<object>Sink</object>
+<object>Plate_1</object>
+<object>Spoon_1</object>
+<object>Kettle</object>
+<object>LongCup_2</object>
+<object>Bowl_1</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(state $var1 StoveFire4)^(On $var2 $var3)^(On $var2 $var4)</postcondition>
+<object>Stove</object>
+<object>Kettle</object>
+<object>StoveFire_3</object>
+<object>StoveFire_4</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(state $var1 CD)^(On $var2 $var3)^(Grasping $var4 $var1)^(In $var5 $var1)</postcondition>
+<object>Xbox_1</object>
+<object>Book_3</object>
+<object>CoffeeTable_1</object>
+<object>Robot</object>
+<object>Cd_1</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)^(On $var4 $var2)^(On $var5 $var2)^(On $var6 $var2)</postcondition>
+<object>Plate_2</object>
+<object>Sink</object>
+<object>Kettle</object>
+<object>Fork_1</object>
+<object>Glass_1</object>
+<object>Mug_1</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Book_2</object>
+<object>Loveseat_1</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>BagOfChips_1</object>
+<object>Shelf_1</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(state $var1 RightDoorIsOpen)^(state $var1 LeftDoorIsOpen)</postcondition>
+<object>Fridge</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(state $var1 ScoopsLeft)^(Grasping $var2 $var1)</postcondition>
+<object>Spoon_1</object>
+<object>Robot</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(state $var1 ScoopsLeft)^(Grasping $var2 $var1)</postcondition>
+<object>Spoon_1</object>
+<object>Robot</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(On $var1 $var2)^(On $var3 $var4)^(On $var5 $var2)^(On $var6 $var4)^(On $var7 $var2)</postcondition>
+<object>Glass_1</object>
+<object>Sink</object>
+<object>Plate_2</object>
+<object>StoveFire_1</object>
+<object>LongCup_1</object>
+<object>Mug_1</object>
+<object>LongCup_2</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>IceCream_1</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)</postcondition>
+<object>Robot</object>
+<object>Pillow_3</object>
+<object>Pillow_2</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(state $var1 CD)</postcondition>
+<object>Xbox_1</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(state $var1 ScoopsLeft)^(Grasping $var2 $var1)</postcondition>
+<object>Spoon_1</object>
+<object>Robot</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)</postcondition>
+<object>Robot</object>
+<object>Book_2</object>
+<object>Cd_2</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)^(On $var4 $var5)</postcondition>
+<object>Cd_2</object>
+<object>CoffeeTable_1</object>
+<object>Book_2</object>
+<object>GarbageBag_1</object>
+<object>SnackTable_1</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(state $var1 Water)^(state $var2 TapIsOn)^(On $var1 $var3)</postcondition>
+<object>Kettle</object>
+<object>SinkKnob</object>
+<object>Sink</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)</postcondition>
+<object>Pillow_2</object>
+<object>Loveseat_1</object>
+<object>Pillow_3</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(state $var1 DoorIsOpen)</postcondition>
+<object>Microwave</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)</postcondition>
+<object>Robot</object>
+<object>Mug_1</object>
+<object>Glass_1</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(state $var1 Channel4)^(Grasping $var2 $var3)^(On $var4 $var5)</postcondition>
+<object>Tv_1</object>
+<object>Robot</object>
+<object>Cd_1</object>
+<object>Xbox_1</object>
+<object>Loveseat_1</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)^(On $var4 $var2)</postcondition>
+<object>Pillow_1</object>
+<object>Loveseat_1</object>
+<object>Pillow_2</object>
+<object>Pillow_3</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Kettle</object>
+<object>Sink</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(state $var1 StoveFire3)</postcondition>
+<object>Stove</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Kettle</object>
+<object>StoveFire_2</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(state $var1 CD)^(Grasping $var2 $var1)^(In $var3 $var1)</postcondition>
+<object>Xbox_1</object>
+<object>Robot</object>
+<object>Cd_1</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Xbox_1</object>
+<object>Loveseat_1</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(state $var1 IsOn)</postcondition>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>GarbageBag_1</object>
+<object>GarbageBin_1</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Ramen_1</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(state $var1 Water)</postcondition>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>InstantRamen_1</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)</postcondition>
+<object>Cd_1</object>
+<object>CoffeeTable_1</object>
+<object>Cd_2</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)^(On $var4 $var2)^(On $var5 $var2)^(On $var6 $var2)^(On $var7 $var2)^(On $var8 $var2)^(On $var9 $var2)^(On $var10 $var2)</postcondition>
+<object>LongCup_2</object>
+<object>Sink</object>
+<object>Spoon_1</object>
+<object>Mug_1</object>
+<object>LongCup_1</object>
+<object>Plate_1</object>
+<object>Glass_1</object>
+<object>Fork_1</object>
+<object>Kettle</object>
+<object>Bowl_1</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(state $var1 Coffee)^(Grasping $var2 $var3)^(Grasping $var2 $var1)</postcondition>
+<object>LongCup_1</object>
+<object>Robot</object>
+<object>Mug_1</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)^(On $var4 $var2)^(On $var5 $var2)^(On $var6 $var2)</postcondition>
+<object>Mug_1</object>
+<object>Sink</object>
+<object>Glass_1</object>
+<object>LongCup_2</object>
+<object>Plate_2</object>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(state $var1 Water)^(state $var2 Water)^(state $var3 Water)^(state $var4 Water)^(state $var5 TapIsOn)</postcondition>
+<object>Mug_1</object>
+<object>Kettle</object>
+<object>Glass_1</object>
+<object>LongCup_2</object>
+<object>SinkKnob</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)</postcondition>
+<object>Robot</object>
+<object>Spoon_1</object>
+<object>Fork_1</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(On $var1 $var2)^(On $var3 $var4)</postcondition>
+<object>Cd_2</object>
+<object>Shelf_1</object>
+<object>XboxController_1</object>
+<object>Loveseat_1</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Pillow_1</object>
+<object>Loveseat_1</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Cd_2</object>
+<object>Loveseat_1</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(state $var1 LeftDoorIsOpen)^(state $var2 Ramen)^(In $var3 $var2)</postcondition>
+<object>Fridge</object>
+<object>Plate_2</object>
+<object>Ramen_1</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Kettle</object>
+<object>StoveFire_3</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)^(On $var4 $var2)^(On $var5 $var2)^(On $var6 $var2)</postcondition>
+<object>Plate_2</object>
+<object>Sink</object>
+<object>LongCup_2</object>
+<object>Spoon_1</object>
+<object>Glass_1</object>
+<object>Mug_1</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Kettle</object>
+<object>StoveFire_4</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Ramen_1</object>
+<object>StoveFire_4</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Cd_1</object>
+<object>Loveseat_1</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)^(On $var4 $var2)^(On $var5 $var2)^(On $var6 $var2)^(On $var7 $var2)</postcondition>
+<object>LongCup_1</object>
+<object>Sink</object>
+<object>Plate_1</object>
+<object>Fork_1</object>
+<object>Mug_1</object>
+<object>Spoon_1</object>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(state $var1 Egg)^(Grasping $var2 $var1)^(In $var3 $var1)</postcondition>
+<object>Plate_2</object>
+<object>Robot</object>
+<object>BoiledEgg_1</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)^(On $var4 $var5)</postcondition>
+<object>Pillow_3</object>
+<object>Loveseat_1</object>
+<object>Pillow_2</object>
+<object>Pillow_1</object>
+<object>Armchair_1</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(On $var1 $var2)^(Grasping $var3 $var4)</postcondition>
+<object>Bowl_1</object>
+<object>CoffeeTable_1</object>
+<object>Robot</object>
+<object>BagOfChips_1</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Book_1</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(state $var1 StoveFire4)^(state $var1 StoveFire1)^(state $var2 Water)^(state $var3 Water)</postcondition>
+<object>Stove</object>
+<object>Kettle</object>
+<object>InstantRamen_1</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(state $var1 IceCream)^(Grasping $var2 $var1)</postcondition>
+<object>Plate_2</object>
+<object>Robot</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(On $var1 $var2)^(Grasping $var3 $var4)^(Grasping $var3 $var5)^(Grasping $var3 $var6)^(Grasping $var3 $var7)</postcondition>
+<object>Kettle</object>
+<object>Sink</object>
+<object>Robot</object>
+<object>Spoon_1</object>
+<object>LongCup_2</object>
+<object>Glass_1</object>
+<object>LongCup_1</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)</postcondition>
+<object>BagOfChips_1</object>
+<object>CoffeeTable_1</object>
+<object>Coke_1</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(state $var1 CD)</postcondition>
+<object>Xbox_1</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)^(On $var4 $var2)^(On $var5 $var2)</postcondition>
+<object>Plate_2</object>
+<object>Sink</object>
+<object>LongCup_2</object>
+<object>LongCup_1</object>
+<object>Plate_1</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(state $var1 IceCream)^(state $var2 IceCream)</postcondition>
+<object>Mug_1</object>
+<object>LongCup_1</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(state $var1 Chocolate)^(state $var2 ScoopsLeft)^(state $var3 Coffee)</postcondition>
+<object>Mug_1</object>
+<object>Spoon_1</object>
+<object>LongCup_1</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(state $var1 CD)</postcondition>
+<object>Xbox_1</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>GarbageBag_1</object>
+<object>Loveseat_1</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(On $var1 $var2)^(Grasping $var3 $var4)^(Grasping $var3 $var5)</postcondition>
+<object>BagOfChips_1</object>
+<object>SnackTable_1</object>
+<object>Robot</object>
+<object>Book_1</object>
+<object>Book_2</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(state $var1 Water)^(state $var2 Chocolate)</postcondition>
+<object>Mug_1</object>
+<object>Syrup_1</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)^(On $var4 $var2)^(On $var5 $var2)</postcondition>
+<object>Pillow_1</object>
+<object>Loveseat_1</object>
+<object>Pillow_3</object>
+<object>Pillow_2</object>
+<object>Pillow_4</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(state $var1 Chocolate)^(state $var2 Water)</postcondition>
+<object>Syrup_1</object>
+<object>Mug_1</object>
+</lexical_item>
+<lexical_item verb="Put">
+<postcondition>(state $var1 Chocolate)^(state $var2 ScoopsLeft)^(state $var3 Chocolate)</postcondition>
+<object>Mug_1</object>
+<object>Spoon_1</object>
+<object>LongCup_2</object>
+</lexical_item>
+<lexical_item verb="put">
+<postcondition>(In $var1 $var2)^(Grasping $var3 $var4)^(Grasping $var3 $var2)^(Grasping $var3 $var1)</postcondition>
+<object>Cd_1</object>
+<object>Xbox_1</object>
+<object>Robot</object>
+<object>Book_1</object>
+</lexical_item>
+<lexical_item verb="Grab">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>InstantRamen_1</object>
+</lexical_item>
+<lexical_item verb="Grab">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)</postcondition>
+<object>Robot</object>
+<object>Plate_2</object>
+<object>Glass_1</object>
+</lexical_item>
+<lexical_item verb="Grab">
+<postcondition>(state $var1 Water)^(state $var2 TapIsOn)^(On $var1 $var3)</postcondition>
+<object>InstantRamen_1</object>
+<object>SinkKnob</object>
+<object>Sink</object>
+</lexical_item>
+<lexical_item verb="Grab">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Cd_1</object>
+</lexical_item>
+<lexical_item verb="Grab">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Glass_1</object>
+</lexical_item>
+<lexical_item verb="grab">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)^(On $var4 $var2)</postcondition>
+<object>Beer_1</object>
+<object>CoffeeTable_1</object>
+<object>Bowl_1</object>
+<object>Coke_1</object>
+</lexical_item>
+<lexical_item verb="Grab">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Plate_1</object>
+</lexical_item>
+<lexical_item verb="grab">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)^(On $var4 $var2)</postcondition>
+<object>Bowl_1</object>
+<object>CoffeeTable_1</object>
+<object>Beer_1</object>
+<object>Coke_1</object>
+</lexical_item>
+<lexical_item verb="grab">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)</postcondition>
+<object>Robot</object>
+<object>Beer_1</object>
+<object>Bowl_1</object>
+</lexical_item>
+<lexical_item verb="Grab">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)</postcondition>
+<object>Robot</object>
+<object>Cd_2</object>
+<object>Cd_1</object>
+</lexical_item>
+<lexical_item verb="grab">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>IceCream_1</object>
+</lexical_item>
+<lexical_item verb="Grab">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)</postcondition>
+<object>Robot</object>
+<object>Syrup_1</object>
+<object>Syrup_2</object>
+</lexical_item>
+<lexical_item verb="Grab">
+<postcondition>(state $var1 ScoopsLeft)</postcondition>
+<object>Spoon_1</object>
+</lexical_item>
+<lexical_item verb="Grab">
+<postcondition>(state $var1 Chocolate)</postcondition>
+<object>Mug_1</object>
+</lexical_item>
+<lexical_item verb="grab">
+<postcondition>(On $var1 $var2)^(Grasping $var3 $var4)^(Grasping $var3 $var5)^(Grasping $var3 $var6)^(Grasping $var3 $var7)</postcondition>
+<object>BagOfChips_1</object>
+<object>Shelf_1</object>
+<object>Robot</object>
+<object>Pillow_1</object>
+<object>Pillow_2</object>
+<object>Pillow_3</object>
+<object>Pillow_4</object>
+</lexical_item>
+<lexical_item verb="Boil">
+<postcondition>(state $var1 StoveFire1)^(state $var2 Water)</postcondition>
+<object>Stove</object>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="Boil">
+<postcondition>(state $var1 StoveFire3)^(state $var2 TapIsOn)^(On $var3 $var4)</postcondition>
+<object>Stove</object>
+<object>SinkKnob</object>
+<object>Kettle</object>
+<object>StoveFire_3</object>
+</lexical_item>
+<lexical_item verb="drizzle">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="drizzle">
+<postcondition>(state $var1 LeftDoorIsOpen)^(Grasping $var2 $var3)</postcondition>
+<object>Fridge</object>
+<object>Robot</object>
+<object>IceCream_1</object>
+</lexical_item>
+<lexical_item verb="drizzle">
+<postcondition>(state $var1 IceCream)^(Grasping $var2 $var3)</postcondition>
+<object>Mug_1</object>
+<object>Robot</object>
+<object>Spoon_1</object>
+</lexical_item>
+<lexical_item verb="drizzle">
+<postcondition>(state $var1 LeftDoorIsOpen)^(state $var2 IceCream)^(Grasping $var3 $var4)^(Grasping $var3 $var2)</postcondition>
+<object>Fridge</object>
+<object>LongCup_2</object>
+<object>Robot</object>
+<object>Spoon_1</object>
+</lexical_item>
+<lexical_item verb="grasp">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="grasp">
+<postcondition>(On $var1 $var2)^(Grasping $var3 $var4)</postcondition>
+<object>Book_1</object>
+<object>CoffeeTable_1</object>
+<object>Robot</object>
+<object>XboxController_1</object>
+</lexical_item>
+<lexical_item verb="Grasp">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="Grasp">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="grasp">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Xbox_1</object>
+</lexical_item>
+<lexical_item verb="grasp">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Mug_1</object>
+</lexical_item>
+<lexical_item verb="grasp">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Plate_1</object>
+</lexical_item>
+<lexical_item verb="Grasp">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Syrup_1</object>
+</lexical_item>
+<lexical_item verb="grasp">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Coke_1</object>
+<object>GarbageBin_1</object>
+</lexical_item>
+<lexical_item verb="grasp">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>BagOfChips_1</object>
+</lexical_item>
+<lexical_item verb="grasp">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>InstantRamen_1</object>
+</lexical_item>
+<lexical_item verb="grasp">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>InstantRamen_1</object>
+</lexical_item>
+<lexical_item verb="grasp">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>InstantRamen_1</object>
+</lexical_item>
+<lexical_item verb="grasp">
+<postcondition>(state $var1 TapIsOn)^(Grasping $var2 $var3)</postcondition>
+<object>SinkKnob</object>
+<object>Robot</object>
+<object>InstantRamen_1</object>
+</lexical_item>
+<lexical_item verb="grasp">
+<postcondition>(Grasping $var1 $var2)^(On $var3 $var4)^(Grasping $var1 $var5)</postcondition>
+<object>Robot</object>
+<object>Xbox_1</object>
+<object>Cd_2</object>
+<object>Loveseat_1</object>
+<object>Cd_1</object>
+</lexical_item>
+<lexical_item verb="grasp">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Mug_1</object>
+</lexical_item>
+<lexical_item verb="Grasp">
+<postcondition>(state $var1 RightDoorIsOpen)^(state $var1 LeftDoorIsOpen)^(state $var2 Water)^(state $var3 TapIsOn)^(On $var2 $var4)</postcondition>
+<object>Fridge</object>
+<object>Kettle</object>
+<object>SinkKnob</object>
+<object>Sink</object>
+</lexical_item>
+<lexical_item verb="Grasp">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)^(Grasping $var1 $var4)^(Grasping $var1 $var5)</postcondition>
+<object>Robot</object>
+<object>Mug_1</object>
+<object>Spoon_1</object>
+<object>Glass_1</object>
+<object>Fork_1</object>
+</lexical_item>
+<lexical_item verb="bring">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Plate_2</object>
+<object>Sink</object>
+</lexical_item>
+<lexical_item verb="bring">
+<postcondition>(state $var1 CD)^(Grasping $var2 $var1)^(In $var3 $var1)</postcondition>
+<object>Xbox_1</object>
+<object>Robot</object>
+<object>Cd_1</object>
+</lexical_item>
+<lexical_item verb="Bring">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="bring">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>BagOfChips_1</object>
+</lexical_item>
+<lexical_item verb="bring">
+<postcondition>(state $var1 RightDoorIsOpen)^(state $var2 Water)</postcondition>
+<object>Fridge</object>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="bring">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="bring">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Tv_1Remote_1</object>
+</lexical_item>
+<lexical_item verb="bring">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Tv_1Remote_1</object>
+<object>Armchair_2</object>
+</lexical_item>
+<lexical_item verb="bring">
+<postcondition>(state $var1 MicrowaveIsOn)</postcondition>
+<object>Microwave</object>
+</lexical_item>
+<lexical_item verb="bring">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="Bring">
+<postcondition>(On $var1 $var2)^(Grasping $var3 $var4)</postcondition>
+<object>Book_2</object>
+<object>CoffeeTable_1</object>
+<object>Robot</object>
+<object>Book_1</object>
+</lexical_item>
+<lexical_item verb="Bring">
+<postcondition>(state $var1 Channel4)</postcondition>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="Bring">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)</postcondition>
+<object>Robot</object>
+<object>Beer_1</object>
+<object>Coke_1</object>
+</lexical_item>
+<lexical_item verb="bring">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)^(On $var4 $var2)^(On $var5 $var2)</postcondition>
+<object>Glass_1</object>
+<object>Sink</object>
+<object>Mug_1</object>
+<object>Spoon_1</object>
+<object>Fork_1</object>
+</lexical_item>
+<lexical_item verb="Pick">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Cd_1</object>
+</lexical_item>
+<lexical_item verb="Pick">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Cd_1</object>
+</lexical_item>
+<lexical_item verb="pick">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Coke_1</object>
+</lexical_item>
+<lexical_item verb="Pick">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>LongCup_2</object>
+</lexical_item>
+<lexical_item verb="Pick">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Mug_1</object>
+</lexical_item>
+<lexical_item verb="pick">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Beer_1</object>
+</lexical_item>
+<lexical_item verb="Pick">
+<postcondition>(state $var1 IceCream)^(state $var2 LeftDoorIsOpen)</postcondition>
+<object>Mug_1</object>
+<object>Fridge</object>
+</lexical_item>
+<lexical_item verb="Pick">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Mug_1</object>
+</lexical_item>
+<lexical_item verb="Pick">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>LongCup_2</object>
+</lexical_item>
+<lexical_item verb="pick">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Beer_1</object>
+</lexical_item>
+<lexical_item verb="Pick">
+<postcondition>(state $var1 Chocolate)^(state $var1 IceCream)^(state $var2 LeftDoorIsOpen)^(Grasping $var3 $var4)^(Grasping $var3 $var1)</postcondition>
+<object>Mug_1</object>
+<object>Fridge</object>
+<object>Robot</object>
+<object>Spoon_1</object>
+</lexical_item>
+<lexical_item verb="Pick">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Mug_1</object>
+</lexical_item>
+<lexical_item verb="Pick">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Beer_1</object>
+</lexical_item>
+<lexical_item verb="pick">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)^(On $var4 $var2)</postcondition>
+<object>Pillow_2</object>
+<object>Loveseat_1</object>
+<object>Pillow_3</object>
+<object>Pillow_1</object>
+</lexical_item>
+<lexical_item verb="Pick">
+<postcondition>(state $var1 IsOn)^(Grasping $var2 $var3)</postcondition>
+<object>Tv_1</object>
+<object>Robot</object>
+<object>Pillow_1</object>
+</lexical_item>
+<lexical_item verb="Pick">
+<postcondition>(On $var1 $var2)^(Grasping $var3 $var4)</postcondition>
+<object>Pillow_1</object>
+<object>Loveseat_1</object>
+<object>Robot</object>
+<object>BagOfChips_1</object>
+</lexical_item>
+<lexical_item verb="Pick">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Glass_1</object>
+</lexical_item>
+<lexical_item verb="Pick">
+<postcondition>(On $var1 $var2)^(On $var3 $var4)^(On $var5 $var4)^(On $var6 $var4)</postcondition>
+<object>GarbageBag_1</object>
+<object>Loveseat_1</object>
+<object>Tv_1Remote_1</object>
+<object>CoffeeTable_1</object>
+<object>Cd_2</object>
+<object>XboxController_1</object>
+</lexical_item>
+<lexical_item verb="Pick">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)</postcondition>
+<object>Robot</object>
+<object>Tv_1Remote_1</object>
+<object>XboxController_1</object>
+</lexical_item>
+<lexical_item verb="Pick">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="Pick">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)</postcondition>
+<object>Robot</object>
+<object>Beer_1</object>
+<object>Book_1</object>
+</lexical_item>
+<lexical_item verb="Pick">
+<postcondition>(state $var1 Vanilla)</postcondition>
+<object>Plate_1</object>
+</lexical_item>
+<lexical_item verb="Pick">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>BagOfChips_1</object>
+</lexical_item>
+<lexical_item verb="pick">
+<postcondition>(state $var1 IsOn)</postcondition>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="Pick">
+<postcondition>(state $var1 IceCream)</postcondition>
+<object>Mug_1</object>
+</lexical_item>
+<lexical_item verb="Pick">
+<postcondition>(In $var1 $var2)^(state $var2 Ramen)</postcondition>
+<object>Ramen_1</object>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="pick">
+<postcondition>(state $var1 CD)</postcondition>
+<object>Xbox_1</object>
+</lexical_item>
+<lexical_item verb="Pick">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="place">
+<postcondition>(On $var1 $var2)^(Grasping $var3 $var4)^(Grasping $var3 $var5)</postcondition>
+<object>Cd_1</object>
+<object>Loveseat_1</object>
+<object>Robot</object>
+<object>BagOfChips_1</object>
+<object>Bowl_1</object>
+</lexical_item>
+<lexical_item verb="place">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>BagOfChips_1</object>
+<object>CoffeeTable_1</object>
+</lexical_item>
+<lexical_item verb="place">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Pillow_1</object>
+<object>Loveseat_1</object>
+</lexical_item>
+<lexical_item verb="Place">
+<postcondition>(state $var1 LeftDoorIsOpen)^(state $var1 RightDoorIsOpen)^(Grasping $var2 $var3)</postcondition>
+<object>Fridge</object>
+<object>Robot</object>
+<object>Syrup_1</object>
+</lexical_item>
+<lexical_item verb="place">
+<postcondition>(On $var1 $var2)^(Grasping $var3 $var4)</postcondition>
+<object>Xbox_1</object>
+<object>Loveseat_1</object>
+<object>Robot</object>
+<object>BagOfChips_1</object>
+</lexical_item>
+<lexical_item verb="Place">
+<postcondition>(Grasping $var1 $var2)^(On $var3 $var4)</postcondition>
+<object>Robot</object>
+<object>Xbox_1</object>
+<object>XboxController_1</object>
+<object>Loveseat_1</object>
+</lexical_item>
+<lexical_item verb="place">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)</postcondition>
+<object>Robot</object>
+<object>Kettle</object>
+<object>Glass_1</object>
+</lexical_item>
+<lexical_item verb="place">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>LongCup_2</object>
+</lexical_item>
+<lexical_item verb="place">
+<postcondition>(Grasping $var1 $var2)^(not (state $var3 WaterDispenserIsOpen))</postcondition>
+<object>Robot</object>
+<object>BoiledEgg_1</object>
+<object>Fridge</object>
+</lexical_item>
+<lexical_item verb="place">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="place">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)^(On $var4 $var2)^(On $var5 $var2)</postcondition>
+<object>Spoon_1</object>
+<object>Sink</object>
+<object>Fork_1</object>
+<object>Mug_1</object>
+<object>LongCup_1</object>
+</lexical_item>
+<lexical_item verb="place">
+<postcondition>(state $var1 RightDoorIsOpen)</postcondition>
+<object>Fridge</object>
+</lexical_item>
+<lexical_item verb="place">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Cd_1</object>
+<object>CoffeeTable_1</object>
+</lexical_item>
+<lexical_item verb="place">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Xbox_1</object>
+<object>CoffeeTable_1</object>
+</lexical_item>
+<lexical_item verb="Place">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Kettle</object>
+<object>Sink</object>
+</lexical_item>
+<lexical_item verb="place">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)</postcondition>
+<object>Robot</object>
+<object>Bowl_1</object>
+<object>GarbageBin_1</object>
+</lexical_item>
+<lexical_item verb="place">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="Place">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="place">
+<postcondition>(On $var1 $var2)^(Grasping $var3 $var4)^(Grasping $var3 $var5)</postcondition>
+<object>Xbox_1</object>
+<object>Loveseat_1</object>
+<object>Robot</object>
+<object>Bowl_1</object>
+<object>BagOfChips_1</object>
+</lexical_item>
+<lexical_item verb="place">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>XboxController_1</object>
+</lexical_item>
+<lexical_item verb="place">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>BoiledEgg_1</object>
+<object>Sink</object>
+</lexical_item>
+<lexical_item verb="place">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>XboxController_1</object>
+<object>Loveseat_1</object>
+</lexical_item>
+<lexical_item verb="place">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)^(On $var4 $var2)</postcondition>
+<object>Beer_1</object>
+<object>CoffeeTable_1</object>
+<object>Bowl_1</object>
+<object>Coke_1</object>
+</lexical_item>
+<lexical_item verb="Place">
+<postcondition>(state $var1 DoorIsOpen)^(state $var2 LeftDoorIsOpen)^(state $var2 RightDoorIsOpen)</postcondition>
+<object>Microwave</object>
+<object>Fridge</object>
+</lexical_item>
+<lexical_item verb="Place">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Tv_1Remote_1</object>
+</lexical_item>
+<lexical_item verb="place">
+<postcondition>(state $var1 DoorIsOpen)^(On $var2 $var3)^(On $var4 $var3)^(On $var5 $var3)^(On $var6 $var3)^(On $var7 $var3)^(On $var8 $var3)^(On $var10 $var3)^(On $var11 $var3)</postcondition>
+<object>Microwave</object>
+<object>LongCup_1</object>
+<object>Sink</object>
+<object>Plate_2</object>
+<object>LongCup_2</object>
+<object>Glass_1</object>
+<object>Spoon_1</object>
+<object>Fork_1</object>
+<object>Kettle</object>
+<object>Mug_1</object>
+</lexical_item>
+<lexical_item verb="place">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="place">
+<postcondition>(Grasping $var1 $var2)^(On $var3 $var4)</postcondition>
+<object>Robot</object>
+<object>GarbageBag_1</object>
+<object>Bowl_1</object>
+<object>SnackTable_1</object>
+</lexical_item>
+<lexical_item verb="place">
+<postcondition>(On $var1 $var2)^(On $var3 $var4)</postcondition>
+<object>Cd_1</object>
+<object>Loveseat_1</object>
+<object>BagOfChips_1</object>
+<object>CoffeeTable_1</object>
+</lexical_item>
+<lexical_item verb="place">
+<postcondition>(state $var1 RightDoorIsOpen)^(Grasping $var2 $var3)</postcondition>
+<object>Fridge</object>
+<object>Robot</object>
+<object>BoiledEgg_1</object>
+</lexical_item>
+<lexical_item verb="place">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)^(On $var4 $var5)</postcondition>
+<object>Book_2</object>
+<object>CoffeeTable_1</object>
+<object>Book_1</object>
+<object>Cd_1</object>
+<object>Loveseat_1</object>
+</lexical_item>
+<lexical_item verb="place">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Kettle</object>
+<object>Sink</object>
+</lexical_item>
+<lexical_item verb="Place">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Tv_1Remote_1</object>
+</lexical_item>
+<lexical_item verb="place">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Mug_1</object>
+</lexical_item>
+<lexical_item verb="Place">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Kettle</object>
+<object>StoveFire_4</object>
+</lexical_item>
+<lexical_item verb="place">
+<postcondition>(Grasping $var1 $var2)^(not (state $var2 Coffee))</postcondition>
+<object>Robot</object>
+<object>Mug_1</object>
+</lexical_item>
+<lexical_item verb="place">
+<postcondition>(Grasping $var1 $var2)^(not (state $var3 WaterDispenserIsOpen))</postcondition>
+<object>Robot</object>
+<object>Kettle</object>
+<object>Fridge</object>
+</lexical_item>
+<lexical_item verb="Place">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Kettle</object>
+<object>Sink</object>
+</lexical_item>
+<lexical_item verb="place">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Book_2</object>
+<object>CoffeeTable_1</object>
+</lexical_item>
+<lexical_item verb="Place">
+<postcondition>(On $var1 $var2)^(On $var3 $var4)^(On $var5 $var2)^(On $var6 $var7)</postcondition>
+<object>Pillow_1</object>
+<object>Loveseat_1</object>
+<object>Pillow_2</object>
+<object>Armchair_2</object>
+<object>Pillow_3</object>
+<object>Pillow_4</object>
+<object>Armchair_1</object>
+</lexical_item>
+<lexical_item verb="place">
+<postcondition>(state $var1 RightDoorIsOpen)</postcondition>
+<object>Fridge</object>
+</lexical_item>
+<lexical_item verb="place">
+<postcondition>(state $var1 IsOn)</postcondition>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="Place">
+<postcondition>(On $var1 $var2)^(On $var3 $var4)^(On $var5 $var2)^(On $var6 $var7)</postcondition>
+<object>Pillow_1</object>
+<object>Loveseat_1</object>
+<object>Pillow_2</object>
+<object>Armchair_2</object>
+<object>Pillow_3</object>
+<object>Pillow_4</object>
+<object>Armchair_1</object>
+</lexical_item>
+<lexical_item verb="place">
+<postcondition>(state $var1 RightDoorIsOpen)</postcondition>
+<object>Fridge</object>
+</lexical_item>
+<lexical_item verb="place">
+<postcondition>(state $var1 StoveFire4)^(On $var2 $var3)</postcondition>
+<object>Stove</object>
+<object>Kettle</object>
+<object>StoveFire_4</object>
+</lexical_item>
+<lexical_item verb="Place">
+<postcondition>(On $var1 $var2)^(state $var3 StoveFire4)</postcondition>
+<object>Kettle</object>
+<object>StoveFire_4</object>
+<object>Stove</object>
+</lexical_item>
+<lexical_item verb="Place">
+<postcondition>(In $var1 $var2)</postcondition>
+<object>Cd_1</object>
+<object>Xbox_1</object>
+</lexical_item>
+<lexical_item verb="Turn">
+<postcondition>(state $var1 IsOn)</postcondition>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="Turn">
+<postcondition>(state $var1 IsOn)</postcondition>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition>(state $var1 StoveFire4)^(state $var1 StoveFire1)</postcondition>
+<object>Stove</object>
+</lexical_item>
+<lexical_item verb="Turn">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="Turn">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>BagOfChips_1</object>
+</lexical_item>
+<lexical_item verb="Turn">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Kettle</object>
+<object>StoveFire_4</object>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Xbox_1</object>
+<object>Loveseat_1</object>
+</lexical_item>
+<lexical_item verb="Turn">
+<postcondition>(state $var1 IsOn)</postcondition>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="Turn">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)</postcondition>
+<object>XboxController_1</object>
+<object>Loveseat_1</object>
+<object>Xbox_1</object>
+</lexical_item>
+<lexical_item verb="Turn">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition>(state $var1 IsOn)</postcondition>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="Turn">
+<postcondition>(state $var1 IsOn)</postcondition>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition>(state $var1 Water)^(state $var2 TapIsOn)</postcondition>
+<object>Kettle</object>
+<object>SinkKnob</object>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition>(state $var1 TapIsOn)</postcondition>
+<object>SinkKnob</object>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition>(state $var1 Water)^(not (state $var2 TapIsOn))</postcondition>
+<object>Kettle</object>
+<object>SinkKnob</object>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition>(state $var1 StoveFire4)^(state $var1 StoveFire1)^(state $var1 StoveFire3)^(state $var1 StoveFire2)^(On $var2 $var3)</postcondition>
+<object>Stove</object>
+<object>Kettle</object>
+<object>StoveFire_2</object>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition>(state $var1 Water)^(state $var2 TapIsOn)</postcondition>
+<object>Kettle</object>
+<object>SinkKnob</object>
+</lexical_item>
+<lexical_item verb="Turn">
+<postcondition>(On $var1 $var2)^(Grasping $var3 $var4)</postcondition>
+<object>Beer_1</object>
+<object>CoffeeTable_1</object>
+<object>Robot</object>
+<object>Tv_1Remote_1</object>
+</lexical_item>
+<lexical_item verb="Turn">
+<postcondition>(state $var1 IsOn)</postcondition>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="Turn">
+<postcondition>(state $var1 StoveFire1)</postcondition>
+<object>Stove</object>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="Turn">
+<postcondition>(state $var1 StoveFire4)^(state $var1 StoveFire1)</postcondition>
+<object>Stove</object>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition>(state $var1 Water)^(state $var2 TapIsOn)^(Grasping $var3 $var1)</postcondition>
+<object>Kettle</object>
+<object>SinkKnob</object>
+<object>Robot</object>
+</lexical_item>
+<lexical_item verb="Turn">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="Turn">
+<postcondition>(state $var1 StoveFire1)</postcondition>
+<object>Stove</object>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition>(state $var1 StoveFire1)</postcondition>
+<object>Stove</object>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition>(state $var1 StoveFire4)</postcondition>
+<object>Stove</object>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition>(state $var1 StoveFire3)^(state $var1 StoveFire2)^(state $var1 StoveFire1)^(On $var2 $var3)</postcondition>
+<object>Stove</object>
+<object>Kettle</object>
+<object>StoveFire_2</object>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition>(state $var1 Water)^(state $var2 TapIsOn)</postcondition>
+<object>Kettle</object>
+<object>SinkKnob</object>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)</postcondition>
+<object>Book_1</object>
+<object>CoffeeTable_1</object>
+<object>Book_2</object>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition>(state $var1 StoveFire4)^(state $var2 Water)^(On $var2 $var3)</postcondition>
+<object>Stove</object>
+<object>Kettle</object>
+<object>StoveFire_4</object>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition>(state $var1 IsOn)</postcondition>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="Turn">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="Turn">
+<postcondition>(state $var1 IsOn)</postcondition>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Kettle</object>
+<object>StoveFire_3</object>
+</lexical_item>
+<lexical_item verb="Turn">
+<postcondition>(state $var1 IsOn)^(On $var2 $var3)^(On $var4 $var3)</postcondition>
+<object>Tv_1</object>
+<object>Xbox_1</object>
+<object>Loveseat_1</object>
+<object>XboxController_1</object>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition>(Grasping $var1 $var2)^(not (state $var3 IsOn))</postcondition>
+<object>Robot</object>
+<object>Xbox_1</object>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition>(state $var1 StoveFire3)^(state $var1 StoveFire2)</postcondition>
+<object>Stove</object>
+</lexical_item>
+<lexical_item verb="Turn">
+<postcondition>(state $var1 Channel4)^(Grasping $var2 $var3)</postcondition>
+<object>Tv_1</object>
+<object>Robot</object>
+<object>Tv_1Remote_1</object>
+</lexical_item>
+<lexical_item verb="Turn">
+<postcondition>(Grasping $var1 $var2)^(not (state $var3 IsOn))</postcondition>
+<object>Robot</object>
+<object>Tv_1Remote_1</object>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition>(state $var1 CD)^(Grasping $var2 $var1)^(In $var3 $var1)</postcondition>
+<object>Xbox_1</object>
+<object>Robot</object>
+<object>Cd_1</object>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="Turn">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition>(state $var1 StoveFire4)</postcondition>
+<object>Stove</object>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition>(Grasping $var1 $var2)^(On $var3 $var4)^(On $var5 $var4)</postcondition>
+<object>Robot</object>
+<object>Cd_2</object>
+<object>Book_2</object>
+<object>Loveseat_1</object>
+<object>Cd_1</object>
+</lexical_item>
+<lexical_item verb="Turn">
+<postcondition>(state $var1 StoveFire3)</postcondition>
+<object>Stove</object>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition>(state $var1 StoveFire1)</postcondition>
+<object>Stove</object>
+</lexical_item>
+<lexical_item verb="Turn">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="Turn">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Tv_1Remote_1</object>
+</lexical_item>
+<lexical_item verb="Turn">
+<postcondition>(On $var1 $var2)^(not (state $var3 IsOn))</postcondition>
+<object>Coke_1</object>
+<object>CoffeeTable_1</object>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="Turn">
+<postcondition>(state $var1 IsOn)</postcondition>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition>(state $var1 Water)^(state $var2 TapIsOn)^(Grasping $var3 $var1)</postcondition>
+<object>Kettle</object>
+<object>SinkKnob</object>
+<object>Robot</object>
+</lexical_item>
+<lexical_item verb="Turn">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition>(state $var1 Salt)^(state $var2 IsOn)</postcondition>
+<object>Plate_1</object>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition>(state $var1 StoveFire4)</postcondition>
+<object>Stove</object>
+</lexical_item>
+<lexical_item verb="Turn">
+<postcondition>(state $var1 IsOn)</postcondition>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="Turn">
+<postcondition>(state $var1 Channel4)</postcondition>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Mug_1</object>
+<object>StoveFire_1</object>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition>(state $var1 Fork)^(state $var2 IsOn)</postcondition>
+<object>Plate_1</object>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition>(state $var1 StoveFire1)</postcondition>
+<object>Stove</object>
+</lexical_item>
+<lexical_item verb="Turn">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Xbox_1</object>
+<object>Loveseat_1</object>
+</lexical_item>
+<lexical_item verb="turn">
+<postcondition>(state $var1 DoorIsOpen)</postcondition>
+<object>Microwave</object>
+</lexical_item>
+<lexical_item verb="Turn">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)</postcondition>
+<object>Robot</object>
+<object>Xbox_1</object>
+<object>Book_1</object>
+</lexical_item>
+<lexical_item verb="find">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>BagOfChips_1</object>
+</lexical_item>
+<lexical_item verb="find">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>BagOfChips_1</object>
+</lexical_item>
+<lexical_item verb="find">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="Find">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Cd_2</object>
+</lexical_item>
+<lexical_item verb="Find">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Cd_1</object>
+</lexical_item>
+<lexical_item verb="Find">
+<postcondition>(state $var1 IsOn)</postcondition>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="find">
+<postcondition>(state $var1 IsOn)</postcondition>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="Open">
+<postcondition>(state $var1 LeftDoorIsOpen)^(state $var1 RightDoorIsOpen)</postcondition>
+<object>Fridge</object>
+</lexical_item>
+<lexical_item verb="open">
+<postcondition>(state $var1 ScoopsLeft)^(Grasping $var2 $var1)^(Grasping $var2 $var3)</postcondition>
+<object>Spoon_1</object>
+<object>Robot</object>
+<object>Plate_1</object>
+</lexical_item>
+<lexical_item verb="Open">
+<postcondition>(state $var1 LeftDoorIsOpen)^(state $var1 RightDoorIsOpen)</postcondition>
+<object>Fridge</object>
+</lexical_item>
+<lexical_item verb="Open">
+<postcondition>(state $var1 LeftDoorIsOpen)</postcondition>
+<object>Fridge</object>
+</lexical_item>
+<lexical_item verb="Open">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="Open">
+<postcondition>(state $var1 LeftDoorIsOpen)^(state $var1 RightDoorIsOpen)</postcondition>
+<object>Fridge</object>
+</lexical_item>
+<lexical_item verb="open">
+<postcondition>(state $var1 TapIsOn)^(Grasping $var2 $var3)</postcondition>
+<object>SinkKnob</object>
+<object>Robot</object>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="Open">
+<postcondition>(state $var1 LeftDoorIsOpen)</postcondition>
+<object>Fridge</object>
+</lexical_item>
+<lexical_item verb="open">
+<postcondition>(state $var1 Channel4)</postcondition>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="Open">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>BagOfChips_1</object>
+</lexical_item>
+<lexical_item verb="open">
+<postcondition>(state $var1 Vanilla)</postcondition>
+<object>Syrup_2</object>
+</lexical_item>
+<lexical_item verb="Open">
+<postcondition>(state $var1 LeftDoorIsOpen)</postcondition>
+<object>Fridge</object>
+</lexical_item>
+<lexical_item verb="open">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)</postcondition>
+<object>Robot</object>
+<object>BagOfChips_1</object>
+<object>Coke_1</object>
+</lexical_item>
+<lexical_item verb="remove">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>IceCream_1</object>
+</lexical_item>
+<lexical_item verb="remove">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="remove">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="remove">
+<postcondition>(state $var1 MicrowaveIsOn)</postcondition>
+<object>Microwave</object>
+</lexical_item>
+<lexical_item verb="remove">
+<postcondition>(state $var1 RightDoorIsOpen)</postcondition>
+<object>Fridge</object>
+</lexical_item>
+<lexical_item verb="remove">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Mug_1</object>
+</lexical_item>
+<lexical_item verb="close">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="close">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="close">
+<postcondition>(state $var1 IsOn)^(On $var2 $var3)</postcondition>
+<object>Tv_1</object>
+<object>Book_1</object>
+<object>CoffeeTable_1</object>
+</lexical_item>
+<lexical_item verb="close">
+<postcondition>(state $var1 LeftDoorIsOpen)</postcondition>
+<object>Fridge</object>
+</lexical_item>
+<lexical_item verb="Close">
+<postcondition>(state $var1 MicrowaveIsOn)</postcondition>
+<object>Microwave</object>
+</lexical_item>
+<lexical_item verb="pump">
+<postcondition>(Grasping $var1 $var2)^(not (state $var2 Coffee))</postcondition>
+<object>Robot</object>
+<object>Mug_1</object>
+</lexical_item>
+<lexical_item verb="pour">
+<postcondition>(state $var1 IsOn)</postcondition>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="pour">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Bowl_1</object>
+<object>CoffeeTable_1</object>
+</lexical_item>
+<lexical_item verb="pour">
+<postcondition>(state $var1 IceCream)^(Grasping $var2 $var1)^(Grasping $var2 $var3)</postcondition>
+<object>LongCup_2</object>
+<object>Robot</object>
+<object>IceCream_1</object>
+</lexical_item>
+<lexical_item verb="pour">
+<postcondition>(state $var1 IceCream)^(state $var2 Coffee)^(Grasping $var3 $var4)</postcondition>
+<object>Mug_1</object>
+<object>Kettle</object>
+<object>Robot</object>
+<object>IceCream_1</object>
+</lexical_item>
+<lexical_item verb="Pour">
+<postcondition>(state $var1 IceCream)^(Grasping $var2 $var3)^(Grasping $var2 $var1)</postcondition>
+<object>Mug_1</object>
+<object>Robot</object>
+<object>Spoon_1</object>
+</lexical_item>
+<lexical_item verb="Pour">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="pour">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Xbox_1</object>
+<object>Armchair_2</object>
+</lexical_item>
+<lexical_item verb="pour">
+<postcondition>(state $var1 IceCream)^(Grasping $var2 $var1)</postcondition>
+<object>Mug_1</object>
+<object>Robot</object>
+</lexical_item>
+<lexical_item verb="pour">
+<postcondition>(state $var1 IceCream)^(Grasping $var2 $var1)</postcondition>
+<object>Mug_1</object>
+<object>Robot</object>
+</lexical_item>
+<lexical_item verb="pour">
+<postcondition>(state $var1 IceCream)^(Grasping $var2 $var1)</postcondition>
+<object>Mug_1</object>
+<object>Robot</object>
+</lexical_item>
+<lexical_item verb="pour">
+<postcondition>(state $var1 IsOn)</postcondition>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="pour">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)</postcondition>
+<object>Book_2</object>
+<object>Loveseat_1</object>
+<object>Cd_1</object>
+</lexical_item>
+<lexical_item verb="pour">
+<postcondition>(state $var1 Water)</postcondition>
+<object>LongCup_2</object>
+</lexical_item>
+<lexical_item verb="pour">
+<postcondition>(state $var1 StoveFire1)^(state $var1 StoveFire4)</postcondition>
+<object>Stove</object>
+</lexical_item>
+<lexical_item verb="pour">
+<postcondition>(state $var1 StoveFire1)^(On $var2 $var3)</postcondition>
+<object>Stove</object>
+<object>Kettle</object>
+<object>StoveFire_1</object>
+</lexical_item>
+<lexical_item verb="pour">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="pour">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Mug_1</object>
+</lexical_item>
+<lexical_item verb="pour">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="Pour">
+<postcondition>(state $var1 Vanilla)</postcondition>
+<object>Mug_1</object>
+</lexical_item>
+<lexical_item verb="Pour">
+<postcondition>(state $var1 Water)^(state $var2 Coffee)</postcondition>
+<object>Mug_1</object>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="change">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="change">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="change">
+<postcondition>(On $var1 $var2)^(state $var3 Channel4)</postcondition>
+<object>Book_1</object>
+<object>Loveseat_1</object>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="microwave">
+<postcondition>(state $var1 MicrowaveIsOn)^(state $var2 Water)^(state $var3 Water)</postcondition>
+<object>Microwave</object>
+<object>Kettle</object>
+<object>InstantRamen_1</object>
+</lexical_item>
+<lexical_item verb="microwave">
+<postcondition>(state $var1 MicrowaveIsOn)^(state $var2 Water)</postcondition>
+<object>Microwave</object>
+<object>LongCup_1</object>
+</lexical_item>
+<lexical_item verb="microwave">
+<postcondition>(state $var1 DoorIsOpen)</postcondition>
+<object>Microwave</object>
+</lexical_item>
+<lexical_item verb="pot">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="pot">
+<postcondition>(state $var1 StoveFire4)^(state $var2 Water)</postcondition>
+<object>Stove</object>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="pot">
+<postcondition>(state $var1 Water)^(On $var1 $var2)</postcondition>
+<object>InstantRamen_1</object>
+<object>Sink</object>
+</lexical_item>
+<lexical_item verb="pot">
+<postcondition>(state $var1 Water)^(state $var2 TapIsOn)</postcondition>
+<object>Kettle</object>
+<object>SinkKnob</object>
+</lexical_item>
+<lexical_item verb="pot">
+<postcondition>(state $var1 StoveFire4)</postcondition>
+<object>Stove</object>
+</lexical_item>
+<lexical_item verb="pot">
+<postcondition>(state $var1 StoveFire4)</postcondition>
+<object>Stove</object>
+</lexical_item>
+<lexical_item verb="removing">
+<postcondition>(state $var1 DoorIsOpen)^(Grasping $var2 $var3)</postcondition>
+<object>Microwave</object>
+<object>Robot</object>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="removing">
+<postcondition>(state $var1 Water)^(Grasping $var2 $var3)^(Grasping $var2 $var1)</postcondition>
+<object>InstantRamen_1</object>
+<object>Robot</object>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="scoop">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Mug_1</object>
+</lexical_item>
+<lexical_item verb="scoop">
+<postcondition>(state $var1 RightDoorIsOpen)^(state $var1 LeftDoorIsOpen)^(Grasping $var2 $var3)</postcondition>
+<object>Fridge</object>
+<object>Robot</object>
+<object>IceCream_1</object>
+</lexical_item>
+<lexical_item verb="scoop">
+<postcondition>(state $var1 RightDoorIsOpen)</postcondition>
+<object>Fridge</object>
+</lexical_item>
+<lexical_item verb="scoop">
+<postcondition>(state $var1 LeftDoorIsOpen)^(Grasping $var2 $var3)</postcondition>
+<object>Fridge</object>
+<object>Robot</object>
+<object>IceCream_1</object>
+</lexical_item>
+<lexical_item verb="scoop">
+<postcondition>(state $var1 LeftDoorIsOpen)^(state $var1 RightDoorIsOpen)^(Grasping $var2 $var3)</postcondition>
+<object>Fridge</object>
+<object>Robot</object>
+<object>IceCream_1</object>
+</lexical_item>
+<lexical_item verb="scoop">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Spoon_1</object>
+</lexical_item>
+<lexical_item verb="scoop">
+<postcondition>(state $var1 LeftDoorIsOpen)^(Grasping $var2 $var3)</postcondition>
+<object>Fridge</object>
+<object>Robot</object>
+<object>IceCream_1</object>
+</lexical_item>
+<lexical_item verb="scoop">
+<postcondition>(state $var1 IceCream)^(Grasping $var2 $var1)</postcondition>
+<object>Mug_1</object>
+<object>Robot</object>
+</lexical_item>
+<lexical_item verb="scoop">
+<postcondition>(On $var1 $var2)^(Grasping $var3 $var4)</postcondition>
+<object>Plate_1</object>
+<object>StoveFire_1</object>
+<object>Robot</object>
+<object>IceCream_1</object>
+</lexical_item>
+<lexical_item verb="walk">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Kettle</object>
+<object>Sink</object>
+</lexical_item>
+<lexical_item verb="Prepare">
+<postcondition>(state $var1 TapIsOn)</postcondition>
+<object>SinkKnob</object>
+</lexical_item>
+<lexical_item verb="Prepare">
+<postcondition>(state $var1 DoorIsOpen)^(state $var2 RightDoorIsOpen)</postcondition>
+<object>Microwave</object>
+<object>Fridge</object>
+</lexical_item>
+<lexical_item verb="Prepare">
+<postcondition>(state $var1 DoorIsOpen)^(state $var2 Coffee)^(Grasping $var3 $var4)</postcondition>
+<object>Microwave</object>
+<object>InstantRamen_1</object>
+<object>Robot</object>
+<object>Plate_1</object>
+</lexical_item>
+<lexical_item verb="Prepare">
+<postcondition>(state $var1 RightDoorIsOpen)^(Grasping $var2 $var3)^(Grasping $var2 $var4)</postcondition>
+<object>Fridge</object>
+<object>Robot</object>
+<object>Coke_1</object>
+<object>LongCup_1</object>
+</lexical_item>
+<lexical_item verb="prepare">
+<postcondition>(state $var1 IsOn)^(state $var1 Channel2)^(On $var2 $var3)^(On $var4 $var3)^(On $var5 $var6)^(On $var7 $var6)^(Grasping $var8 $var9)</postcondition>
+<object>Tv_1</object>
+<object>Book_2</object>
+<object>Loveseat_1</object>
+<object>Cd_1</object>
+<object>Book_1</object>
+<object>CoffeeTable_1</object>
+<object>Cd_2</object>
+<object>Robot</object>
+<object>Tv_1Remote_1</object>
+</lexical_item>
+<lexical_item verb="Prepare">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>LongCup_2</object>
+</lexical_item>
+<lexical_item verb="empty">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)</postcondition>
+<object>Robot</object>
+<object>Bowl_1</object>
+<object>GarbageBin_1</object>
+</lexical_item>
+<lexical_item verb="empty">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Mug_1</object>
+</lexical_item>
+<lexical_item verb="throw">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)</postcondition>
+<object>Beer_1</object>
+<object>GarbageBin_1</object>
+<object>Coke_1</object>
+</lexical_item>
+<lexical_item verb="Throw">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)^(On $var4 $var2)</postcondition>
+<object>Coke_1</object>
+<object>GarbageBin_1</object>
+<object>Beer_1</object>
+<object>BagOfChips_1</object>
+</lexical_item>
+<lexical_item verb="throw">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Book_1</object>
+<object>CoffeeTable_1</object>
+</lexical_item>
+<lexical_item verb="Throw">
+<postcondition>(On $var1 $var2)^(On $var3 $var4)</postcondition>
+<object>BagOfChips_1</object>
+<object>Loveseat_1</object>
+<object>Beer_1</object>
+<object>GarbageBin_1</object>
+</lexical_item>
+<lexical_item verb="Throw">
+<postcondition>(On $var1 $var2)^(On $var3 $var4)^(Grasping $var5 $var6)</postcondition>
+<object>Beer_1</object>
+<object>GarbageBin_1</object>
+<object>XboxController_1</object>
+<object>CoffeeTable_1</object>
+<object>Robot</object>
+<object>Xbox_1</object>
+</lexical_item>
+<lexical_item verb="throw">
+<postcondition>(On $var1 $var2)^(Grasping $var3 $var4)</postcondition>
+<object>Beer_1</object>
+<object>GarbageBin_1</object>
+<object>Robot</object>
+<object>Bowl_1</object>
+</lexical_item>
+<lexical_item verb="throw">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Beer_1</object>
+<object>Loveseat_1</object>
+</lexical_item>
+<lexical_item verb="Throw">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Beer_1</object>
+</lexical_item>
+<lexical_item verb="throw">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Beer_1</object>
+<object>GarbageBin_1</object>
+</lexical_item>
+<lexical_item verb="Throw">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Beer_1</object>
+<object>GarbageBin_1</object>
+</lexical_item>
+<lexical_item verb="throw">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>GarbageBag_1</object>
+</lexical_item>
+<lexical_item verb="Throw">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)^(Grasping $var1 $var4)</postcondition>
+<object>Robot</object>
+<object>Bowl_1</object>
+<object>Beer_1</object>
+<object>Coke_1</object>
+</lexical_item>
+<lexical_item verb="throw">
+<postcondition>(On $var1 $var2)^(Grasping $var3 $var4)</postcondition>
+<object>GarbageBag_1</object>
+<object>GarbageBin_1</object>
+<object>Robot</object>
+<object>BagOfChips_1</object>
+</lexical_item>
+<lexical_item verb="Throw">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)</postcondition>
+<object>Coke_1</object>
+<object>CoffeeTable_1</object>
+<object>Beer_1</object>
+</lexical_item>
+<lexical_item verb="clear">
+<postcondition>(On $var1 $var2)^(On $var3 $var4)^(On $var5 $var4)</postcondition>
+<object>Book_1</object>
+<object>CoffeeTable_1</object>
+<object>BagOfChips_1</object>
+<object>GarbageBin_1</object>
+<object>Beer_1</object>
+</lexical_item>
+<lexical_item verb="and">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)</postcondition>
+<object>BagOfChips_1</object>
+<object>Loveseat_1</object>
+<object>Beer_1</object>
+</lexical_item>
+<lexical_item verb="and">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)</postcondition>
+<object>Robot</object>
+<object>Glass_1</object>
+<object>Spoon_1</object>
+</lexical_item>
+<lexical_item verb="and">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Plate_2</object>
+</lexical_item>
+<lexical_item verb="and">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="Make">
+<postcondition>(state $var1 MicrowaveIsOn)</postcondition>
+<object>Microwave</object>
+</lexical_item>
+<lexical_item verb="Make">
+<postcondition>(state $var1 DoorIsOpen)</postcondition>
+<object>Microwave</object>
+</lexical_item>
+<lexical_item verb="make">
+<postcondition>(Grasping $var1 $var2)^(On $var3 $var4)</postcondition>
+<object>Robot</object>
+<object>Plate_1</object>
+<object>Plate_2</object>
+<object>StoveFire_2</object>
+</lexical_item>
+<lexical_item verb="make">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Bowl_1</object>
+</lexical_item>
+<lexical_item verb="Make">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Mug_1</object>
+</lexical_item>
+<lexical_item verb="Make">
+<postcondition>(state $var1 MicrowaveIsOn)</postcondition>
+<object>Microwave</object>
+</lexical_item>
+<lexical_item verb="make">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="make">
+<postcondition>(state $var1 Volume)</postcondition>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="make">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Plate_2</object>
+<object>Sink</object>
+</lexical_item>
+<lexical_item verb="make">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)</postcondition>
+<object>Robot</object>
+<object>LongCup_2</object>
+<object>Syrup_1</object>
+</lexical_item>
+<lexical_item verb="make">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Xbox_1</object>
+</lexical_item>
+<lexical_item verb="Make">
+<postcondition>(state $var1 StoveFire2)^(state $var2 Water)</postcondition>
+<object>Stove</object>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="make">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="make">
+<postcondition>(state $var1 Volume)</postcondition>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="Make">
+<postcondition>(state $var1 IceCream)^(state $var1 Salt)</postcondition>
+<object>Plate_2</object>
+</lexical_item>
+<lexical_item verb="go">
+<postcondition>(state $var1 Water)^(state $var2 TapIsOn)^(On $var1 $var3)</postcondition>
+<object>Mug_1</object>
+<object>SinkKnob</object>
+<object>Sink</object>
+</lexical_item>
+<lexical_item verb="go">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="Go">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Xbox_1</object>
+</lexical_item>
+<lexical_item verb="go">
+<postcondition>(state $var1 Chocolate)</postcondition>
+<object>Syrup_1</object>
+</lexical_item>
+<lexical_item verb="go">
+<postcondition>(Grasping $var1 $var2)^(state $var3 Vanilla)</postcondition>
+<object>Robot</object>
+<object>Ramen_1</object>
+<object>Syrup_2</object>
+</lexical_item>
+<lexical_item verb="go">
+<postcondition>(Grasping $var1 $var2)^(state $var3 Vanilla)</postcondition>
+<object>Robot</object>
+<object>Ramen_1</object>
+<object>Syrup_2</object>
+</lexical_item>
+<lexical_item verb="add">
+<postcondition>(Grasping $var1 $var2)^(not (state $var3 TapIsOn))</postcondition>
+<object>Robot</object>
+<object>Mug_1</object>
+<object>SinkKnob</object>
+</lexical_item>
+<lexical_item verb="add">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>IceCream_1</object>
+</lexical_item>
+<lexical_item verb="add">
+<postcondition>(Grasping $var1 $var2)^(In $var3 $var2)</postcondition>
+<object>Robot</object>
+<object>Bowl_1</object>
+<object>Ramen_1</object>
+</lexical_item>
+<lexical_item verb="add">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="add">
+<postcondition>(state $var1 Ramen)^(Grasping $var2 $var1)^(In $var3 $var1)</postcondition>
+<object>Kettle</object>
+<object>Robot</object>
+<object>Ramen_1</object>
+</lexical_item>
+<lexical_item verb="add">
+<postcondition>(state $var1 Water)^(state $var2 TapIsOn)^(On $var1 $var3)</postcondition>
+<object>Mug_1</object>
+<object>SinkKnob</object>
+<object>Sink</object>
+</lexical_item>
+<lexical_item verb="Add">
+<postcondition>(state $var1 RightDoorIsOpen)^(state $var1 LeftDoorIsOpen)</postcondition>
+<object>Fridge</object>
+</lexical_item>
+<lexical_item verb="add">
+<postcondition>(state $var1 Ramen)^(In $var2 $var1)</postcondition>
+<object>Kettle</object>
+<object>Ramen_1</object>
+</lexical_item>
+<lexical_item verb="add">
+<postcondition>(state $var1 Ramen)^(Grasping $var2 $var1)^(In $var3 $var1)</postcondition>
+<object>Kettle</object>
+<object>Robot</object>
+<object>Ramen_1</object>
+</lexical_item>
+<lexical_item verb="add">
+<postcondition>(state $var1 IceCream)^(state $var2 LeftDoorIsOpen)^(Grasping $var3 $var4)^(On $var5 $var6)</postcondition>
+<object>Mug_1</object>
+<object>Fridge</object>
+<object>Robot</object>
+<object>Spoon_1</object>
+<object>IceCream_1</object>
+<object>StoveFire_2</object>
+</lexical_item>
+<lexical_item verb="Add">
+<postcondition>(state $var1 StoveFire1)^(state $var2 TapIsOn)</postcondition>
+<object>Stove</object>
+<object>SinkKnob</object>
+</lexical_item>
+<lexical_item verb="Add">
+<postcondition>(state $var1 StoveFire4)^(state $var2 Water)^(On $var2 $var3)^(On $var4 $var3)</postcondition>
+<object>Stove</object>
+<object>Kettle</object>
+<object>StoveFire_4</object>
+<object>Ramen_1</object>
+</lexical_item>
+<lexical_item verb="Add">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)</postcondition>
+<object>Robot</object>
+<object>Mug_1</object>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="add">
+<postcondition>(state $var1 Water)</postcondition>
+<object>Mug_1</object>
+</lexical_item>
+<lexical_item verb="carry">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>LongCup_2</object>
+<object>StoveFire_1</object>
+</lexical_item>
+<lexical_item verb="carry">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>LongCup_2</object>
+<object>StoveFire_1</object>
+</lexical_item>
+<lexical_item verb="Dump">
+<postcondition>(Grasping $var1 $var2)^(not (state $var2 Coffee))</postcondition>
+<object>Robot</object>
+<object>Mug_1</object>
+</lexical_item>
+<lexical_item verb="dump">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="dump">
+<postcondition>(state $var1 Water)</postcondition>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="dump">
+<postcondition>(state $var1 Water)</postcondition>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="Dump">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>GarbageBag_1</object>
+</lexical_item>
+<lexical_item verb="Dump">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)</postcondition>
+<object>Robot</object>
+<object>BagOfChips_1</object>
+<object>Bowl_1</object>
+</lexical_item>
+<lexical_item verb="cook">
+<postcondition>(state $var1 Water)</postcondition>
+<object>Glass_1</object>
+</lexical_item>
+<lexical_item verb="cook">
+<postcondition>(state $var1 WaterDispenserIsOpen)^(state $var2 Water)</postcondition>
+<object>Fridge</object>
+<object>InstantRamen_1</object>
+</lexical_item>
+<lexical_item verb="cook">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="Cook">
+<postcondition>(state $var1 LeftDoorIsOpen)^(state $var1 RightDoorIsOpen)^(state $var2 Water)^(state $var3 TapIsOn)</postcondition>
+<object>Fridge</object>
+<object>Kettle</object>
+<object>SinkKnob</object>
+</lexical_item>
+<lexical_item verb="Cook">
+<postcondition>(state $var1 StoveFire1)^(state $var1 StoveFire4)^(state $var2 Water)^(state $var3 TapIsOn)</postcondition>
+<object>Stove</object>
+<object>Kettle</object>
+<object>SinkKnob</object>
+</lexical_item>
+<lexical_item verb="sink">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Kettle</object>
+<object>StoveFire_1</object>
+</lexical_item>
+<lexical_item verb="sink">
+<postcondition>(state $var1 Water)^(Grasping $var2 $var1)</postcondition>
+<object>Kettle</object>
+<object>Robot</object>
+</lexical_item>
+<lexical_item verb="sink">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)^(On $var4 $var2)</postcondition>
+<object>Plate_1</object>
+<object>Sink</object>
+<object>Glass_1</object>
+<object>Plate_2</object>
+</lexical_item>
+<lexical_item verb="sink">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Plate_2</object>
+</lexical_item>
+<lexical_item verb="sink">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)^(On $var4 $var2)^(On $var5 $var2)^(On $var6 $var2)</postcondition>
+<object>Plate_2</object>
+<object>Sink</object>
+<object>Glass_1</object>
+<object>Plate_1</object>
+<object>LongCup_1</object>
+<object>LongCup_2</object>
+</lexical_item>
+<lexical_item verb="Get">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Coke_1</object>
+</lexical_item>
+<lexical_item verb="get">
+<postcondition>(state $var1 Ramen)^(Grasping $var2 $var1)^(In $var3 $var1)</postcondition>
+<object>Plate_2</object>
+<object>Robot</object>
+<object>Ramen_1</object>
+</lexical_item>
+<lexical_item verb="Get">
+<postcondition>(state $var1 WaterDispenserIsOpen)^(state $var2 Water)^(state $var3 Water)^(Grasping $var4 $var3)^(Grasping $var4 $var2)</postcondition>
+<object>Fridge</object>
+<object>Kettle</object>
+<object>LongCup_2</object>
+<object>Robot</object>
+</lexical_item>
+<lexical_item verb="Get">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>InstantRamen_1</object>
+</lexical_item>
+<lexical_item verb="Get">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Cd_2</object>
+</lexical_item>
+<lexical_item verb="get">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>InstantRamen_1</object>
+</lexical_item>
+<lexical_item verb="Get">
+<postcondition>(state $var1 Water)^(state $var2 TapIsOn)^(On $var1 $var3)</postcondition>
+<object>Glass_1</object>
+<object>SinkKnob</object>
+<object>Sink</object>
+</lexical_item>
+<lexical_item verb="get">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Ramen_1</object>
+</lexical_item>
+<lexical_item verb="get">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Ramen_1</object>
+</lexical_item>
+<lexical_item verb="get">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)</postcondition>
+<object>Robot</object>
+<object>Xbox_1</object>
+<object>Book_1</object>
+</lexical_item>
+<lexical_item verb="Get">
+<postcondition>(state $var1 LeftDoorIsOpen)^(state $var1 RightDoorIsOpen)^(Grasping $var2 $var3)^(Grasping $var2 $var4)</postcondition>
+<object>Fridge</object>
+<object>Robot</object>
+<object>Coke_1</object>
+<object>BoiledEgg_1</object>
+</lexical_item>
+<lexical_item verb="get">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Xbox_1</object>
+<object>Loveseat_1</object>
+</lexical_item>
+<lexical_item verb="Get">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)^(On $var4 $var2)^(On $var5 $var2)^(Grasping $var6 $var7)</postcondition>
+<object>Bowl_1</object>
+<object>CoffeeTable_1</object>
+<object>Cd_1</object>
+<object>Coke_1</object>
+<object>Beer_1</object>
+<object>Robot</object>
+<object>Tv_1Remote_1</object>
+</lexical_item>
+<lexical_item verb="Get">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="Get">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Mug_1</object>
+</lexical_item>
+<lexical_item verb="get">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="Get">
+<postcondition>(state $var1 RightDoorIsOpen)</postcondition>
+<object>Fridge</object>
+</lexical_item>
+<lexical_item verb="Get">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="Get">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>LongCup_2</object>
+</lexical_item>
+<lexical_item verb="get">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Xbox_1</object>
+</lexical_item>
+<lexical_item verb="Get">
+<postcondition>(state $var1 Ramen)^(state $var2 EnergyDrink)^(In $var3 $var1)^(Grasping $var4 $var3)</postcondition>
+<object>Plate_2</object>
+<object>LongCup_1</object>
+<object>Ramen_1</object>
+<object>Robot</object>
+</lexical_item>
+<lexical_item verb="putting">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>LongCup_1</object>
+</lexical_item>
+<lexical_item verb="serve">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="serve">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>LongCup_2</object>
+</lexical_item>
+<lexical_item verb="serve">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Xbox_1</object>
+</lexical_item>
+<lexical_item verb="Keep">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="play">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Xbox_1</object>
+<object>Loveseat_1</object>
+</lexical_item>
+<lexical_item verb="play">
+<postcondition>(state $var1 CD)^(On $var2 $var3)^(On $var4 $var3)^(On $var5 $var6)^(In $var7 $var1)^(On $var1 $var6)^(On $var8 $var9)</postcondition>
+<object>Xbox_1</object>
+<object>XboxController_1</object>
+<object>CoffeeTable_1</object>
+<object>Book_2</object>
+<object>Cd_1</object>
+<object>Loveseat_1</object>
+<object>Cd_2</object>
+<object>Pillow_2</object>
+<object>Armchair_2</object>
+</lexical_item>
+<lexical_item verb="play">
+<postcondition>(state $var1 CD)^(On $var2 $var3)^(In $var4 $var1)^(On $var1 $var3)</postcondition>
+<object>Xbox_1</object>
+<object>Cd_2</object>
+<object>Loveseat_1</object>
+<object>Cd_1</object>
+</lexical_item>
+<lexical_item verb="play">
+<postcondition>(state $var1 IsOn)^(state $var1 Channel4)^(state $var2 CD)^(On $var2 $var3)</postcondition>
+<object>Tv_1</object>
+<object>Xbox_1</object>
+<object>Loveseat_1</object>
+</lexical_item>
+<lexical_item verb="Set">
+<postcondition>(state $var1 IsOn)</postcondition>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="set">
+<postcondition>(state $var1 Channel4)^(not (state $var1 Channel3))</postcondition>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="set">
+<postcondition>(state $var1 Channel4)^(not (state $var1 Channel3))</postcondition>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="Set">
+<postcondition>(On $var1 $var2)^(not (state $var3 IsOn))</postcondition>
+<object>Xbox_1</object>
+<object>Loveseat_1</object>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="set">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="Set">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)^(On $var4 $var2)^(On $var5 $var2)^(On $var6 $var2)</postcondition>
+<object>Pillow_1</object>
+<object>Loveseat_1</object>
+<object>Pillow_3</object>
+<object>Pillow_2</object>
+<object>Pillow_4</object>
+<object>Xbox_1</object>
+</lexical_item>
+<lexical_item verb="set">
+<postcondition>(state $var1 Channel4)</postcondition>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="channel">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)^(On $var4 $var5)</postcondition>
+<object>Pillow_3</object>
+<object>Loveseat_1</object>
+<object>Pillow_1</object>
+<object>Pillow_2</object>
+<object>Armchair_2</object>
+</lexical_item>
+<lexical_item verb="channel">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="channel">
+<postcondition>(state $var1 Channel4)</postcondition>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="channel">
+<postcondition>(state $var1 CD)</postcondition>
+<object>Xbox_1</object>
+</lexical_item>
+<lexical_item verb="using">
+<postcondition>(state $var1 LeftDoorIsOpen)^(state $var1 RightDoorIsOpen)^(state $var2 ScoopsLeft)^(Grasping $var3 $var2)</postcondition>
+<object>Fridge</object>
+<object>Spoon_1</object>
+<object>Robot</object>
+</lexical_item>
+<lexical_item verb="using">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Mug_1</object>
+</lexical_item>
+<lexical_item verb="wash">
+<postcondition>(state $var1 Water)^(state $var2 TapIsOn)^(On $var1 $var3)</postcondition>
+<object>Kettle</object>
+<object>SinkKnob</object>
+<object>Sink</object>
+</lexical_item>
+<lexical_item verb="wash">
+<postcondition>(state $var1 Water)^(state $var2 Water)^(state $var3 Water)^(state $var4 Water)^(state $var5 Water)^(state $var6 TapIsOn)</postcondition>
+<object>Mug_1</object>
+<object>Kettle</object>
+<object>Glass_1</object>
+<object>LongCup_1</object>
+<object>LongCup_2</object>
+<object>SinkKnob</object>
+</lexical_item>
+<lexical_item verb="wash">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Kettle</object>
+<object>Sink</object>
+</lexical_item>
+<lexical_item verb="together">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)</postcondition>
+<object>Robot</object>
+<object>LongCup_1</object>
+<object>Glass_1</object>
+</lexical_item>
+<lexical_item verb="clean">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="clean">
+<postcondition>(state $var1 TapIsOn)^(On $var2 $var3)</postcondition>
+<object>SinkKnob</object>
+<object>Plate_2</object>
+<object>Sink</object>
+</lexical_item>
+<lexical_item verb="clean">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="bottle">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="trash">
+<postcondition>(On $var1 $var2)^(On $var3 $var4)</postcondition>
+<object>BagOfChips_1</object>
+<object>GarbageBin_1</object>
+<object>Bowl_1</object>
+<object>CoffeeTable_1</object>
+</lexical_item>
+<lexical_item verb="give">
+<postcondition>(state $var1 Volume)</postcondition>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="give">
+<postcondition>(state $var1 Volume)</postcondition>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="pouring">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>LongCup_1</object>
+</lexical_item>
+<lexical_item verb="pouring">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="pouring">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)</postcondition>
+<object>Robot</object>
+<object>Coke_1</object>
+<object>LongCup_2</object>
+</lexical_item>
+<lexical_item verb="insert">
+<postcondition>(state $var1 CD)^(Grasping $var2 $var1)^(In $var3 $var1)</postcondition>
+<object>Xbox_1</object>
+<object>Robot</object>
+<object>Cd_2</object>
+</lexical_item>
+<lexical_item verb="controllet">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)^(Grasping $var4 $var5)</postcondition>
+<object>Xbox_1</object>
+<object>Loveseat_1</object>
+<object>XboxController_1</object>
+<object>Robot</object>
+<object>BagOfChips_1</object>
+</lexical_item>
+<lexical_item verb="move"> <!-- dipendra -->
+<postcondition>(Near $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Loveseat_1</object>
+</lexical_item>
+<lexical_item verb="move">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="move">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="move">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="move">
+<postcondition>(On $var1 $var2)^(On $var3 $var4)</postcondition>
+<object>Pillow_3</object>
+<object>Loveseat_1</object>
+<object>Pillow_2</object>
+<object>Armchair_2</object>
+</lexical_item>
+<lexical_item verb="move">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Kettle</object>
+<object>StoveFire_3</object>
+</lexical_item>
+<lexical_item verb="Move">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)</postcondition>
+<object>BagOfChips_1</object>
+<object>Loveseat_1</object>
+<object>XboxController_1</object>
+</lexical_item>
+<lexical_item verb="Move">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>BagOfChips_1</object>
+<object>Loveseat_1</object>
+</lexical_item>
+<lexical_item verb="Move">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)^(Grasping $var1 $var4)^(Grasping $var1 $var5)</postcondition>
+<object>Robot</object>
+<object>Pillow_2</object>
+<object>Pillow_1</object>
+<object>Pillow_3</object>
+<object>Pillow_4</object>
+</lexical_item>
+<lexical_item verb="Move">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Cd_2</object>
+<object>Loveseat_1</object>
+</lexical_item>
+<lexical_item verb="Move">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Xbox_1</object>
+<object>Loveseat_1</object>
+</lexical_item>
+<lexical_item verb="Connect">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Xbox_1</object>
+</lexical_item>
+<lexical_item verb="Connect">
+<postcondition>(state $var1 IsOn)^(On $var2 $var3)</postcondition>
+<object>Tv_1</object>
+<object>Xbox_1</object>
+<object>Loveseat_1</object>
+</lexical_item>
+<lexical_item verb="Gather">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="Gather">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="used">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)^(On $var4 $var2)</postcondition>
+<object>Plate_1</object>
+<object>Sink</object>
+<object>LongCup_1</object>
+<object>Plate_2</object>
+</lexical_item>
+<lexical_item verb="used">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Plate_1</object>
+<object>Sink</object>
+</lexical_item>
+<lexical_item verb="used">
+<postcondition>(state $var1 DoorIsOpen)^(On $var2 $var3)^(On $var4 $var3)^(On $var5 $var3)^(On $var6 $var3)</postcondition>
+<object>Microwave</object>
+<object>LongCup_1</object>
+<object>Sink</object>
+<object>Mug_1</object>
+<object>LongCup_2</object>
+<object>Glass_1</object>
+</lexical_item>
+<lexical_item verb="squeeze">
+<postcondition>(Grasping $var1 $var2)^(not (state $var3 RightDoorIsOpen))</postcondition>
+<object>Robot</object>
+<object>IceCream_1</object>
+<object>Fridge</object>
+</lexical_item>
+<lexical_item verb="squeeze">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="squeeze">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="squeeze">
+<postcondition>(state $var1 Vanilla)^(state $var2 Vanilla)^(state $var3 Egg)^(state $var4 Chocolate)^(state $var3 Chocolate)</postcondition>
+<object>Syrup_2</object>
+<object>Plate_2</object>
+<object>Plate_1</object>
+<object>Syrup_1</object>
+</lexical_item>
+<lexical_item verb="Plug">
+<postcondition>(state $var1 IsOn)^(On $var2 $var3)</postcondition>
+<object>Tv_1</object>
+<object>Xbox_1</object>
+<object>Loveseat_1</object>
+</lexical_item>
+<lexical_item verb="Plug">
+<postcondition>(state $var1 IsOn)^(On $var2 $var3)</postcondition>
+<object>Tv_1</object>
+<object>Xbox_1</object>
+<object>Loveseat_1</object>
+</lexical_item>
+<lexical_item verb="Plug">
+<postcondition>(state $var1 IsOn)^(On $var2 $var3)^(On $var4 $var5)</postcondition>
+<object>Tv_1</object>
+<object>Cd_1</object>
+<object>Loveseat_1</object>
+<object>Xbox_1</object>
+<object>CoffeeTable_1</object>
+</lexical_item>
+<lexical_item verb="configured">
+<postcondition>(On $var1 $var2)^(On $var3 $var4)</postcondition>
+<object>BagOfChips_1</object>
+<object>SnackTable_1</object>
+<object>Bowl_1</object>
+<object>CoffeeTable_1</object>
+</lexical_item>
+<lexical_item verb="activate">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)</postcondition>
+<object>Robot</object>
+<object>Xbox_1</object>
+<object>XboxController_1</object>
+</lexical_item>
+<lexical_item verb="activate">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>XboxController_1</object>
+</lexical_item>
+<lexical_item verb="Arrange">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)^(On $var4 $var2)</postcondition>
+<object>Pillow_1</object>
+<object>Loveseat_1</object>
+<object>Pillow_2</object>
+<object>Pillow_3</object>
+</lexical_item>
+<lexical_item verb="arrange">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="Arrange">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)</postcondition>
+<object>Beer_1</object>
+<object>Loveseat_1</object>
+<object>BagOfChips_1</object>
+</lexical_item>
+<lexical_item verb="Arrange">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="Arrange">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)</postcondition>
+<object>BagOfChips_1</object>
+<object>Loveseat_1</object>
+<object>Beer_1</object>
+</lexical_item>
+<lexical_item verb="arrange">
+<postcondition>(state $var1 IsOn)</postcondition>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="arrange">
+<postcondition>(On $var1 $var2)^(On $var3 $var4)^(On $var5 $var6)^(On $var7 $var8)</postcondition>
+<object>Pillow_2</object>
+<object>Armchair_2</object>
+<object>Pillow_3</object>
+<object>Armchair_3</object>
+<object>Pillow_4</object>
+<object>Armchair_1</object>
+<object>Pillow_1</object>
+<object>Armchair_4</object>
+</lexical_item>
+<lexical_item verb="are">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Beer_1</object>
+<object>CoffeeTable_1</object>
+</lexical_item>
+<lexical_item verb="are">
+<postcondition>(On $var1 $var2)^(On $var3 $var4)</postcondition>
+<object>Pillow_1</object>
+<object>Loveseat_1</object>
+<object>Xbox_1</object>
+<object>CoffeeTable_1</object>
+</lexical_item>
+<lexical_item verb="console">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>GarbageBag_1</object>
+<object>GarbageBin_1</object>
+</lexical_item>
+<lexical_item verb="wait">
+<postcondition>(state $var1 StoveFire4)^(On $var2 $var3)</postcondition>
+<object>Stove</object>
+<object>Kettle</object>
+<object>StoveFire_4</object>
+</lexical_item>
+<lexical_item verb="wait">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Ramen_1</object>
+<object>StoveFire_1</object>
+</lexical_item>
+<lexical_item verb="waste">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)</postcondition>
+<object>Coke_1</object>
+<object>GarbageBin_1</object>
+<object>GarbageBag_1</object>
+</lexical_item>
+<lexical_item verb="face">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)</postcondition>
+<object>Xbox_1</object>
+<object>Loveseat_1</object>
+<object>XboxController_1</object>
+</lexical_item>
+<lexical_item verb="sit">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Coke_1</object>
+<object>CoffeeTable_1</object>
+</lexical_item>
+<lexical_item verb="heat">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="heat">
+<postcondition>(state $var1 MicrowaveIsOn)</postcondition>
+<object>Microwave</object>
+</lexical_item>
+<lexical_item verb="heat">
+<postcondition>(state $var1 Water)</postcondition>
+<object>InstantRamen_1</object>
+</lexical_item>
+<lexical_item verb="heat">
+<postcondition>(state $var1 Water)</postcondition>
+<object>InstantRamen_1</object>
+</lexical_item>
+<lexical_item verb="heat">
+<postcondition>(state $var1 Water)</postcondition>
+<object>InstantRamen_1</object>
+</lexical_item>
+<lexical_item verb="Heat">
+<postcondition>(state $var1 StoveFire4)^(state $var1 StoveFire1)</postcondition>
+<object>Stove</object>
+</lexical_item>
+<lexical_item verb="hook">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>XboxController_1</object>
+<object>Loveseat_1</object>
+</lexical_item>
+<lexical_item verb="stacking">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="have">
+<postcondition>(state $var1 Water)^(Grasping $var2 $var1)</postcondition>
+<object>Kettle</object>
+<object>Robot</object>
+</lexical_item>
+<lexical_item verb="have">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)</postcondition>
+<object>Robot</object>
+<object>Plate_1</object>
+<object>LongCup_1</object>
+</lexical_item>
+<lexical_item verb="mix">
+<postcondition>(state $var1 RightDoorIsOpen)</postcondition>
+<object>Fridge</object>
+</lexical_item>
+<lexical_item verb="mix">
+<postcondition>(state $var1 IceCream)^(state $var1 Vanilla)</postcondition>
+<object>Mug_1</object>
+</lexical_item>
+<lexical_item verb="mix">
+<postcondition>(state $var1 IceCream)^(state $var1 Vanilla)</postcondition>
+<object>Mug_1</object>
+</lexical_item>
+<lexical_item verb="Mix">
+<postcondition>(state $var1 IceCream)^(state $var2 IceCream)^(state $var3 IceCream)</postcondition>
+<object>LongCup_2</object>
+<object>LongCup_1</object>
+<object>Glass_1</object>
+</lexical_item>
+<lexical_item verb="Mix">
+<postcondition>(state $var1 IceCream)^(state $var2 IceCream)^(state $var3 IceCream)</postcondition>
+<object>LongCup_2</object>
+<object>LongCup_1</object>
+<object>Glass_1</object>
+</lexical_item>
+<lexical_item verb="Mix">
+<postcondition>(state $var1 IceCream)^(state $var2 IceCream)^(state $var3 ScoopsLeft)</postcondition>
+<object>Mug_1</object>
+<object>LongCup_1</object>
+<object>Spoon_1</object>
+</lexical_item>
+<lexical_item verb="Mix">
+<postcondition>(state $var1 IceCream)^(state $var2 IceCream)^(state $var3 IceCream)</postcondition>
+<object>LongCup_1</object>
+<object>LongCup_2</object>
+<object>Glass_1</object>
+</lexical_item>
+<lexical_item verb="Mix">
+<postcondition>(state $var1 IceCream)^(state $var2 IceCream)^(state $var3 IceCream)</postcondition>
+<object>LongCup_1</object>
+<object>LongCup_2</object>
+<object>Glass_1</object>
+</lexical_item>
+<lexical_item verb="scroll">
+<postcondition></postcondition>
+</lexical_item>
+<lexical_item verb="counter">
+<postcondition>(Grasping $var1 $var2)^(not (state $var3 IsOn))</postcondition>
+<object>Robot</object>
+<object>Tv_1Remote_1</object>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="cozy">
+<postcondition>(On $var1 $var2)^(On $var3 $var4)^(On $var5 $var4)^(On $var6 $var7)</postcondition>
+<object>Pillow_3</object>
+<object>Armchair_1</object>
+<object>GarbageBag_1</object>
+<object>Loveseat_1</object>
+<object>Pillow_2</object>
+<object>Pillow_1</object>
+<object>Armchair_2</object>
+</lexical_item>
+<lexical_item verb="please">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Tv_1Remote_1</object>
+<object>CoffeeTable_1</object>
+</lexical_item>
+<lexical_item verb="eat">
+<postcondition>(state $var1 LeftDoorIsOpen)^(Grasping $var2 $var3)</postcondition>
+<object>Fridge</object>
+<object>Robot</object>
+<object>IceCream_1</object>
+</lexical_item>
+<lexical_item verb="Eat">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)</postcondition>
+<object>Robot</object>
+<object>BagOfChips_1</object>
+<object>Cd_2</object>
+</lexical_item>
+<lexical_item verb="pressig">
+<postcondition>(state $var1 IsOn)</postcondition>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="pressig">
+<postcondition>(state $var1 IsOn)</postcondition>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="pressig">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Cd_1</object>
+</lexical_item>
+<lexical_item verb="pressig">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Cd_1</object>
+</lexical_item>
+<lexical_item verb="distribute">
+<postcondition>(On $var1 $var2)^(On $var3 $var4)^(On $var5 $var2)^(On $var6 $var7)</postcondition>
+<object>Pillow_1</object>
+<object>Loveseat_1</object>
+<object>Pillow_2</object>
+<object>Armchair_2</object>
+<object>Pillow_3</object>
+<object>Pillow_4</object>
+<object>Armchair_1</object>
+</lexical_item>
+<lexical_item verb="distribute">
+<postcondition>(On $var1 $var2)^(On $var3 $var4)^(On $var5 $var2)^(On $var6 $var7)</postcondition>
+<object>Pillow_1</object>
+<object>Loveseat_1</object>
+<object>Pillow_2</object>
+<object>Armchair_2</object>
+<object>Pillow_3</object>
+<object>Pillow_4</object>
+<object>Armchair_1</object>
+</lexical_item>
+<lexical_item verb="distribute">
+<postcondition>(On $var1 $var2)^(On $var3 $var4)^(On $var5 $var2)^(On $var6 $var7)</postcondition>
+<object>Pillow_1</object>
+<object>Loveseat_1</object>
+<object>Pillow_2</object>
+<object>Armchair_2</object>
+<object>Pillow_3</object>
+<object>Pillow_4</object>
+<object>Armchair_1</object>
+</lexical_item>
+<lexical_item verb="distribute">
+<postcondition>(On $var1 $var2)^(On $var3 $var4)^(On $var5 $var2)^(On $var6 $var7)</postcondition>
+<object>Pillow_1</object>
+<object>Loveseat_1</object>
+<object>Pillow_2</object>
+<object>Armchair_2</object>
+<object>Pillow_3</object>
+<object>Pillow_4</object>
+<object>Armchair_1</object>
+</lexical_item>
+<lexical_item verb="Pull">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Coke_1</object>
+<object>CoffeeTable_1</object>
+</lexical_item>
+<lexical_item verb="rearrange">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Coke_1</object>
+</lexical_item>
+<lexical_item verb="Hold">
+<postcondition>(On $var1 $var2)^(On $var3 $var2)^(On $var4 $var2)</postcondition>
+<object>BagOfChips_1</object>
+<object>CoffeeTable_1</object>
+<object>Book_1</object>
+<object>Book_2</object>
+</lexical_item>
+<lexical_item verb="living">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>XboxController_1</object>
+</lexical_item>
+<lexical_item verb="living">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>XboxController_1</object>
+</lexical_item>
+<lexical_item verb="use">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="use">
+<postcondition>(state $var1 IceCream)^(state $var1 Spoon)</postcondition>
+<object>Plate_2</object>
+</lexical_item>
+<lexical_item verb="Collect">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)^(Grasping $var1 $var4)^(Grasping $var1 $var5)</postcondition>
+<object>Robot</object>
+<object>LongCup_1</object>
+<object>LongCup_2</object>
+<object>Plate_1</object>
+<object>Plate_2</object>
+</lexical_item>
+<lexical_item verb="Do">
+<postcondition>(On $var1 $var2)^(Grasping $var3 $var4)</postcondition>
+<object>Glass_1</object>
+<object>Sink</object>
+<object>Robot</object>
+<object>LongCup_1</object>
+</lexical_item>
+<lexical_item verb="Do">
+<postcondition>(On $var1 $var2)^(Grasping $var3 $var4)</postcondition>
+<object>Glass_1</object>
+<object>Sink</object>
+<object>Robot</object>
+<object>LongCup_1</object>
+</lexical_item>
+<lexical_item verb="Do">
+<postcondition>(state $var1 TapIsOn)</postcondition>
+<object>SinkKnob</object>
+</lexical_item>
+<lexical_item verb="rising">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Ramen_1</object>
+</lexical_item>
+<lexical_item verb="Dispose">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)</postcondition>
+<object>Robot</object>
+<object>GarbageBag_1</object>
+<object>BagOfChips_1</object>
+</lexical_item>
+<lexical_item verb="Dispose">
+<postcondition>(Grasping $var1 $var2)^(Grasping $var1 $var3)</postcondition>
+<object>Robot</object>
+<object>BagOfChips_1</object>
+<object>Beer_1</object>
+</lexical_item>
+<lexical_item verb="Stare">
+<postcondition>(state $var1 Water)^(state $var2 TapIsOn)</postcondition>
+<object>Kettle</object>
+<object>SinkKnob</object>
+</lexical_item>
+<lexical_item verb="Stare">
+<postcondition>(state $var1 Water)^(state $var2 TapIsOn)</postcondition>
+<object>Kettle</object>
+<object>SinkKnob</object>
+</lexical_item>
+<lexical_item verb="mug">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Glass_1</object>
+<object>Sink</object>
+</lexical_item>
+<lexical_item verb="rinse">
+<postcondition>(On $var1 $var2)^(Grasping $var3 $var4)^(Grasping $var3 $var5)^(Grasping $var3 $var6)</postcondition>
+<object>LongCup_1</object>
+<object>Sink</object>
+<object>Robot</object>
+<object>LongCup_2</object>
+<object>Spoon_1</object>
+<object>Glass_1</object>
+</lexical_item>
+<lexical_item verb="stack">
+<postcondition>(state $var1 Water)^(state $var2 Water)</postcondition>
+<object>LongCup_2</object>
+<object>LongCup_1</object>
+</lexical_item>
+<lexical_item verb="dip">
+<postcondition>(Grasping $var1 $var2)</postcondition>
+<object>Robot</object>
+<object>Cd_1</object>
+</lexical_item>
+<lexical_item verb="toggle">
+<postcondition>(On $var1 $var2)</postcondition>
+<object>Plate_1</object>
+<object>Sink</object>
+</lexical_item>
+<lexical_item verb="be">
+<postcondition>(state $var1 Channel4)</postcondition>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="begin">
+<postcondition>(state $var1 Channel2)</postcondition>
+<object>Tv_1</object>
+</lexical_item>
+<lexical_item verb="am">
+<postcondition>(state $var1 Water)</postcondition>
+<object>Kettle</object>
+</lexical_item>
+<lexical_item verb="want">
+<postcondition>(state $var1 LeftDoorIsOpen)^(state $var1 RightDoorIsOpen)^(state $var2 StoveFire4)</postcondition>
+<object>Fridge</object>
+<object>Stove</object>
+</lexical_item>
+</lexicon>

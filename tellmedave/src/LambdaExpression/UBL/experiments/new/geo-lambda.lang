@@ -1,0 +1,12 @@
+(
+(object:t e e t)
+(has:t e q t)
+(condition:t c t)
+(time:t i u t t)
+(state:t e s t)
+(On:t e e t)
+(In:t e e t)
+(IsGrasping:t p e t)
+(IsNear:t p e t)
+(dummy:t t)
+)

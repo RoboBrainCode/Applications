@@ -1,0 +1,13 @@
+Last Version to support stupid baselines etc.
+--This line, and those below, will be ignored--
+
+M    Clause.cs
+M    Constants.cs
+M    Environment.cs
+M    Inference.cs
+M    Instruction.cs
+M    Metrics.cs
+M    NoiseRemoval.cs
+M    Simulator.cs
+M    SymbolicPlanner.cs
+M    Tester.cs

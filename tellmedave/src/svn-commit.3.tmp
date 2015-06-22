@@ -1,0 +1,15 @@
+Minor Revision
+--This line, and those below, will be ignored--
+
+M    Clause.cs
+M    Constants.cs
+M    Environment.cs
+M    Inference.cs
+M    Logger.cs
+M    NounPhrase.cs
+M    Object.cs
+M    Parser.cs
+M    Simulator.cs
+M    SymbolicPlanner.cs
+M    SyntacticTree.cs
+M    Tester.cs

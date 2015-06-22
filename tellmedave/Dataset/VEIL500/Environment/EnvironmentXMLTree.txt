@@ -1,0 +1,24 @@
+Environment is defined as follows - 
+
+<environment>
+	<object>
+		<position>x,y,z</position>
+		<rotation>x,y,z</rotation>
+		<state>
+			<stateName>string</stateName>
+			<stateValue>string</stateValue>
+		</state>
+		<state>
+			<stateName>string</stateName>
+			<stateValue>string</stateValue>
+		</state>
+		........
+	</object>
+	.....
+	<relation>
+		<objectName>string</objectName>
+		<objectName>string</objectName>
+		<relationship>string</relationship>
+	</relation>
+	.......
+</environment>

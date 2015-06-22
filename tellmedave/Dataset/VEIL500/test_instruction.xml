@@ -1,0 +1,1286 @@
+<root>
+<point>
+<instruction>moveto Cd_1</instruction>
+<instruction>grasp Cd_1</instruction>
+<instruction>moveto Xbox_1</instruction>
+<instruction>grasp Xbox_1</instruction>
+<instruction>insert Cd_1 Xbox_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Tv_1</instruction>
+<instruction>press Tv_1PowerButton</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto SnackTable_1</instruction>
+<instruction>keep Xbox_1 On SnackTable_1</instruction>
+</point>
+<point>
+<instruction>moveto Kettle</instruction>
+<instruction>grasp Kettle</instruction>
+<instruction>moveto Sink</instruction>
+<instruction>keep Kettle On Sink</instruction>
+<instruction>turn SinkKnob</instruction>
+<instruction>turn SinkKnob</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>grasp Kettle</instruction>
+<instruction>moveto Stove</instruction>
+<instruction>keep Kettle On StoveFire_1</instruction>
+<instruction>turn StoveKnob_1</instruction>
+<instruction>turn StoveKnob_1</instruction>
+</point>
+<point>
+<instruction>moveto Pillow_3</instruction>
+<instruction>grasp Pillow_3</instruction>
+<instruction>moveto Loveseat_1</instruction>
+<instruction>keep Pillow_3 On Loveseat_1</instruction>
+<instruction>moveto Pillow_2</instruction>
+<instruction>grasp Pillow_2</instruction>
+<instruction>moveto Loveseat_1</instruction>
+<instruction>keep Pillow_2 On Loveseat_1</instruction>
+<instruction>moveto Pillow_1</instruction>
+<instruction>grasp Pillow_1</instruction>
+<instruction>moveto Loveseat_1</instruction>
+<instruction>keep Pillow_1 On Loveseat_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Tv_1</instruction>
+<instruction>press Tv_1PowerButton</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>press Tv_1ChannelUpButton</instruction>
+<instruction>press Tv_1ChannelUpButton</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Beer_1</instruction>
+<instruction>grasp Beer_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto CoffeeTable_1</instruction>
+<instruction>keep Beer_1 On CoffeeTable_1</instruction>
+</point>
+<point>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Cd_1</instruction>
+<instruction>grasp Cd_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Xbox_1</instruction>
+<instruction>grasp Xbox_1</instruction>
+<instruction>insert Cd_1 Xbox_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Loveseat_1</instruction>
+<instruction>keep Xbox_1 On Loveseat_1</instruction>
+<instruction>moveto Coke_1</instruction>
+<instruction>grasp Coke_1</instruction>
+<instruction>moveto GarbageBin_1</instruction>
+<instruction>keep Coke_1 On GarbageBin_1</instruction>
+<instruction>moveto Beer_1</instruction>
+<instruction>grasp Beer_1</instruction>
+<instruction>moveto GarbageBin_1</instruction>
+<instruction>keep Beer_1 On GarbageBin_1</instruction>
+<instruction>moveto Bowl_1</instruction>
+<instruction>grasp Bowl_1</instruction>
+<instruction>moveto GarbageBin_1</instruction>
+<instruction>pour Bowl_1 GarbageBin_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Pillow_1</instruction>
+<instruction>grasp Pillow_1</instruction>
+<instruction>moveto Pillow_2</instruction>
+<instruction>grasp Pillow_2</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Loveseat_1</instruction>
+<instruction>keep Pillow_1 On Loveseat_1</instruction>
+<instruction>keep Pillow_2 On Loveseat_1</instruction>
+<instruction>moveto Pillow_3</instruction>
+<instruction>grasp Pillow_3</instruction>
+<instruction>moveto Pillow_4</instruction>
+<instruction>grasp Pillow_4</instruction>
+<instruction>moveto Armchair_1</instruction>
+<instruction>keep Pillow_3 On Armchair_1</instruction>
+<instruction>moveto Armchair_2</instruction>
+<instruction>keep Pillow_4 On Armchair_2</instruction>
+</point>
+<point>
+<instruction>moveto Plate_2</instruction>
+<instruction>grasp Plate_2</instruction>
+<instruction>moveto Plate_1</instruction>
+<instruction>grasp Plate_1</instruction>
+<instruction>moveto Sink</instruction>
+<instruction>keep Plate_1 On Sink</instruction>
+<instruction>keep Plate_2 On Sink</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Microwave</instruction>
+<instruction>open Microwave</instruction>
+<instruction>grasp Mug_1</instruction>
+<instruction>close Microwave</instruction>
+<instruction>moveto Fridge</instruction>
+<instruction>open FridgeLeftDoor</instruction>
+<instruction>keep Mug_1 In Fridge</instruction>
+<instruction>close FridgeLeftDoor</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto LongCup_2</instruction>
+<instruction>grasp LongCup_2</instruction>
+<instruction>moveto Glass_1</instruction>
+<instruction>grasp Glass_1</instruction>
+<instruction>moveto Sink</instruction>
+<instruction>keep LongCup_2 On Sink</instruction>
+<instruction>keep Glass_1 On Sink</instruction>
+<instruction>moveto Spoon_1</instruction>
+<instruction>grasp Spoon_1</instruction>
+<instruction>moveto Fork_1</instruction>
+<instruction>grasp Fork_1</instruction>
+<instruction>moveto Sink</instruction>
+<instruction>keep Spoon_1 On Sink</instruction>
+<instruction>keep Fork_1 On Sink</instruction>
+</point>
+<point>
+<instruction>moveto Mug_1</instruction>
+<instruction>grasp Mug_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Counter_1</instruction>
+<instruction>keep Mug_1 On Counter_1</instruction>
+<instruction>moveto IceCream_1</instruction>
+<instruction>grasp IceCream_1</instruction>
+<instruction>moveto Spoon_1</instruction>
+<instruction>grasp Spoon_1</instruction>
+<instruction>scoop Spoon_1 IceCream_1</instruction>
+<instruction>moveto Counter_1</instruction>
+<instruction>keep IceCream_1 On Counter_1</instruction>
+<instruction>moveto Mug_1</instruction>
+<instruction>grasp Mug_1</instruction>
+<instruction>add IceCreamScoop Mug_1</instruction>
+<instruction>moveto Counter_1</instruction>
+<instruction>keep Spoon_1 On Counter_1</instruction>
+<instruction>moveto Syrup_1</instruction>
+<instruction>grasp Syrup_1</instruction>
+<instruction>pour Syrup_1 Mug_1</instruction>
+</point>
+<point>
+<instruction>moveto Cd_1</instruction>
+<instruction>grasp Cd_1</instruction>
+<instruction>moveto Xbox_1</instruction>
+<instruction>grasp Xbox_1</instruction>
+<instruction>insert Cd_1 Xbox_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Loveseat_1</instruction>
+<instruction>keep Xbox_1 On Loveseat_1</instruction>
+<instruction>moveto Bowl_1</instruction>
+<instruction>grasp Bowl_1</instruction>
+<instruction>moveto CoffeeTable_1</instruction>
+<instruction>keep Bowl_1 On CoffeeTable_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Coke_1</instruction>
+<instruction>grasp Coke_1</instruction>
+<instruction>moveto CoffeeTable_1</instruction>
+<instruction>keep Coke_1 On CoffeeTable_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+</point>
+<point>
+<instruction>moveto Book_1</instruction>
+<instruction>grasp Book_1</instruction>
+<instruction>moveto CoffeeTable_1</instruction>
+<instruction>keep Book_1 On CoffeeTable_1</instruction>
+<instruction>moveto Book_2</instruction>
+<instruction>grasp Book_2</instruction>
+<instruction>moveto CoffeeTable_1</instruction>
+<instruction>keep Book_2 On CoffeeTable_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto GarbageBag_1</instruction>
+<instruction>grasp GarbageBag_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Loveseat_1</instruction>
+<instruction>keep GarbageBag_1 On Loveseat_1</instruction>
+<instruction>moveto Plate_1</instruction>
+<instruction>grasp Plate_1</instruction>
+<instruction>moveto GarbageBin_1</instruction>
+<instruction>keep Plate_1 On GarbageBin_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Beer_1</instruction>
+<instruction>grasp Beer_1</instruction>
+<instruction>moveto GarbageBin_1</instruction>
+<instruction>keep Beer_1 On GarbageBin_1</instruction>
+<instruction>moveto Coke_1</instruction>
+<instruction>grasp Coke_1</instruction>
+<instruction>moveto GarbageBin_1</instruction>
+<instruction>keep Coke_1 On GarbageBin_1</instruction>
+<instruction>moveto BagOfChips_1</instruction>
+<instruction>grasp BagOfChips_1</instruction>
+<instruction>moveto GarbageBin_1</instruction>
+<instruction>keep BagOfChips_1 On GarbageBin_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Book_1</instruction>
+<instruction>grasp Book_1</instruction>
+<instruction>moveto Studytable_1</instruction>
+<instruction>keep Book_1 On Studytable_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Pillow_1</instruction>
+<instruction>grasp Pillow_1</instruction>
+<instruction>moveto Loveseat_1</instruction>
+<instruction>keep Pillow_1 On Loveseat_1</instruction>
+<instruction>moveto Pillow_2</instruction>
+<instruction>grasp Pillow_2</instruction>
+<instruction>moveto Armchair_1</instruction>
+<instruction>keep Pillow_2 On Armchair_1</instruction>
+<instruction>moveto Pillow_3</instruction>
+<instruction>grasp Pillow_3</instruction>
+<instruction>moveto Armchair_2</instruction>
+<instruction>keep Pillow_3 On Armchair_2</instruction>
+</point>
+<point>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Xbox_1</instruction>
+<instruction>grasp Xbox_1</instruction>
+<instruction>moveto Loveseat_1</instruction>
+<instruction>keep Xbox_1 On Loveseat_1</instruction>
+<instruction>moveto XboxController_1</instruction>
+<instruction>grasp XboxController_1</instruction>
+<instruction>keep XboxController_1 On Loveseat_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto BagOfChips_1</instruction>
+<instruction>grasp BagOfChips_1</instruction>
+<instruction>moveto Plate_1</instruction>
+<instruction>grasp Plate_1</instruction>
+<instruction>pour BagOfChips_1 Plate_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto GarbageBin_1</instruction>
+<instruction>keep BagOfChips_1 On GarbageBin_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto CoffeeTable_1</instruction>
+<instruction>keep Plate_1 On CoffeeTable_1</instruction>
+<instruction>moveto Pillow_1</instruction>
+<instruction>grasp Pillow_1</instruction>
+<instruction>moveto Armchair_1</instruction>
+<instruction>keep Pillow_1 On Armchair_1</instruction>
+<instruction>moveto Pillow_2</instruction>
+<instruction>grasp Pillow_2</instruction>
+<instruction>moveto Armchair_2</instruction>
+<instruction>keep Pillow_2 On Armchair_2</instruction>
+<instruction>moveto Pillow_3</instruction>
+<instruction>grasp Pillow_3</instruction>
+<instruction>moveto Armchair_3</instruction>
+<instruction>keep Pillow_3 On Armchair_3</instruction>
+<instruction>moveto Pillow_4</instruction>
+<instruction>grasp Pillow_4</instruction>
+<instruction>moveto Loveseat_1</instruction>
+<instruction>keep Pillow_4 On Loveseat_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Book_1</instruction>
+<instruction>grasp Book_1</instruction>
+<instruction>moveto Book_2</instruction>
+<instruction>grasp Book_2</instruction>
+<instruction>moveto Studytable_1</instruction>
+<instruction>keep Book_1 On Studytable_1</instruction>
+<instruction>keep Book_2 On Studytable_1</instruction>
+</point>
+<point>
+<instruction>moveto Cd_1</instruction>
+<instruction>grasp Cd_1</instruction>
+<instruction>moveto Xbox_1</instruction>
+<instruction>grasp Xbox_1</instruction>
+<instruction>insert Cd_1 Xbox_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Tv_1</instruction>
+<instruction>press Tv_1PowerButton</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Loveseat_1</instruction>
+<instruction>keep Xbox_1 On Loveseat_1</instruction>
+</point>
+<point>
+<instruction>moveto Book_1</instruction>
+<instruction>grasp Book_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto CoffeeTable_1</instruction>
+<instruction>keep Book_1 On CoffeeTable_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Beer_1</instruction>
+<instruction>grasp Beer_1</instruction>
+<instruction>moveto GarbageBin_1</instruction>
+<instruction>keep Beer_1 On GarbageBin_1</instruction>
+<instruction>moveto Coke_1</instruction>
+<instruction>grasp Coke_1</instruction>
+<instruction>moveto GarbageBin_1</instruction>
+<instruction>keep Coke_1 On GarbageBin_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+</point>
+<point_notconsidered>
+<instruction>moveto Glass_1</instruction>
+<instruction>grasp Glass_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Sink</instruction>
+<instruction>turn SinkKnob</instruction>
+<instruction>keep Glass_1 On Sink</instruction>
+<instruction>turn SinkKnob</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Microwave</instruction>
+<instruction>open Microwave</instruction>
+<instruction>moveto Mug_1</instruction>
+<instruction>grasp Mug_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Glass_1</instruction>
+<instruction>grasp Glass_1</instruction>
+<instruction>moveto Microwave</instruction>
+<instruction>keep Glass_1 Inside Microwave</instruction>
+<instruction>close Microwave</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>press MicrowaveButton</instruction>
+<instruction>open Microwave</instruction>
+<instruction>moveto Glass_1</instruction>
+<instruction>grasp Glass_1</instruction>
+<instruction>moveto Microwave</instruction>
+<instruction>close Microwave</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto InstantRamen_1</instruction>
+<instruction>grasp InstantRamen_1</instruction>
+<instruction>pour Glass_1 InstantRamen_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+</point_notconsidered>
+<point>
+<instruction>moveto Mug_1</instruction>
+<instruction>grasp Mug_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Counter_1</instruction>
+<instruction>keep Mug_1 On Counter_1</instruction>
+<instruction>moveto IceCream_1</instruction>
+<instruction>grasp IceCream_1</instruction>
+<instruction>moveto Spoon_1</instruction>
+<instruction>grasp Spoon_1</instruction>
+<instruction>scoop Spoon_1 IceCream_1</instruction>
+<instruction>moveto Counter_1</instruction>
+<instruction>keep IceCream_1 On Counter_1</instruction>
+<instruction>moveto Mug_1</instruction>
+<instruction>grasp Mug_1</instruction>
+<instruction>add IceCreamScoop Mug_1</instruction>
+<instruction>moveto Counter_1</instruction>
+<instruction>keep Spoon_1 On Counter_1</instruction>
+<instruction>moveto Syrup_1</instruction>
+<instruction>grasp Syrup_1</instruction>
+<instruction>pour Syrup_1 Mug_1</instruction>
+</point>
+<point>
+<instruction>moveto Kettle</instruction>
+<instruction>grasp Kettle</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Sink</instruction>
+<instruction>keep Kettle On Sink</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>turn SinkKnob</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>turn SinkKnob</instruction>
+<instruction>grasp Kettle</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Stove</instruction>
+<instruction>keep Kettle On StoveFire_4</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>turn StoveKnob_4</instruction>
+</point>
+<point>
+<instruction>moveto Tv_1</instruction>
+<instruction>press Tv_1PowerButton</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Coke_1</instruction>
+<instruction>grasp Coke_1</instruction>
+<instruction>moveto CoffeeTable_1</instruction>
+<instruction>keep Coke_1 On CoffeeTable_1</instruction>
+<instruction>moveto BagOfChips_1</instruction>
+<instruction>grasp BagOfChips_1</instruction>
+<instruction>moveto CoffeeTable_1</instruction>
+<instruction>keep BagOfChips_1 On CoffeeTable_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Beer_1</instruction>
+<instruction>grasp Beer_1</instruction>
+<instruction>moveto CoffeeTable_1</instruction>
+<instruction>keep Beer_1 On CoffeeTable_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+</point>
+<point_notconsidered>
+<instruction>moveto Kettle</instruction>
+<instruction>grasp Kettle</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Sink</instruction>
+<instruction>keep Kettle On Sink</instruction>
+<instruction>turn SinkKnob</instruction>
+<instruction>turn SinkKnob</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Kettle</instruction>
+<instruction>grasp Kettle</instruction>
+<instruction>moveto Stove</instruction>
+<instruction>keep Kettle On StoveFire_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>turn StoveKnob_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>turn StoveKnob_1</instruction>
+</point_notconsidered>
+<point>
+<instruction>moveto Tv_1</instruction>
+<instruction>press Tv_1PowerButton</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Cd_2</instruction>
+<instruction>grasp Cd_2</instruction>
+<instruction>moveto Xbox_1</instruction>
+<instruction>grasp Xbox_1</instruction>
+<instruction>insert Cd_2 Xbox_1</instruction>
+<instruction>moveto CoffeeTable_1</instruction>
+<instruction>keep Xbox_1 On CoffeeTable_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Pillow_1</instruction>
+<instruction>grasp Pillow_1</instruction>
+<instruction>moveto Armchair_1</instruction>
+<instruction>keep Pillow_1 On Armchair_1</instruction>
+<instruction>moveto Pillow_2</instruction>
+<instruction>grasp Pillow_2</instruction>
+<instruction>moveto Armchair_2</instruction>
+<instruction>keep Pillow_2 On Armchair_2</instruction>
+<instruction>moveto Pillow_3</instruction>
+<instruction>grasp Pillow_3</instruction>
+<instruction>moveto Armchair_3</instruction>
+<instruction>keep Pillow_3 On Armchair_3</instruction>
+<instruction>moveto Pillow_4</instruction>
+<instruction>grasp Pillow_4</instruction>
+<instruction>moveto Armchair_4</instruction>
+<instruction>keep Pillow_4 On Armchair_4</instruction>
+</point>
+<point>
+<instruction>moveto Cd_1</instruction>
+<instruction>grasp Cd_1</instruction>
+<instruction>moveto Xbox_1</instruction>
+<instruction>grasp Xbox_1</instruction>
+<instruction>insert Cd_1 Xbox_1</instruction>
+<instruction>moveto Loveseat_1</instruction>
+<instruction>keep Xbox_1 On Loveseat_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto BagOfChips_1</instruction>
+<instruction>grasp BagOfChips_1</instruction>
+<instruction>moveto Coke_1</instruction>
+<instruction>grasp Coke_1</instruction>
+<instruction>moveto CoffeeTable_1</instruction>
+<instruction>keep BagOfChips_1 On CoffeeTable_1</instruction>
+<instruction>keep Coke_1 On CoffeeTable_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+</point>
+<point>
+<instruction>moveto Book_2</instruction>
+<instruction>grasp Book_2</instruction>
+<instruction>moveto Studytable_1</instruction>
+<instruction>keep Book_2 On Studytable_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto BagOfChips_1</instruction>
+<instruction>grasp BagOfChips_1</instruction>
+<instruction>moveto Studytable_1</instruction>
+<instruction>keep BagOfChips_1 On Studytable_1</instruction>
+<instruction>moveto Coke_1</instruction>
+<instruction>grasp Coke_1</instruction>
+<instruction>moveto Studytable_1</instruction>
+<instruction>keep Coke_1 On Studytable_1</instruction>
+</point>
+<point>
+<instruction>moveto Kettle</instruction>
+<instruction>grasp Kettle</instruction>
+<instruction>moveto Sink</instruction>
+<instruction>keep Kettle On Sink</instruction>
+<instruction>turn SinkKnob</instruction>
+<instruction>turn SinkKnob</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Kettle</instruction>
+<instruction>grasp Kettle</instruction>
+<instruction>moveto Stove</instruction>
+<instruction>grasp Stove</instruction>
+<instruction>keep Kettle On StoveFire_4</instruction>
+<instruction>turn StoveKnob_4</instruction>
+<instruction>turn StoveKnob_4</instruction>
+</point>
+<point>
+<instruction>moveto Tv_1Remote_1</instruction>
+<instruction>grasp Tv_1Remote_1</instruction>
+<instruction>moveto XboxController_1</instruction>
+<instruction>grasp XboxController_1</instruction>
+<instruction>moveto Loveseat_1</instruction>
+<instruction>keep Tv_1Remote_1 On Loveseat_1</instruction>
+<instruction>keep XboxController_1 On Loveseat_1</instruction>
+<instruction>moveto Book_2</instruction>
+<instruction>grasp Book_2</instruction>
+<instruction>moveto Plate_1</instruction>
+<instruction>grasp Plate_1</instruction>
+<instruction>moveto SnackTable_1</instruction>
+<instruction>keep Book_2 On SnackTable_1</instruction>
+<instruction>keep Plate_1 On SnackTable_1</instruction>
+<instruction>moveto BagOfChips_1</instruction>
+<instruction>grasp BagOfChips_1</instruction>
+<instruction>moveto SnackTable_1</instruction>
+<instruction>keep BagOfChips_1 On SnackTable_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Coke_1</instruction>
+<instruction>grasp Coke_1</instruction>
+<instruction>moveto CoffeeTable_1</instruction>
+<instruction>keep Coke_1 On CoffeeTable_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Bowl_1</instruction>
+<instruction>grasp Bowl_1</instruction>
+<instruction>moveto CoffeeTable_1</instruction>
+<instruction>keep Bowl_1 On CoffeeTable_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto BagOfChips_1</instruction>
+<instruction>grasp BagOfChips_1</instruction>
+<instruction>open BagOfChips_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Bowl_1</instruction>
+<instruction>grasp Bowl_1</instruction>
+<instruction>pour BagOfChips_1 Bowl_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Book_1</instruction>
+<instruction>grasp Book_1</instruction>
+<instruction>moveto Book_2</instruction>
+<instruction>grasp Book_2</instruction>
+<instruction>moveto CoffeeTable_1</instruction>
+<instruction>keep Book_1 On CoffeeTable_1</instruction>
+<instruction>keep Book_2 On CoffeeTable_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+</point>
+<point_notconsidered>
+<instruction>moveto Fridge</instruction>
+<instruction>open FridgeLeftDoor</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto IceCream_1</instruction>
+<instruction>grasp IceCream_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Spoon_1</instruction>
+<instruction>grasp Spoon_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>scoop Spoon_1 IceCream_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Counter_1</instruction>
+<instruction>keep IceCream_1 On Counter_1</instruction>
+<instruction>moveto Mug_1</instruction>
+<instruction>grasp Mug_1</instruction>
+<instruction>add IceCreamScoop Mug_1</instruction>
+<instruction>moveto Counter_1</instruction>
+<instruction>keep Spoon_1 On Counter_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Syrup_2</instruction>
+<instruction>grasp Syrup_2</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>squeeze Syrup_2 Mug_1</instruction>
+</point_notconsidered>
+<point>
+<instruction>moveto Microwave</instruction>
+<instruction>open Microwave</instruction>
+<instruction>moveto Mug_1</instruction>
+<instruction>grasp Mug_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Fridge</instruction>
+<instruction>open FridgeLeftDoor</instruction>
+<instruction>moveto IceCream_1</instruction>
+<instruction>grasp IceCream_1</instruction>
+<instruction>moveto Counter_1</instruction>
+<instruction>keep Mug_1 On Counter_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Spoon_1</instruction>
+<instruction>grasp Spoon_1</instruction>
+<instruction>scoop Spoon_1 IceCream_1</instruction>
+<instruction>moveto Counter_1</instruction>
+<instruction>keep IceCream_1 On Counter_1</instruction>
+<instruction>moveto Mug_1</instruction>
+<instruction>grasp Mug_1</instruction>
+<instruction>add IceCreamScoop Mug_1</instruction>
+<instruction>moveto Counter_1</instruction>
+<instruction>keep Spoon_1 On Counter_1</instruction>
+<instruction>moveto Syrup_1</instruction>
+<instruction>grasp Syrup_1</instruction>
+<instruction>squeeze Syrup_1 Mug_1</instruction>
+</point>
+<point>
+<instruction>moveto Microwave</instruction>
+<instruction>open Microwave</instruction>
+<instruction>moveto Mug_1</instruction>
+<instruction>grasp Mug_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Fridge</instruction>
+<instruction>open FridgeLeftDoor</instruction>
+<instruction>moveto IceCream_1</instruction>
+<instruction>grasp IceCream_1</instruction>
+<instruction>moveto Counter_1</instruction>
+<instruction>keep Mug_1 On Counter_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Spoon_1</instruction>
+<instruction>grasp Spoon_1</instruction>
+<instruction>scoop Spoon_1 IceCream_1</instruction>
+<instruction>moveto Counter_1</instruction>
+<instruction>keep IceCream_1 On Counter_1</instruction>
+<instruction>moveto Mug_1</instruction>
+<instruction>grasp Mug_1</instruction>
+<instruction>add IceCreamScoop Mug_1</instruction>
+<instruction>moveto Counter_1</instruction>
+<instruction>keep Spoon_1 On Counter_1</instruction>
+<instruction>moveto Syrup_1</instruction>
+<instruction>grasp Syrup_1</instruction>
+<instruction>squeeze Syrup_1 Mug_1</instruction>
+</point>
+<point>
+<instruction>moveto Fridge</instruction>
+<instruction>open FridgeRightDoor</instruction>
+<instruction>moveto BoiledEgg_1</instruction>
+<instruction>grasp BoiledEgg_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Plate_1</instruction>
+<instruction>grasp Plate_1</instruction>
+<instruction>add BoiledEgg_1 Plate_1</instruction>
+</point>
+<point>
+</point>
+<point>
+<instruction>Change-Of-Segment</instruction>
+</point>
+<point>
+<instruction>moveto Tv_1</instruction>
+<instruction>press Tv_1PowerButton</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>press Tv_1ChannelUpButton</instruction>
+<instruction>press Tv_1ChannelDownButton</instruction>
+</point>
+<point>
+<instruction>moveto LongCup_2</instruction>
+<instruction>grasp LongCup_2</instruction>
+<instruction>moveto Glass_1</instruction>
+<instruction>grasp Glass_1</instruction>
+<instruction>release Glass_1</instruction>
+<instruction>release LongCup_2</instruction>
+<instruction>moveto Fork_1</instruction>
+<instruction>grasp Fork_1</instruction>
+<instruction>moveto Spoon_1</instruction>
+<instruction>grasp Spoon_1</instruction>
+<instruction>release Spoon_1</instruction>
+<instruction>release Fork_1</instruction>
+<instruction>moveto Glass_1</instruction>
+<instruction>grasp Glass_1</instruction>
+<instruction>release Glass_1</instruction>
+<instruction>moveto LongCup_1</instruction>
+<instruction>grasp LongCup_1</instruction>
+<instruction>release LongCup_1</instruction>
+<instruction>moveto Plate_1</instruction>
+<instruction>grasp Plate_1</instruction>
+<instruction>moveto Plate_2</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Plate_2</instruction>
+<instruction>grasp Plate_2</instruction>
+<instruction>release Plate_2</instruction>
+<instruction>release Plate_1</instruction>
+<instruction>moveto Plate_1</instruction>
+<instruction>grasp Plate_1</instruction>
+<instruction>moveto Plate_2</instruction>
+<instruction>grasp Plate_2</instruction>
+<instruction>release Plate_1</instruction>
+<instruction>release Plate_2</instruction>
+<instruction>moveto Plate_2</instruction>
+<instruction>grasp Plate_2</instruction>
+<instruction>moveto Plate_1</instruction>
+<instruction>grasp Plate_1</instruction>
+<instruction>moveto Sink</instruction>
+<instruction>keep Plate_1 On Sink</instruction>
+<instruction>keep Plate_2 On Sink</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Spoon_1</instruction>
+<instruction>grasp Spoon_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Fork_1</instruction>
+<instruction>grasp Fork_1</instruction>
+<instruction>release Fork_1</instruction>
+<instruction>release Spoon_1</instruction>
+<instruction>moveto LongCup_1</instruction>
+<instruction>grasp LongCup_1</instruction>
+<instruction>moveto Glass_1</instruction>
+<instruction>grasp Glass_1</instruction>
+<instruction>keep Glass_1 On Sink</instruction>
+<instruction>keep LongCup_1 On Sink</instruction>
+<instruction>moveto LongCup_2</instruction>
+<instruction>grasp LongCup_2</instruction>
+<instruction>keep LongCup_2 On Sink</instruction>
+<instruction>moveto InstantRamen_1</instruction>
+<instruction>grasp InstantRamen_1</instruction>
+<instruction>release InstantRamen_1</instruction>
+<instruction>moveto Microwave</instruction>
+<instruction>open Microwave</instruction>
+<instruction>moveto Mug_1</instruction>
+<instruction>grasp Mug_1</instruction>
+<instruction>close Microwave</instruction>
+<instruction>pour Mug_1</instruction>
+</point>
+<point>
+<instruction>moveto Glass_1</instruction>
+<instruction>grasp Glass_1</instruction>
+<instruction>release Glass_1</instruction>
+<instruction>moveto Stove</instruction>
+<instruction>turn StoveKnob_1</instruction>
+<instruction>moveto InstantRamen_1</instruction>
+<instruction>grasp InstantRamen_1</instruction>
+<instruction>moveto Sink</instruction>
+<instruction>turn SinkKnob</instruction>
+<instruction>release InstantRamen_1</instruction>
+<instruction>turn SinkKnob</instruction>
+<instruction>moveto Kettle</instruction>
+<instruction>grasp Kettle</instruction>
+<instruction>turn SinkKnob</instruction>
+<instruction>release Kettle</instruction>
+<instruction>moveto Kettle</instruction>
+<instruction>grasp Kettle</instruction>
+<instruction>wait</instruction>
+<instruction>keep Kettle On Sink</instruction>
+<instruction>moveto Kettle</instruction>
+<instruction>grasp Kettle</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>grasp Kettle</instruction>
+<instruction>turn SinkKnob</instruction>
+<instruction>keep Kettle On Sink</instruction>
+<instruction>moveto Kettle</instruction>
+<instruction>grasp Kettle</instruction>
+<instruction>keep Kettle On Sink</instruction>
+<instruction>turn SinkKnob</instruction>
+<instruction>moveto Kettle</instruction>
+<instruction>grasp Kettle</instruction>
+<instruction>keep Kettle On Sink</instruction>
+<instruction>pour Kettle</instruction>
+<instruction>wait</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>keep Kettle On Sink</instruction>
+<instruction>moveto Kettle</instruction>
+<instruction>grasp Kettle</instruction>
+<instruction>turn SinkKnob</instruction>
+<instruction>release Kettle</instruction>
+<instruction>moveto InstantRamen_1</instruction>
+<instruction>grasp InstantRamen_1</instruction>
+<instruction>release InstantRamen_1</instruction>
+<instruction>moveto Kettle</instruction>
+<instruction>grasp Kettle</instruction>
+<instruction>moveto InstantRamen_1</instruction>
+<instruction>grasp InstantRamen_1</instruction>
+<instruction>release InstantRamen_1</instruction>
+<instruction>keep Kettle On Sink</instruction>
+<instruction>moveto InstantRamen_1</instruction>
+<instruction>grasp InstantRamen_1</instruction>
+<instruction>moveto Kettle</instruction>
+<instruction>grasp Kettle</instruction>
+<instruction>pour Kettle InstantRamen_1</instruction>
+<instruction>wait</instruction>
+<instruction>release Kettle</instruction>
+<instruction>release InstantRamen_1</instruction>
+<instruction>moveto InstantRamen_1</instruction>
+<instruction>grasp InstantRamen_1</instruction>
+<instruction>release InstantRamen_1</instruction>
+<instruction>moveto Kettle</instruction>
+<instruction>grasp Kettle</instruction>
+<instruction>release Kettle</instruction>
+<instruction>moveto InstantRamen_1</instruction>
+<instruction>grasp InstantRamen_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Kettle</instruction>
+<instruction>grasp Kettle</instruction>
+<instruction>wait</instruction>
+<instruction>Change-Of-Segment</instruction>
+</point>
+<point>
+<instruction>moveto Kettle</instruction>
+<instruction>grasp Kettle</instruction>
+<instruction>moveto Sink</instruction>
+<instruction>turn SinkKnob</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>turn SinkKnob</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>keep Kettle On Sink</instruction>
+<instruction>moveto Kettle</instruction>
+<instruction>grasp Kettle</instruction>
+<instruction>moveto InstantRamen_1</instruction>
+<instruction>grasp InstantRamen_1</instruction>
+<instruction>release InstantRamen_1</instruction>
+<instruction>turn SinkKnob</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Fridge</instruction>
+<instruction>open FridgeLeftDoor</instruction>
+<instruction>open FridgeRightDoor</instruction>
+<instruction>moveto Plate_2</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>grasp Plate_2</instruction>
+</point>
+<point>
+<instruction>moveto Fridge</instruction>
+<instruction>open FridgeLeftDoor</instruction>
+<instruction>open FridgeRightDoor</instruction>
+<instruction>moveto IceCream_1</instruction>
+<instruction>grasp IceCream_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>grasp IceCream_1</instruction>
+<instruction>close FridgeLeftDoor</instruction>
+<instruction>close FridgeRightDoor</instruction>
+<instruction>moveto Spoon_1</instruction>
+<instruction>grasp Spoon_1</instruction>
+<instruction>scoop Spoon_1 IceCream_1</instruction>
+<instruction>release IceCream_1</instruction>
+<instruction>moveto Mug_1</instruction>
+</point>
+<point>
+<instruction>moveto Microwave</instruction>
+<instruction>open Microwave</instruction>
+<instruction>moveto Mug_1</instruction>
+<instruction>grasp Mug_1</instruction>
+<instruction>close Microwave</instruction>
+<instruction>release Mug_1</instruction>
+<instruction>moveto Spoon_1</instruction>
+<instruction>grasp Spoon_1</instruction>
+<instruction>moveto Fridge</instruction>
+<instruction>open FridgeLeftDoor</instruction>
+<instruction>moveto IceCream_1</instruction>
+<instruction>grasp IceCream_1</instruction>
+</point>
+<point>
+<instruction>moveto Xbox_1</instruction>
+<instruction>grasp Xbox_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Cd_2</instruction>
+<instruction>grasp Cd_2</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>insert Cd_2 Xbox_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto CoffeeTable_1</instruction>
+<instruction>keep Xbox_1 On CoffeeTable_1</instruction>
+<instruction>moveto Coke_1</instruction>
+<instruction>grasp Coke_1</instruction>
+<instruction>moveto Bowl_1</instruction>
+<instruction>grasp Bowl_1</instruction>
+<instruction>moveto Loveseat_1</instruction>
+<instruction>keep Coke_1 On Loveseat_1</instruction>
+<instruction>moveto Beer_1</instruction>
+<instruction>grasp Beer_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>keep Coke_1 On Loveseat_1</instruction>
+<instruction>moveto Beer_1</instruction>
+<instruction>grasp Beer_1</instruction>
+<instruction>moveto GarbageBin_1</instruction>
+<instruction>keep Beer_1 On GarbageBin_1</instruction>
+<instruction>grasp GarbageBin_1</instruction>
+<instruction>keep Bowl_1 On Loveseat_1</instruction>
+<instruction>moveto Pillow_3</instruction>
+<instruction>grasp Pillow_3</instruction>
+<instruction>moveto Pillow_1</instruction>
+</point>
+<point>
+<instruction>moveto Microwave</instruction>
+<instruction>open Microwave</instruction>
+<instruction>moveto Mug_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Mug_1</instruction>
+<instruction>grasp Mug_1</instruction>
+<instruction>pour Mug_1</instruction>
+<instruction>wait</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>release Mug_1</instruction>
+<instruction>moveto LongCup_2</instruction>
+<instruction>grasp LongCup_2</instruction>
+<instruction>moveto Glass_1</instruction>
+<instruction>grasp Glass_1</instruction>
+<instruction>wait</instruction>
+</point>
+<point>
+<instruction>moveto Fridge</instruction>
+<instruction>open FridgeRightDoor</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>close FridgeRightDoor</instruction>
+<instruction>open FridgeLeftDoor</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>close FridgeRightDoor</instruction>
+<instruction>open FridgeLeftDoor</instruction>
+<instruction>moveto IceCream_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>grasp IceCream_1</instruction>
+<instruction>moveto Fork_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>grasp Fork_1</instruction>
+<instruction>release Fork_1</instruction>
+<instruction>moveto Spoon_1</instruction>
+<instruction>grasp Spoon_1</instruction>
+<instruction>scoop Spoon_1 IceCream_1</instruction>
+<instruction>release IceCream_1</instruction>
+<instruction>moveto Mug_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>grasp Mug_1</instruction>
+<instruction>pour Mug_1</instruction>
+<instruction>wait</instruction>
+<instruction>add IceCreamScoop Mug_1</instruction>
+<instruction>pour Mug_1</instruction>
+<instruction>wait</instruction>
+<instruction>release Spoon_1</instruction>
+<instruction>moveto Spoon_1</instruction>
+<instruction>grasp Spoon_1</instruction>
+<instruction>release Mug_1</instruction>
+<instruction>moveto IceCream_1</instruction>
+<instruction>grasp IceCream_1</instruction>
+</point>
+<point>
+<instruction>moveto Microwave</instruction>
+<instruction>open Microwave</instruction>
+<instruction>moveto Mug_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Mug_1</instruction>
+<instruction>grasp Mug_1</instruction>
+<instruction>pour Mug_1</instruction>
+<instruction>wait</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>release Mug_1</instruction>
+<instruction>moveto Glass_1</instruction>
+<instruction>grasp Glass_1</instruction>
+<instruction>moveto LongCup_2</instruction>
+<instruction>grasp LongCup_2</instruction>
+<instruction>wait</instruction>
+</point>
+<point>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto BagOfChips_1</instruction>
+<instruction>grasp BagOfChips_1</instruction>
+<instruction>moveto Bowl_1</instruction>
+<instruction>grasp Bowl_1</instruction>
+</point>
+<point>
+<instruction>moveto Microwave</instruction>
+<instruction>open Microwave</instruction>
+<instruction>moveto Mug_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Mug_1</instruction>
+<instruction>grasp Mug_1</instruction>
+<instruction>release Mug_1</instruction>
+<instruction>moveto Fridge</instruction>
+<instruction>open FridgeLeftDoor</instruction>
+<instruction>moveto IceCream_1</instruction>
+<instruction>grasp IceCream_1</instruction>
+<instruction>close FridgeLeftDoor</instruction>
+</point>
+<point>
+<instruction>moveto Kettle</instruction>
+<instruction>grasp Kettle</instruction>
+<instruction>release Kettle</instruction>
+<instruction>moveto Kettle</instruction>
+<instruction>grasp Kettle</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>grasp Kettle</instruction>
+<instruction>moveto Sink</instruction>
+<instruction>keep Kettle On Sink</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>turn SinkKnob</instruction>
+<instruction>moveto Kettle</instruction>
+<instruction>grasp Kettle</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>release Kettle</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+</point>
+<point>
+<instruction>moveto Xbox_1</instruction>
+<instruction>grasp Xbox_1</instruction>
+<instruction>moveto Loveseat_1</instruction>
+<instruction>keep Xbox_1 On Loveseat_1</instruction>
+<instruction>moveto XboxController_1</instruction>
+<instruction>grasp XboxController_1</instruction>
+<instruction>keep XboxController_1 On Loveseat_1</instruction>
+<instruction>moveto Book_1</instruction>
+<instruction>grasp Book_1</instruction>
+<instruction>keep Book_1 On Loveseat_1</instruction>
+<instruction>moveto Cd_2</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Cd_2</instruction>
+<instruction>grasp Cd_2</instruction>
+<instruction>moveto Xbox_1</instruction>
+<instruction>grasp Xbox_1</instruction>
+<instruction>insert Cd_2 Xbox_1</instruction>
+<instruction>moveto XboxController_1</instruction>
+<instruction>grasp XboxController_1</instruction>
+<instruction>keep Xbox_1 On Loveseat_1</instruction>
+<instruction>keep XboxController_1 On Loveseat_1</instruction>
+<instruction>moveto Bowl_1</instruction>
+<instruction>grasp Bowl_1</instruction>
+<instruction>moveto Coke_1</instruction>
+<instruction>grasp Coke_1</instruction>
+<instruction>keep Coke_1 On Loveseat_1</instruction>
+<instruction>moveto BagOfChips_1</instruction>
+<instruction>grasp BagOfChips_1</instruction>
+<instruction>keep Bowl_1 On Loveseat_1</instruction>
+<instruction>moveto Bowl_1</instruction>
+<instruction>grasp Bowl_1</instruction>
+<instruction>keep BagOfChips_1 On Loveseat_1</instruction>
+<instruction>moveto BagOfChips_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>grasp BagOfChips_1</instruction>
+</point>
+<point>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Cd_1</instruction>
+<instruction>grasp Cd_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Xbox_1</instruction>
+<instruction>grasp Xbox_1</instruction>
+<instruction>insert Cd_1 Xbox_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto SnackTable_1</instruction>
+<instruction>keep Xbox_1 On SnackTable_1</instruction>
+<instruction>moveto Bowl_1</instruction>
+<instruction>grasp Bowl_1</instruction>
+<instruction>moveto Coke_1</instruction>
+<instruction>grasp Coke_1</instruction>
+<instruction>moveto Loveseat_1</instruction>
+<instruction>keep Bowl_1 On Loveseat_1</instruction>
+<instruction>moveto GarbageBag_1</instruction>
+<instruction>grasp GarbageBag_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>keep Bowl_1 On Loveseat_1</instruction>
+<instruction>moveto GarbageBag_1</instruction>
+<instruction>grasp GarbageBag_1</instruction>
+</point>
+<point>
+<instruction>moveto Book_2</instruction>
+<instruction>grasp Book_2</instruction>
+<instruction>moveto CoffeeTable_1</instruction>
+<instruction>keep Book_2 On CoffeeTable_1</instruction>
+<instruction>moveto Cd_2</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Cd_2</instruction>
+<instruction>grasp Cd_2</instruction>
+<instruction>moveto Xbox_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>grasp Xbox_1</instruction>
+<instruction>insert Cd_2 Xbox_1</instruction>
+<instruction>moveto Loveseat_1</instruction>
+<instruction>keep Xbox_1 On Loveseat_1</instruction>
+<instruction>moveto Tv_1Remote_1</instruction>
+<instruction>grasp Tv_1Remote_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Book_2</instruction>
+<instruction>grasp Book_2</instruction>
+<instruction>keep Tv_1Remote_1 On CoffeeTable_1</instruction>
+<instruction>keep Book_2 On CoffeeTable_1</instruction>
+</point>
+<point>
+<instruction>moveto Kettle</instruction>
+<instruction>grasp Kettle</instruction>
+<instruction>Change-Of-Segment</instruction>
+</point>
+<point>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Book_1</instruction>
+<instruction>grasp Book_1</instruction>
+<instruction>moveto CoffeeTable_1</instruction>
+<instruction>keep Book_1 On CoffeeTable_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+</point>
+<point>
+<instruction>moveto Fridge</instruction>
+<instruction>open FridgeLeftDoor</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto IceCream_1</instruction>
+<instruction>grasp IceCream_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>close FridgeLeftDoor</instruction>
+<instruction>moveto Spoon_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>grasp IceCream_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>close FridgeLeftDoor</instruction>
+<instruction>moveto Spoon_1</instruction>
+<instruction>grasp Spoon_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>scoop Spoon_1 IceCream_1</instruction>
+<instruction>release IceCream_1</instruction>
+</point>
+<point>
+</point>
+<point>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Book_1</instruction>
+<instruction>grasp Book_1</instruction>
+<instruction>moveto CoffeeTable_1</instruction>
+<instruction>keep Book_1 On CoffeeTable_1</instruction>
+<instruction>moveto Book_2</instruction>
+<instruction>grasp Book_2</instruction>
+<instruction>Change-Of-Segment</instruction>
+</point>
+<point>
+</point>
+<point>
+<instruction>moveto Book_1</instruction>
+<instruction>grasp Book_1</instruction>
+<instruction>moveto Cd_1</instruction>
+<instruction>grasp Cd_1</instruction>
+<instruction>moveto Loveseat_1</instruction>
+<instruction>keep Cd_1 On Loveseat_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>keep Cd_1 On Loveseat_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto CoffeeTable_1</instruction>
+<instruction>keep Book_1 On CoffeeTable_1</instruction>
+<instruction>moveto GarbageBag_1</instruction>
+<instruction>grasp GarbageBag_1</instruction>
+<instruction>keep GarbageBag_1 On CoffeeTable_1</instruction>
+<instruction>moveto GarbageBag_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+</point>
+<point>
+<instruction>moveto Kettle</instruction>
+<instruction>grasp Kettle</instruction>
+<instruction>moveto Sink</instruction>
+<instruction>keep Kettle On Sink</instruction>
+<instruction>moveto Kettle</instruction>
+<instruction>grasp Kettle</instruction>
+<instruction>keep Kettle On Sink</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>keep Kettle On Sink</instruction>
+<instruction>turn SinkKnob</instruction>
+<instruction>moveto Kettle</instruction>
+<instruction>grasp Kettle</instruction>
+<instruction>pour Kettle</instruction>
+<instruction>wait</instruction>
+<instruction>Change-Of-Segment</instruction>
+</point>
+<point>
+</point>
+<point>
+<instruction>moveto Fridge</instruction>
+<instruction>open FridgeLeftDoor</instruction>
+<instruction>open FridgeRightDoor</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>open FridgeRightDoor</instruction>
+<instruction>moveto Kettle</instruction>
+<instruction>grasp Kettle</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Sink</instruction>
+<instruction>Change-Of-Segment</instruction>
+</point>
+<point>
+<instruction>moveto Fridge</instruction>
+<instruction>open FridgeRightDoor</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>open FridgeLeftDoor</instruction>
+<instruction>moveto IceCream_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>open FridgeLeftDoor</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto IceCream_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>grasp IceCream_1</instruction>
+<instruction>moveto Spoon_1</instruction>
+<instruction>grasp Spoon_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>scoop Spoon_1 IceCream_1</instruction>
+<instruction>release IceCream_1</instruction>
+<instruction>moveto Mug_1</instruction>
+</point>
+<point>
+<instruction>Change-Of-Segment</instruction>
+</point>
+<point>
+<instruction>moveto Kettle</instruction>
+<instruction>grasp Kettle</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Sink</instruction>
+<instruction>keep Kettle On Sink</instruction>
+<instruction>moveto Kettle</instruction>
+<instruction>grasp Kettle</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Kettle</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>grasp Kettle</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>turn SinkKnob</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+</point>
+<point>
+<instruction>moveto Kettle</instruction>
+<instruction>grasp Kettle</instruction>
+<instruction>moveto Sink</instruction>
+<instruction>keep Kettle On Sink</instruction>
+<instruction>turn SinkKnob</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>turn SinkKnob</instruction>
+<instruction>moveto Kettle</instruction>
+<instruction>Change-Of-Segment</instruction>
+</point>
+<point>
+<instruction>moveto Kettle</instruction>
+<instruction>grasp Kettle</instruction>
+<instruction>release Kettle</instruction>
+<instruction>moveto Plate_2</instruction>
+<instruction>grasp Plate_2</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>grasp Plate_2</instruction>
+<instruction>release Plate_2</instruction>
+<instruction>moveto Plate_2</instruction>
+<instruction>grasp Plate_2</instruction>
+<instruction>moveto Sink</instruction>
+<instruction>keep Plate_2 On Sink</instruction>
+<instruction>moveto Mug_1</instruction>
+</point>
+<point>
+<instruction>moveto XboxController_1</instruction>
+<instruction>grasp XboxController_1</instruction>
+<instruction>moveto Xbox_1</instruction>
+<instruction>grasp Xbox_1</instruction>
+<instruction>moveto Loveseat_1</instruction>
+<instruction>keep XboxController_1 On Loveseat_1</instruction>
+<instruction>moveto Tv_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Tv_1</instruction>
+<instruction>press Tv_1PowerButton</instruction>
+<instruction>keep Xbox_1 On Loveseat_1</instruction>
+<instruction>moveto Cd_1</instruction>
+</point>
+<point>
+<instruction>moveto Cd_1</instruction>
+<instruction>grasp Cd_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Loveseat_1</instruction>
+<instruction>keep Cd_1 On Loveseat_1</instruction>
+<instruction>moveto Xbox_1</instruction>
+<instruction>grasp Xbox_1</instruction>
+<instruction>moveto XboxController_1</instruction>
+<instruction>grasp XboxController_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto XboxController_1</instruction>
+<instruction>grasp XboxController_1</instruction>
+<instruction>keep XboxController_1 On Loveseat_1</instruction>
+<instruction>keep Xbox_1 On Loveseat_1</instruction>
+<instruction>Change-Of-Segment</instruction>
+<instruction>moveto Coke_1</instruction>
+<instruction>grasp Coke_1</instruction>
+<instruction>moveto Beer_1</instruction>
+<instruction>grasp Beer_1</instruction>
+</point>
+</root>

@@ -1,0 +1,82 @@
+pick x -> (Grasping Robot x)
+
+take x -> (Grasping Robot x)
+
+grab x -> (Grasping Robot x)
+
+bring x -> (Grasping Robot x)
+
+bring x y -> (Grasping Robot x)^(Near Robot y)
+
+get x -> (Grasping Robot x)
+
+place x y -> (On x y)
+On x y
+fill x -> (state x Water)
+
+pour x -> 
+
+put x y -> (On x y)
+On x y
+put x y -> (In x y)
+In x y
+putting x y -> (On x y)
+On x y
+putting x y -> (In x y)
+In x y
+microwave x -> (In x Microwave)^()
+
+add x -> (state x Ramen)
+
+walk x -> (Near Robot x)
+
+go x -> (Near Robot x)
+
+move x -> (Near Robot x)
+
+keep x y -> (On x y)
+On x y
+keep x y -> (In x y)
+In x y
+place x y -> (On x y)
+On x y
+place x y -> (In x y)
+In x y
+wash x -> (On x Sink)^(state Sink TapIsOpen)
+
+clean x -> (On x Sink)^(state Sink TapIsOpen)
+
+channel x -> (state tv_1 IsOn)
+
+boiling x -> (In x Kettle)^(On Kettle StoveFire_1)^(state Stove StoveFire1)
+
+boil x -> (In x Kettle)^(On Kettle StoveFire_1)^(state Stove StoveFire1)
+
+cook x -> (In x Kettle)^(On Kettle StoveFire_1)^(state Stove StoveFire1)
+
+heat x -> (In x Kettle)^(On Kettle StoveFire_1)^(state Stove StoveFire1)
+
+boiling x y -> (In x y)^(On y StoveFire_1)^(state Stove StoveFire1)
+In x y
+boil x y -> (In x y)^(On y StoveFire_1)^(state Stove StoveFire1)
+In x y
+cook x y -> (In x y)^(On y StoveFire_1)^(state Stove StoveFire1)
+In x y
+heat x y -> (In x y)^(On y StoveFire_1)^(state Stove StoveFire1)
+In x y
+wait x -> 
+
+find x -> 
+
+trash x -> (Near x GarbageBin_1)^(On x GarbageBin_1)
+
+trash y -> (Near x GarbageBin_1)^(On x GarbageBin_1)
+
+remove x -> (Grasping Robot x)
+
+remove x y -> (Grasping Robot x)
+
+insert x -> (state x CD)
+
+insert x y -> (In x y)
+into x y

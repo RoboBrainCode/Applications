@@ -1,0 +1,62 @@
+When the coke is boiling
+(exists $0 (and (condition:t when:c) (and (object:t $0 coke:q) (state:t $0 IsBoiling:s))))
+
+when the coffee in the pot is boiling
+(exists $0 (and (condition:t when:c) (and (object:t $0 coffee:q) (and (In:t $0 (the $1 (object:t $1 pot:d))) (state:t $0 IsBoiling:s)))))
+
+if the cup is empty
+(exists $0 (and (condition:t if:c) (and (object:t $0 cup:d) (state:t $0 empty:s))))
+
+if the mug is on the stove
+(exists $0 (and (condition:t if:c) (and (object:t $0 mug:d) (On:t $0 (the $1 (object:t $1 stove:f))))))
+
+if the mug is red and dry
+(exists $0 (and (condition:t if:c) (and (object:t $0 mug:d) (state:t $0 red:s) (state:t $0 dry:s))))
+
+if the kettle is empty and cool
+(exists $0 (and (condition:t if:c) (and (object:t $0 kettle:d) (state:t $0 empty:s) (state:t $0 cool:s))))
+
+if it contains water
+(exists $0 (and (condition:t if:c) (and (object:t $0 it:e) (has:t $0 (the $1 (object:t $1 water:q))))))
+
+for 5 seconds
+(time:t 5:i second:u (condition:t for:c))
+
+for three minutes
+(time:t 3:i minute:u (condition:t for:c))
+
+after 5 seconds
+(time:t 5:i second:u (condition:t after:c))
+
+after three minutes
+(time:t 3:i minute:u (condition:t after:c))
+
+After the coke is boiling
+(exists $0 (and (condition:t after:c) (and (object:t $0 coke:q) (state:t $0 IsBoiling:s))))
+
+if it reaches the top of the container
+(exists $0 (and (condition:t if:c) (and (object:t $0 container:f) (state:t $0 full:s))))
+
+after it reaches the top of the container
+(exists $0 (and (condition:t after:c) (and (object:t $0 container:f) (state:t $0 full:s))))
+
+until that filled
+(exists $0 (and (condition:t until:c) (object:t $0 that:e) (state:t $0 full:s)))
+
+until that overflows
+(exists $0 (and (condition:t until:c) (object:t $0 that:e) (state:t $0 full:s)))
+
+until the coke boils
+(exists $0 (and (condition:t until:c) (and (object:t $0 coke:q) (state:t $0 IsBoiling:s))))
+
+until that boils
+(exists $0 (and (condition:t until:c) (and (object:t $0 that:e) (state:t $0 IsBoiling:s))))
+
+until the coke is boiling
+(exists $0 (and (condition:t until:c) (and (object:t $0 coke:q) (state:t $0 IsBoiling:s))))
+
+After there is coke in the cup
+(exists $0 (and (condition:t after:c) (object:t $0 coke:q) (In:t $0 (the $1 (object:t $1 cup:d)))))
+
+after boiling
+(exists $0 (and (condition:t after:c) (state:t $0 IsBoiling:s)))

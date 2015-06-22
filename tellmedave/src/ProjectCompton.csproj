@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C804C956-6185-4D21-847E-D8991C6D2C81}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProjectCompton</RootNamespace>
+    <AssemblyName>ProjectCompton</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProductVersion>12.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.Solver.Foundation">
+      <HintPath>References\Microsoft.Solver.Foundation.dll</HintPath>
+    </Reference>
+    <Reference Include="alglibnet2">
+      <HintPath>Optimizer\alglibnet2.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clause.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="DataAnalysis.cs" />
+    <Compile Include="Features.cs" />
+    <Compile Include="Inference.cs" />
+    <Compile Include="Instruction.cs" />
+    <Compile Include="InstructionTree.cs" />
+    <Compile Include="Learning.cs" />
+    <Compile Include="Logger.cs">
+      <DependentUpon>Instruction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Metrics.cs" />
+    <Compile Include="NoiseRemoval.cs" />
+    <Compile Include="NounPhrase.cs" />
+    <Compile Include="Expression.cs" />
+    <Compile Include="Processing.cs" />
+    <Compile Include="QPSolver.cs" />
+    <Compile Include="Simulator.cs" />
+    <Compile Include="SymbolicPlanner.cs" />
+    <Compile Include="Template.cs" />
+    <Compile Include="Tester.cs" />
+    <Compile Include="Environment.cs" />
+    <Compile Include="Object.cs" />
+    <Compile Include="Parser.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SyntacticTree.cs" />
+    <Compile Include="VerbProgram.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="Mapping.cs" />
+    <Compile Include="Predicate.cs" />
+    <Compile Include="LexicalEntry.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="wordnetdotnet\Projects\Thanh\WordsMatching.csproj">
+      <Project>{CFFEA5F4-2374-4336-956B-F6EDB9E2FBF1}</Project>
+      <Name>WordsMatching</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

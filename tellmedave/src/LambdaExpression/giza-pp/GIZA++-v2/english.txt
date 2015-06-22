@@ -1,0 +1,42 @@
+if there exists a mug
+if there exists a cup
+if there exists a cup and there exists a cup
+if there exists an empty kettle
+if there exists a green glass
+if there exists a cup that contains syrup
+if there exists a cup that contains coke
+if there is a red glass
+if there is a yellow bowl
+if there is an empty cup
+if the cup contains water
+if it contains coffee
+if the plate contains syrup
+if the cup is empty
+if they are used
+if the kettle is white
+if the mug is on the stove
+if the mug is red and dry
+if the kettle is empty and cool
+if the glass is used and on the floor
+if the plate is dirty and in the refrigerator
+for all mugs that contain water
+for all bowls that are green
+for all glasses that are empty
+for every cup that is dry
+for every plate that is on the table
+for all mugs that are in the sink
+if the robot is grasping the mug
+if the robot is near the refrigerator
+if the robot is close to the stove
+if the microwave is on and the robot is close to the microwave
+if the stove is not on and the mug contains coffee
+if the mug is green and the TV is on
+if there exists a mug and the mug contains sugar
+if the television is on
+if you find any cups
+When the water is boiling
+when the water in the pot is boiling
+if there exists a cup and there exists a cup and there exists a cup and there exists a cup and there exists a cup
+if the mug is on the table or on the stove
+if the glass is empty or dry
+if the refrigerator is on and the mug contains coke

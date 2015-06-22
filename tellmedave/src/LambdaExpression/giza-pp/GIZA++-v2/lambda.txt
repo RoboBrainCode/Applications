@@ -1,0 +1,42 @@
+exists $0 object:t $0 mug:d
+exists $0 object:t $0 cup:d
+and exists $0 object:t $0 cup:d exists $0 object:t $0 cup:d
+exists $0 and object:t $0 kettle:d state:t $0 empty:s
+exists $0 and object:t $0 glass:d state:t $0 green:s
+exists $0 and object:t $0 cup:d has:t $0 the $1 object:t $1 syrup:q
+exists $0 and object:t $0 cup:d has:t $0 the $1 object:t $1 coke:q
+exists $0 and object:t $0 glass:d state:t $0 red:s
+exists $0 and object:t $0 bowl:d state:t $0 yellow:s
+exists $0 and object:t $0 cup:d state:t $0 empty:s
+exists $0 and object:t $0 cup:d has:t $0 the $1 object:t $1 water:q
+exists $0 and object:t $0 it:e has:t $0 the $1 object:t $1 coffee:q
+exists $0 and object:t $0 plate:d has:t $0 the $1 object:t $1 syrup:q
+exists $0 and object:t $0 cup:d state:t $0 empty:s
+exists $0 and object:t $0 they:e state:t $0 used:s
+exists $0 and object:t $0 kettle:d state:t $0 white:s
+exists $0 and object:t $0 mug:d On:t $0 the $1 object:t $1 stove:f
+exists $0 and object:t $0 mug:d state:t $0 red:s state:t $0 dry:s
+exists $0 and object:t $0 kettle:d state:t $0 empty:s state:t $0 cool:s
+exists $0 and object:t $0 kettle:d state:t $0 used:s On:t $0 the $1 object:t $1 floor:lo
+exists $0 and object:t $0 plate:d state:t $0 dirty:s In:t $0 the $1 object:t $1 refrigerator:f
+forall $0 and object:t $0 mugs:d has:t $0 the $1 object:t $1 water:q
+forall $0 and object:t $0 bowls:d state:t $0 green:s
+forall $0 and object:t $0 glasses:d state:t $0 empty:s
+forall $0 and object:t $0 cup:d state:t $0 dry:s
+forall $0 and object:t $0 plate:d On:t $0 the $1 object:t $1 table:f
+forall $0 and object:t $0 mugs:d In:t $0 the $1 object:t $1 sink:f
+exists $0 and object:t $0 robot:p IsGrasping:t $0 the $1 object:t $1 mug:d
+exists $0 and object:t $0 robot:p IsNear:t $0 the $1 object:t $1 refrigerator:f
+exists $0 and object:t $0 robot:p IsNear:t $0 the $1 object:t $1 stove:f
+and exists $1 and object:t $1 microwave:f state:t $1 IsOn:s exists $0 and object:t $0 robot:p IsNear:t $0 the $2 object:t $2 microwave:f
+and exists $1 and object:t $1 stove:f not state:t $1 IsOn:s exists $0 and object:t $0 mug:d has:t $0 the $2 object:t $2 coffee:q
+and exists $1 and object:t $1 mug:d state:t $1 green:s exists $0 and object:t $0 tv:f state:t $0 IsOn:s
+and exists $1 object:t $1 mug:d exists $0 and object:t $0 mug:d has:t $0 the $2 object:t $2 sugar:q
+exists $1 and object:t $1 television:f state:t $1 IsOn:s
+exists $0 and object:t $0 you:p exists $1 object:t $1 cups:d
+exists $1 and object:t $1 water:q state:t $1 IsBoiling:s
+exists $1 and object:t $1 water:q In:t $1 the $2 object:t $2 pot:d state:t $1 IsBoiling:s
+and exists $0 object:t $0 cup:d exists $0 object:t $0 cup:d exists $0 object:t $0 cup:d exists $0 object:t $0 cup:d exists $0 object:t $0 cup:d
+exists $0 and object:t $0 mug:d or On:t $0 the $1 object:t $1 table:f On:t $0 the $1 object:t $1 stove:f
+exists $0 and object:t $0 glass:d or state:t $0 empty:s state:t $0 dry:s
+and exists $1 and object:t $1 refrigerator:f state:t $1 IsOn:s exists $0 and object:t $0 mug:d has:t $0 the $2 object:t $2 coke:q

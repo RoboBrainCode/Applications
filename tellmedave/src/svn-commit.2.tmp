@@ -1,0 +1,15 @@
+
+--This line, and those below, will be ignored--
+
+M    Constants.cs
+M    Environment.cs
+M    Features.cs
+M    Global.cs
+M    Inference.cs
+M    Mapping.cs
+M    Parser.cs
+M    Processing.cs
+M    QPSolver.cs
+M    SymbolicPlanner.cs
+M    SyntacticTree.cs
+M    Tester.cs

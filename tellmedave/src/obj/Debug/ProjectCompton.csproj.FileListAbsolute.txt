@@ -1,0 +1,28 @@
+C:\Users\sony\documents\visual studio 2012\Projects\ProjectCompton\ProjectCompton\bin\Debug\ProjectCompton.exe.config
+C:\Users\sony\documents\visual studio 2012\Projects\ProjectCompton\ProjectCompton\bin\Debug\ProjectCompton.exe
+C:\Users\sony\documents\visual studio 2012\Projects\ProjectCompton\ProjectCompton\bin\Debug\ProjectCompton.pdb
+C:\Users\sony\documents\visual studio 2012\Projects\ProjectCompton\ProjectCompton\obj\Debug\ProjectCompton.exe
+C:\Users\sony\documents\visual studio 2012\Projects\ProjectCompton\ProjectCompton\obj\Debug\ProjectCompton.pdb
+C:\Users\sony\documents\visual studio 2012\Projects\ProjectCompton\ProjectCompton\obj\Debug\ProjectCompton.csprojResolveAssemblyReference.cache
+C:\Users\dkm\Documents\Visual Studio 2012\Projects\ProjectCompton\bin\Debug\ProjectCompton.exe.config
+C:\Users\dkm\Documents\Visual Studio 2012\Projects\ProjectCompton\obj\Debug\ProjectCompton.exe
+C:\Users\dkm\Documents\Visual Studio 2012\Projects\ProjectCompton\obj\Debug\ProjectCompton.pdb
+C:\Users\sony\documents\visual studio 2012\Projects\ProjectCompton\bin\Debug\ProjectCompton.exe.config
+C:\Users\sony\documents\visual studio 2012\Projects\ProjectCompton\bin\Debug\ProjectCompton.exe
+C:\Users\sony\documents\visual studio 2012\Projects\ProjectCompton\bin\Debug\ProjectCompton.pdb
+C:\Users\sony\documents\visual studio 2012\Projects\ProjectCompton\obj\Debug\ProjectCompton.exe
+C:\Users\sony\documents\visual studio 2012\Projects\ProjectCompton\obj\Debug\ProjectCompton.pdb
+C:\Users\sony\documents\visual studio 2012\Projects\ProjectCompton\obj\Debug\ProjectCompton.csprojResolveAssemblyReference.cache
+C:\Users\sony\Documents\Visual Studio 2012\Projects\ProjectCompton\verbgrounding\bin\Debug\ProjectCompton.exe.config
+C:\Users\sony\Documents\Visual Studio 2012\Projects\ProjectCompton\verbgrounding\obj\Debug\ProjectCompton.exe
+C:\Users\sony\Documents\Visual Studio 2012\Projects\ProjectCompton\verbgrounding\obj\Debug\ProjectCompton.pdb
+C:\Users\AirRobot\Desktop\verbgrounding\bin\Debug\ProjectCompton.exe.config
+C:\Users\AirRobot\Desktop\verbgrounding\obj\Debug\ProjectCompton.exe
+C:\Users\AirRobot\Desktop\verbgrounding\obj\Debug\ProjectCompton.pdb
+C:\Users\AirRobot\Desktop\verbgrounding\obj\Debug\ProjectCompton.csprojResolveAssemblyReference.cache
+C:\Users\AirRobot\Desktop\verbgrounding\bin\Debug\ProjectCompton.exe
+C:\Users\AirRobot\Desktop\verbgrounding\bin\Debug\ProjectCompton.pdb
+C:\Users\AirRobot\Desktop\verbgrounding\bin\Debug\WordsMatching.dll
+C:\Users\AirRobot\Desktop\verbgrounding\bin\Debug\WordNetClasses.dll
+C:\Users\AirRobot\Desktop\verbgrounding\bin\Debug\WordsMatching.pdb
+C:\Users\AirRobot\Desktop\verbgrounding\bin\Debug\WordNetClasses.pdb

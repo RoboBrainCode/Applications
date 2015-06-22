@@ -1,0 +1,14 @@
+C:\Users\AirRobot\Desktop\wordnetdotnet\Projects\Thanh\bin\Debug\WordsMatching.exe
+C:\Users\AirRobot\Desktop\wordnetdotnet\Projects\Thanh\bin\Debug\WordsMatching.pdb
+C:\Users\AirRobot\Desktop\wordnetdotnet\Projects\Thanh\bin\Debug\WordNetClasses.pdb
+C:\Users\AirRobot\Desktop\wordnetdotnet\Projects\Thanh\obj\Debug\WordsMatching.csprojResolveAssemblyReference.cache
+C:\Users\AirRobot\Desktop\wordnetdotnet\Projects\Thanh\obj\Debug\WordsMatching.exe
+C:\Users\AirRobot\Desktop\wordnetdotnet\Projects\Thanh\obj\Debug\WordsMatching.pdb
+C:\Users\AirRobot\Desktop\wordnetdotnet\Projects\Thanh\bin\Debug\WordNetClasses.dll
+C:\Users\AirRobot\Desktop\verbgrounding\wordnetdotnet\Projects\Thanh\bin\Debug\WordsMatching.dll
+C:\Users\AirRobot\Desktop\verbgrounding\wordnetdotnet\Projects\Thanh\bin\Debug\WordsMatching.pdb
+C:\Users\AirRobot\Desktop\verbgrounding\wordnetdotnet\Projects\Thanh\bin\Debug\WordNetClasses.dll
+C:\Users\AirRobot\Desktop\verbgrounding\wordnetdotnet\Projects\Thanh\bin\Debug\WordNetClasses.pdb
+C:\Users\AirRobot\Desktop\verbgrounding\wordnetdotnet\Projects\Thanh\obj\Debug\WordsMatching.csprojResolveAssemblyReference.cache
+C:\Users\AirRobot\Desktop\verbgrounding\wordnetdotnet\Projects\Thanh\obj\Debug\WordsMatching.dll
+C:\Users\AirRobot\Desktop\verbgrounding\wordnetdotnet\Projects\Thanh\obj\Debug\WordsMatching.pdb

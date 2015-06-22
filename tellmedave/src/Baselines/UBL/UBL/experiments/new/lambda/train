@@ -1,0 +1,125 @@
+if there exists a mug
+(exists $0 (object:t $0 mug:d))
+
+if there exists a cup
+(exists $0 (object:t $0 cup:d))
+
+if there exists a cup and there exists a cup
+(and (exists $0 (object:t $0 cup:d)) (exists $0 (object:t $0 cup:d)))
+
+if there exists an empty kettle
+(exists $0 (and (object:t $0 kettle:d) (state:t $0 empty:s)))
+
+if there exists a green glass
+(exists $0 (and (object:t $0 glass:d) (state:t $0 green:s)))
+
+if there exists a cup that contains syrup
+(exists $0 (and (object:t $0 cup:d) (has:t $0 (the $1 (object:t $1 syrup:q)))))
+
+if there exists a cup that contains coke
+(exists $0 (and (object:t $0 cup:d) (has:t $0 (the $1 (object:t $1 coke:q)))))
+
+if there is a red glass
+(exists $0 (and (object:t $0 glass:d) (state:t $0 red:s)))
+
+if there is a yellow bowl
+(exists $0 (and (object:t $0 bowl:d) (state:t $0 yellow:s)))
+
+if there is an empty cup
+(exists $0 (and (object:t $0 cup:d) (state:t $0 empty:s)))
+
+if the cup contains water
+(exists $0 (and (object:t $0 cup:d) (has:t $0 (the $1 (object:t $1 water:q)))))
+
+if it contains coffee
+(exists $0 (and (object:t $0 it:e) (has:t $0 (the $1 (object:t $1 coffee:q)))))
+
+if the plate contains syrup
+(exists $0 (and (object:t $0 plate:d) (has:t $0 (the $1 (object:t $1 syrup:q)))))
+
+if the cup is empty
+(exists $0 (and (object:t $0 cup:d) (state:t $0 empty:s)))
+
+if they are used
+(exists $0 (and (object:t $0 they:e) (state:t $0 used:s)))
+
+if the kettle is white
+(exists $0 (and (object:t $0 kettle:d) (state:t $0 white:s)))
+
+if the mug is on the stove
+(exists $0 (and (object:t $0 mug:d) (On:t $0 (the $1 (object:t $1 stove:f)))))
+
+if the mug is red and dry
+(exists $0 (and (object:t $0 mug:d) (state:t $0 red:s) (state:t $0 dry:s)))
+
+if the kettle is empty and cool
+(exists $0 (and (object:t $0 kettle:d) (state:t $0 empty:s) (state:t $0 cool:s)))
+
+if the glass is used and on the floor
+(exists $0 (and (object:t $0 kettle:d) (state:t $0 used:s) (On:t $0 (the $1 (object:t $1 floor:lo)))))
+
+if the plate is dirty and in the refrigerator
+(exists $0 (and (object:t $0 plate:d) (state:t $0 dirty:s) (In:t $0 (the $1 (object:t $1 refrigerator:f)))))
+
+for all mugs that contain water
+(forall $0 (and (object:t $0 mugs:d) (has:t $0 (the $1 (object:t $1 water:q)))))
+
+for all bowls that are green
+(forall $0 (and (object:t $0 bowls:d) (state:t $0 green:s)))
+
+for all glasses that are empty
+(forall $0 (and (object:t $0 glasses:d) (state:t $0 empty:s)))
+
+for every cup that is dry
+(forall $0 (and (object:t $0 cup:d) (state:t $0 dry:s)))
+
+for every plate that is on the table
+(forall $0 (and (object:t $0 plate:d) (On:t $0 (the $1 (object:t $1 table:f)))))
+
+for all mugs that are in the sink
+(forall $0 (and (object:t $0 mugs:d) (In:t $0 (the $1 (object:t $1 sink:f)))))
+
+if the robot is grasping the mug
+(exists $0 (and (object:t $0 robot:p) (IsGrasping:t $0 (the $1 (object:t $1 mug:d)))))
+
+if the robot is near the refrigerator
+(exists $0 (and (object:t $0 robot:p) (IsNear:t $0 (the $1 (object:t $1 refrigerator:f)))))
+
+if the robot is close to the stove
+(exists $0 (and (object:t $0 robot:p) (IsNear:t $0 (the $1 (object:t $1 stove:f)))))
+
+if the microwave is on and the robot is close to the microwave
+(and (exists $1 (and (object:t $1 microwave:f) (state:t $1 IsOn:s))) (exists $0 (and (object:t $0 robot:p) (IsNear:t $0 (the $2 (object:t $2 microwave:f))))))
+
+if the stove is not on and the mug contains coffee
+(and (exists $1 (and (object:t $1 stove:f) (not (state:t $1 IsOn:s)))) (exists $0 (and (object:t $0 mug:d) (has:t $0 (the $2 (object:t $2 coffee:q))))))
+
+if the mug is green and the TV is on
+(and (exists $1 (and (object:t $1 mug:d) (state:t $1 green:s))) (exists $0 (and (object:t $0 tv:f) (state:t $0 IsOn:s))))
+
+if there exists a mug and the mug contains sugar
+(and (exists $1 (object:t $1 mug:d)) (exists $0 (and (object:t $0 mug:d) (has:t $0 (the $2 (object:t $2 sugar:q))))))
+
+if the television is on
+(exists $1 (and (object:t $1 television:f) (state:t $1 IsOn:s)))
+
+if you find any cups
+(exists $0 (and (object:t $0 you:p) (exists $1 (object:t $1 cups:d))))
+
+When the water is boiling
+(exists $1 (and (object:t $1 water:q) (state:t $1 IsBoiling:s)))
+
+when the water in the pot is boiling
+(exists $1 (and (object:t $1 water:q) (In:t $1 (the $2 (object:t $2 pot:d))) (state:t $1 IsBoiling:s)))
+
+if there exists a cup and there exists a cup and there exists a cup and there exists a cup and there exists a cup
+(and (exists $0 (object:t $0 cup:d)) (exists $0 (object:t $0 cup:d)) (exists $0 (object:t $0 cup:d)) (exists $0 (object:t $0 cup:d)) (exists $0 (object:t $0 cup:d)))
+
+if the mug is on the table or on the stove
+(exists $0 (and (object:t $0 mug:d) (or (On:t $0 (the $1 (object:t $1 table:f))) (On:t $0 (the $1 (object:t $1 stove:f))))))
+
+if the glass is empty or dry
+(exists $0 (and (object:t $0 glass:d) (or (state:t $0 empty:s) (state:t $0 dry:s))))
+
+if the refrigerator is on and the mug contains coke
+(and (exists $1 (and (object:t $1 refrigerator:f) (state:t $1 IsOn:s))) (exists $0 (and (object:t $0 mug:d) (has:t $0 (the $2 (object:t $2 coke:q))))))

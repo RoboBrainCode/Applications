@@ -1,0 +1,13 @@
+This data is the property of Cornell University. Right has been provided for free academic/research use of this data for all purposes. If in doubt please contact the authors. 
+
+Also if you use this data in your research please cite the following paper - 
+
+Tell Me Dave: Context-Sensitive Grounding of Natural Language to Mobile Manipulation Instructions, Dipendra Misra, Jaeyong Sung, Kevin Lee and Ashutosh Saxena, RSS 14
+
+
+@inproceedings{misra_sung_lee_saxena_rss2014_groundingnlp,
+  title="Tell Me Dave: Context-Sensitive Grounding of Natural Language to Mobile Manipulation Instructions",
+  author="Dipendra K Misra and Jaeyong Sung and Kevin Lee and Ashutosh Saxena",
+  year="2014",
+  booktitle="Robotics: Science and Systems (RSS)",
+}
