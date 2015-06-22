@@ -18,11 +18,13 @@ TellMe Dave requires stanford parser for parsing natural language instructions.S
 and must be copied within the src folder of tellmedave.
 
 ### Individual component compilation
-Compile tellmedave files by running ./tellmedave/compile.sh from the main folder.
+Compile tellmedave files by running 
+	`./tellmedave/compile.sh`
+ from the main folder.
 
-## Running the application:
+### Running the application:
 The application can be run as :
-	python text_to_traject.py
+	`python text_to_traject.py`
 
 User can set the following parameters in the application. The parameters can be set in the file text_to_traject.py
 envPath : The path to the environment dae file.
