@@ -12,6 +12,8 @@ http://www.aizac.info/installing-openrave0-9-on-ubuntu-trusty-14-04-64bit/
 #### C# compiler:
 Tell Me Dave is written in C#. Hence the application requires the compiler for C# to be installed on the machine. C# complier can be installed on Ubuntu as: 
 
+`sudo apt-get install mono-devel`
+
 #### Stanford Parser:
 TellMe Dave requires stanford parser for parsing natural language instructions.Stanford Parser can be downloaded from : 
 
@@ -38,3 +40,12 @@ User can set the following parameters in the application. The parameters can be 
 * inputStr : The natural language instruction given as input 
 
 ## Running the application on aws machine
+* ssh to the aws machine:
+	ssh -i conf/www/pem ubuntu@52.25.65.189
+* cd downloads/Applications
+* python text_to_traject.py
+* in order to see trajectories, use -X during ssh and uncomment the following line
+
+`PathPlanner.playTrajFromFile(envPath,trajectorySaveLocation)` 
+
+in test_to_traject.py file
