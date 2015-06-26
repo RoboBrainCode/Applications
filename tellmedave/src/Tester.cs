@@ -787,10 +787,8 @@ namespace ProjectCompton
         		}
         	}
 
-
-			if (output.Count()==0)
-			       	stop.Add("PR2");
-       	
+        	if (output.Count()==0)
+        		stop.Add("PR2");
 
         	input.Add("start_configs",start);
         	input.Add("end_configs",stop);
@@ -799,6 +797,21 @@ namespace ProjectCompton
 			System.IO.StreamWriter inputFile = new System.IO.StreamWriter (Constants.rootPath + "../dict.json");
 			bool tmp_comma=false, tmp_loop_comma=false;
 			inputFile.WriteLine("{");
+			
+			inputFile.Write("\"originalInstructions\": [");
+			foreach (Instruction inst in output)
+			{
+				if (!tmp_comma)
+				{
+					inputFile.Write("\""+inst.getName()+"\"");
+					tmp_comma = true;
+				}	
+				else
+					inputFile.Write(",\""+inst.getName()+"\"");
+			}
+			inputFile.WriteLine("],");
+
+			tmp_comma = false;
 			foreach (KeyValuePair<string,List<string>>  kvp in input)
 			{
 				if (!tmp_comma)
@@ -839,7 +852,7 @@ namespace ProjectCompton
             //Step 1: Create datastructure needed by Inference and Learning
             #region pre_processing_noise_removal_analysis
 			testObj.loadAllEnv();                   //load the starting environments
-
+			Console.WriteLine("path: "+ Constants.path);
 			if(Constants.opmode == OpMode.Online)
 			{
 				Constants.cacheReadParser=false;  
@@ -849,23 +862,27 @@ namespace ProjectCompton
 				testObj.bootstrapLexicon();      //bootstrap lexicon
 				testObj.ftr.bootstrapFeatures(); //bootstrap features
 
+				/*Object vase = testObj.envList[5].findObject ("Vase_1");
+				foreach(String affordance in vase.affordances_)
+					Console.WriteLine("affordance: "+affordance);*/
+
 				//Read text and envIndex from the sqlite database
 				//while(true)
 				{
 					//String text = "Turn on xbox. Take Far Cry Game CD and put in xbox by pressig eject to open drive. Throw out beer, coke, and sketchy stuff in bowl. Take pillows from shelf and distribute among couches."; //Populate it somehow, by user input
-					String text = "";
+					String text = "Move to PR2";
 					int envIndex = 1; //Populate it somehow, by user input
 					if (args.Length==1)
 						text = args[0];
 					else if(args.Length==2)
-						{
-							text = args[0];
-							envIndex = Convert.ToInt32(args[1]);
-								
-						}
+					{
+						text = args[0];
+						envIndex = Convert.ToInt16(args[1]);
+					}
+					//Console.WriteLine("env: "+envIndex+"\ntext:"+text);	
 					List<Instruction> output = testObj.onlineInference (text, envIndex, param);
 
-					Console.WriteLine("---------\ntext: "+text+"\nInstruction ");
+					Console.WriteLine("---------\nenv: "+envIndex+"\ntext: "+text+"\nInstruction ");
 					foreach (Instruction inst in output)
 						Console.WriteLine (inst.getName()+"\n");
 					Console.WriteLine("----------------");
