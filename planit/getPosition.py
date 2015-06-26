@@ -82,7 +82,10 @@ def setPosition(arr,env_colladafile):
 
 
 if __name__ == "__main__":
-	env_colladafile = '../environment/env_9_context_1.dae'
+	import sys
+
+	env_colladafile = '../environment/env_{0}_context_1.dae'.format(sys.argv[1])
+	print env_colladafile
 	getPosition(env_colladafile)
 	# arr=dict()
 	# arr['start_configs']=['PR2','tv_1']

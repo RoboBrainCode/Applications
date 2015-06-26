@@ -1,6 +1,6 @@
 env:1
-text: move to couch
+text: move to the blackcouch
 env:7
 text: move to the blackcouch
-env: 9
-text: go to the couch
+env:9
+text: move to the sofa
