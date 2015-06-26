@@ -50,7 +50,7 @@ namespace ProjectCompton
 		//Data Description
 		internal static String[] scenarios = new String[2] { "kitchen", "livingRoom" };
         internal static bool analyze = false;
-		internal static int numEnvironment = 6;
+		internal static int numEnvironment = 1;
 		internal static int numDataPerEnvironment = 10;
 		internal static double wordnetDistThreshold = 0.85; 
 		internal static int topKParse = 1;

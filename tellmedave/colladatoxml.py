@@ -43,6 +43,7 @@ def colladatoxml(path):
 	savePath=os.path.dirname(os.path.realpath(__file__))+"/Dataset/VEIL500/Environment/planit/livingRoom1.xml"
 	print savePath
 	tree.write(savePath)
+	create_root.clear()
 	print "Environment generated for Tell Me Dave"	
 
 

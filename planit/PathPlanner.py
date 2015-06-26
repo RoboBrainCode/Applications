@@ -21,6 +21,15 @@ import copy
 import Image
 from getPosition import setPosition
 
+global RecordVal
+RecordVal=False
+
+
+global PlayVal
+PlayVal=False
+
+
+
 def waitrobot(robot):
 	"""busy wait for robot completion"""
 	while not robot.GetController().IsDone():
@@ -71,6 +80,7 @@ def MultipleWayPoints(env_colladafile,context_graph,configParams,trajectoryName=
 			list_traj,env = planmanytraj(env,start_config,end_config,numPoints=numSampleTraj)
 			sorted_list_traj,sorted_scores=FindBestTraj(env_colladafile,context_graph,params_file,list_traj)
 			finalTraj.append(sorted_list_traj[0])
+			# finalTraj.append(list_traj[0])
 		pickle.dump( finalTraj, open( trajectoryName, "wb" ) )
 	if OverLayHeatMap:
 		plotOverlayHeatMap(env_colladafile,context_graph,params_file,imgName,use_beta)
@@ -86,17 +96,32 @@ def MultipleWayPoints(env_colladafile,context_graph,configParams,trajectoryName=
 	env.Destroy()
 
 
-def playTrajFromFile(env_colladafile,trajectoryName):
+def playTrajFromFile(env_colladafile,trajectoryName,camera_angle_path):
+	print '1'
 	env = Environment()	
+	print '1.5'
 	env.SetViewer('qtcoin')
+	print '1.75'
+	viewer=env.GetViewer()
+	print '2'
 	env.Load(env_colladafile)
+	if camera_angle_path:
+		with open(camera_angle_path,'rb') as ff:
+			camera_angle = pickle.load(ff)
+			viewer.SetCamera(camera_angle)
 	robot=env.GetRobots()[0]
+	print '3'
 	with open(trajectoryName,'rb') as ff:
 		trajs = pickle.load(ff)	
+	global RecordVal
+	global PlayVal
 	gotoStartLocation(trajs[0],robot,env)
+	RecordVal=True
 	time.sleep(1)
+	while not PlayVal:
+		pass
 	Playtraj(trajectoryName,env)
-	raw_input('Press any key to terminate')
+	# raw_input('Press any key to terminate')
 	env.Destroy()
 
 
@@ -332,6 +357,68 @@ def run(args=None):
 	env = OpenRAVEGlobalArguments.parseAndCreate(options,defaultviewer=True)
 	main(env,options)
 	time.sleep(4)
+
+
+
+from threading import Thread
+class myClass():
+    def help(self):
+    	print 'Enterd fn1'
+    	global RecordVal
+    	global PlayVal
+    	while not RecordVal:
+    		pass
+    	PlayVal=True
+    	global videoLocationF
+    	videoLocation=videoLocationF
+        filename=videoLocation
+        print 'Hello World123'
+        os.system('rm '+filename)
+        os.system(os.path.dirname(os.path.realpath(__file__))+'/./record.sh '+filename)
+
+    def nope(self):
+		print 'Enterd fn2'
+		global env_colladafileF
+		global trajectoryNameF
+		global camera_angle_pathF
+
+		env_colladafile,trajectoryName,camera_angle_path=env_colladafileF,trajectoryNameF,camera_angle_pathF
+		print 'Hello World456'
+		playTrajFromFile(env_colladafile,trajectoryName,camera_angle_path)
+
+		os.system(os.path.dirname(os.path.realpath(__file__))+'/./kill.sh')
+
+
+# if __name__ == "__main__":
+global env_colladafileF
+global trajectoryNameF
+global videoLocationF
+global camera_angle_pathF
+
+def playTrajFromFileandSave(env_colladafile,trajectoryName,videoLocation,camera_angle_path):
+	Yep = myClass()
+	global env_colladafileF
+	global trajectoryNameF
+	global videoLocationF
+	global camera_angle_pathF
+
+	env_colladafileF=env_colladafile
+	trajectoryNameF=trajectoryName
+	videoLocationF=videoLocation
+	camera_angle_pathF=camera_angle_path
+
+
+	thread = Thread(target = Yep.help)
+	thread2 = Thread(target = Yep.nope)
+	thread.start()
+	thread2.start()
+	thread.join()
+	print 'Finished'
+
+
+
+
+
 
 if __name__ == "__main__":
 	env_colladafile = 'environment/env_1_context_1.dae'

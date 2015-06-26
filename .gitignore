@@ -1,1 +1,5 @@
 *.pyc
+environment/*
+environment_old/*
+video/*
+trajectory/*

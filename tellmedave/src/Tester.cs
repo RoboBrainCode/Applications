@@ -787,6 +787,11 @@ namespace ProjectCompton
         		}
         	}
 
+
+			if (output.Count()==0)
+			       	stop.Add("PR2");
+       	
+
         	input.Add("start_configs",start);
         	input.Add("end_configs",stop);
         	
@@ -848,10 +853,16 @@ namespace ProjectCompton
 				//while(true)
 				{
 					//String text = "Turn on xbox. Take Far Cry Game CD and put in xbox by pressig eject to open drive. Throw out beer, coke, and sketchy stuff in bowl. Take pillows from shelf and distribute among couches."; //Populate it somehow, by user input
-					String text = "Move to the blackcouch.";
-					int envIndex = 5; //Populate it somehow, by user input
-					if (args.Length!=0)
+					String text = "";
+					int envIndex = 1; //Populate it somehow, by user input
+					if (args.Length==1)
 						text = args[0];
+					else if(args.Length==2)
+						{
+							text = args[0];
+							envIndex = Convert.ToInt32(args[1]);
+								
+						}
 					List<Instruction> output = testObj.onlineInference (text, envIndex, param);
 
 					Console.WriteLine("---------\ntext: "+text+"\nInstruction ");

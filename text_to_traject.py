@@ -3,7 +3,7 @@ import tellmedave.languageGrounding as tellmedave
 import planit.PathPlanner as PathPlanner
 import RaquelAPI.raquel as raquel
  
-def PlanPathFromNL(inputStr,envPath,context_graph,trajectorySaveLocation):
+def PlanPathFromNL(inputStr,envPath,context_graph,trajectorySaveLocation,videoLocation=None,camera_angle_path=None):
 
 	# Using roboBrain to query tellmedave parameters
 	raquelResponse = raquel.fetch("({handle:'tellmedave'})-[:`HAS_PARAMETER`]->(b)")
@@ -17,16 +17,26 @@ def PlanPathFromNL(inputStr,envPath,context_graph,trajectorySaveLocation):
 	# Plan path for environment : envPath, context graph: contextGraph, 
 	# robotic instructions returned by tell me dave: robotInstructions, 
 	# save the learned trajectories at trajectorySaveLocation
-	PathPlanner.MultipleWayPoints(envPath,contextGraph,robotInstructions,trajectorySaveLocation)
+	PathPlanner.MultipleWayPoints(envPath,context_graph,robotInstructions,trajectorySaveLocation)
 
-	raw_input('Press enter to run trajectory')
+	# raw_input('Press enter to run trajectory')
 	# To replay a saved trajectory for a given environment execute
-	PathPlanner.playTrajFromFile(envPath,trajectorySaveLocation)
+	if videoLocation:
+		PathPlanner.playTrajFromFileandSave(envPath,trajectorySaveLocation,videoLocation,camera_angle_path)
+	else:
+		PathPlanner.playTrajFromFile(envPath,trajectorySaveLocation,camera_angle_path)
+
 
 if __name__ == '__main__':
-	envPath=os.path.dirname(os.path.realpath(__file__))+"/environment/env_1_context_1.dae"
-	contextGraph=os.path.dirname(os.path.realpath(__file__))+"/environment/1_graph_1.xml"
-	trajectorySaveLocation=os.path.dirname(os.path.realpath(__file__))+"/environment/t1.tk"
-	inputStr="'move to the blackcouch'"
-	PlanPathFromNL(inputStr,envPath,contextGraph,trajectorySaveLocation)
+	import sys
+	# print sys.argv[1:]
+	# envName=1
+	# envPath=os.path.dirname(os.path.realpath(__file__))+"/environment/env_{0}_context_1.dae".format(envName)
+	# contextGraph=os.path.dirname(os.path.realpath(__file__))+"/environment/{0}_graph_1.xml".format(envName)
+	# trajectorySaveLocation=os.path.dirname(os.path.realpath(__file__))+"/trajectory/env_{0}_context_1.tk".format(envName)
+	# videoLocation=os.path.dirname(os.path.realpath(__file__))+"/video/env_{0}_context_1.mp4".format(envName)
+	# camera_angle_path =os.path.dirname(os.path.realpath(__file__))+ '/environment/camera_angle_env_{0}_context_1.pik'.format(envName)
+	# inputStr="'move to the blackcouch'"
+	print sys.argv[1],sys.argv[2],sys.argv[3],sys.argv[4],sys.argv[5],sys.argv[6]
+	PlanPathFromNL("'"+sys.argv[1]+"'",sys.argv[2],sys.argv[3],sys.argv[4],sys.argv[5],sys.argv[6])
 	
