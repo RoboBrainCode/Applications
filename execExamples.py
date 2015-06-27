@@ -2,6 +2,8 @@ from text_to_traject import PlanPathFromNL
 import os 
 
 inputFile='test1.txt'
+# inputFile='test1.txt'
+
 
 with open(inputFile) as f:
 	lines=f.readlines()

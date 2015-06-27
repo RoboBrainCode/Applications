@@ -6,8 +6,8 @@ env: 9
 text: go to the couch
 env:9
 text: move to the Vase. move to couch
-env:9
-text:  move to lamp. move to vase , move to couch
+env: 9
+text: move to lamp,move to couch, move to lamp
 env:9
 text: move to couch but stay away from human
 env:9 
@@ -22,11 +22,15 @@ env: 9
 text: move to lamp and then  to vase
 env:9 
 text: move to lamp and then move to vase
-env:9
+env:9 
+text: turn on tv
+env:1
 text: turn on tv
 env:9
 text: take vase to table
 env:9
-text: move to vase on table
+text: move vase on table
 env:9 
 text: place the vase on the couch
+env:9
+text: grasp the  vase  and put it on table

@@ -20,20 +20,34 @@ def PlanPathFromNL(inputStr,envPath,context_graph,trajectorySaveLocation,videoLo
 	# Plan path for environment : envPath, context graph: contextGraph, 
 	# robotic instructions returned by tell me dave: robotInstructions, 
 	# save the learned trajectories at trajectorySaveLocation
+
+
+
+
+	if videoLocation:
+		print robotInstructionsC
+
+		for j in range(len(robotInstructionsC['originalInstructions'])):
+			print os.path.dirname(os.path.realpath(__file__))+'/results.html'
+			with open(os.path.dirname(os.path.realpath(__file__))+'/results.html','a') as f:
+				print robotInstructionsC['originalInstructions'][j]
+				f.write('<li> '+robotInstructionsC['originalInstructions'][j]+' </li> \n ')
+
+		with open(os.path.dirname(os.path.realpath(__file__))+'/results.html','a') as f:
+			f.write('<h4> PlanIt Input </h4> \n <ul>')
+		for i in range(len(robotInstructionsC['start_configs'])):
+			with open(os.path.dirname(os.path.realpath(__file__))+'/results.html','a') as f:
+				f.write('<li> MoveFrom: '+robotInstructionsC['start_configs'][i]+' to '+robotInstructionsC['end_configs'][i]+'</li> \n')
+		with open(os.path.dirname(os.path.realpath(__file__))+'/results.html','a') as f:
+			f.write('</ul> \n <video width="640" height="360" preload controls> \n <source src="'+videoLocation+'" />\n </video>\n <br><br><br>')
+	
+
+
 	PathPlanner.MultipleWayPoints(envPath,context_graph,robotInstructions,trajectorySaveLocation)
 
 	# raw_input('Press enter to run trajectory')
 	# To replay a saved trajectory for a given environment execute
 	if videoLocation:
-		print robotInstructionsC
-		with open(os.path.dirname(os.path.realpath(__file__))+'/results.html','a+') as f:
-			f.write('<h4> PlanIt Input </h4> \n <ul>')
-		for i in range(len(robotInstructionsC['start_configs'])):
-			with open(os.path.dirname(os.path.realpath(__file__))+'/results.html','a+') as f:
-				f.write('<li> MoveFrom: '+robotInstructionsC['start_configs'][i]+' to '+robotInstructionsC['end_configs'][i]+'</li>')
-		with open(os.path.dirname(os.path.realpath(__file__))+'/results.html','a+') as f:
-			f.write('</ul> \n <video id="sampleMovie" width="640" height="360" preload controls> \n <source src="'+videoLocation+'" />\n </video>\n <br><br><br>')
-
 		PathPlanner.playTrajFromFileandSave(envPath,trajectorySaveLocation,videoLocation,camera_angle_path)
 	else:
 		PathPlanner.playTrajFromFile(envPath,trajectorySaveLocation,camera_angle_path)

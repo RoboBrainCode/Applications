@@ -23,6 +23,7 @@ def NLtoRobotInstructions(inputStr,envPath):
 	colladatoxml(envPath)
 	os.chdir("tellmedave/")
 	os.system(os.path.dirname(os.path.realpath(__file__))+"/LanguageGrounding "+inputStr)
+	os.chdir("../")
 	jsonPath=os.path.dirname(os.path.realpath(__file__))+"/dict.json"
 	with open(jsonPath) as json_file:
 		#inputToPlanIt is a dict {"start":["xbox","cd"],"stop":["robot","human"]}
