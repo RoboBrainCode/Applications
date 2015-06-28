@@ -23,7 +23,7 @@
                 <type>bool</type>
                 <default>False</default>
             </state>
-            <state>
+            <state>f
                 <stateName>DoorIsOpen</stateName>
                 <type>bool</type>
                 <default>False</default>
@@ -140,8 +140,6 @@
    <name>LongCup</name>
    <name>Glass</name>
    <name>Kettle</name>
-   <name>vase</name>
-   <name>flowervase</name>
    <name>InstantRamen</name>
     <attributes>
       <property>
@@ -579,9 +577,14 @@
     <name>XboxController</name>
     <name>Bowl</name>
     <name>BagOfChips</name>
-    <name>tablelamp</name>
-    <name>floorlamp</name>
-    <name>candleholder</name>
+    <name>Tablelamp</name>
+    <name>Vase</name>
+    <name>Flowervase</name>
+    <name>Floorlamp</name>
+    <name>Poollamp</name>
+    <name>Walllamp</name>
+    <name>Candleholder</name>
+    <name>chandelier</name>
     <attributes>
       <property>
         <state>
@@ -683,27 +686,31 @@
 
   <object>
     <name>Armchair</name>
-    <name>loungechair</name>
+    <name>Loungechair</name>
     <name>Counter</name>
     <name>Loveseat</name>
     <name>SnackTable</name>
     <name>Studytable</name>
     <name>Sink</name>
     <name>CoffeeTable</name>
-    <name>bedtable</name>
+    <name>Bedtable</name>
     <name>GarbageBin</name>
     <name>Shelf</name>
-    <name>wallshelf</name>
-    <name>roundtable</name>
-    <name>antiquetable</name>
+    <name>Wallshelf</name>
+    <name>Roundtable</name>
+    <name>Antiquetable</name>
     <name>StoveFire</name>
     <name>Blackcouch</name>
-    <name>squarebedtable</name>
-    <name>sidetable</name>
-    <name>desk</name>
-    <name>bed</name>
-    <name>sofa</name>
-    <name>chair</name>
+    <name>Squarebedtable</name>
+    <name>Sidetable</name>
+    <name>Desk</name>
+    <name>Bed</name>
+    <name>Sofa</name>
+    <name>Stool</name>
+    <name>Chair</name>
+    <name>Tablechair</name>
+    <name>Bookshelf</name>
+    <name>Almirah</name>
     <attributes>
         <affordances>
                 <affordance>IsPlaceableOn</affordance>
