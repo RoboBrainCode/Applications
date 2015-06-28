@@ -3,7 +3,34 @@ import tellmedave.languageGrounding as tellmedave
 import planit.PathPlanner as PathPlanner
 import RaquelAPI.raquel as raquel
 import copy
- 
+import requests
+import urllib
+import json
+
+def insertFeedback(data):
+	headers = {'Content-type': 'application/json', 'Accept': 'application/json'}
+	url = "http://localhost:6363/e2eFeedback/insertFeedback/"
+	r = requests.get(url, data=json.dumps(data), headers=headers)
+	response=yaml.safe_load(r.text)
+	print response
+	
+def generateFeed(robotInstructionsC,videoPath,inputStr):
+
+	tellmedaveOutput=list()
+	planitInput=list()
+	for j in range(len(robotInstructionsC['originalInstructions'])):
+		tellmedaveOutput.append(robotInstructionsC['originalInstructions'][j])
+	
+	for i in range(len(robotInstructionsC['start_configs'])):		
+		string='MoveFrom: '+robotInstructionsC['start_configs'][i]+' to '+robotInstructionsC['end_configs'][i]
+		planitInput.append(string)
+		feedId=".".join((videoPath.split('/')[-1]).split('.')[:-1])
+		videoPath='images/planit/'+videoPath.split('/')[-1]
+	data={'actualInput':inputStr[1:-1],'tellmedaveOutput':tellmedaveOutput,'planitInput':planitInput,'videoPath':videoPath,'feedId':feedId}
+	return data
+
+
+
 def PlanPathFromNL(inputStr,envPath,context_graph,trajectorySaveLocation,videoLocation=None,camera_angle_path=None):
 
 	# Using roboBrain to query tellmedave parameters
@@ -25,8 +52,6 @@ def PlanPathFromNL(inputStr,envPath,context_graph,trajectorySaveLocation,videoLo
 
 
 	if videoLocation:
-		print robotInstructionsC
-
 		for j in range(len(robotInstructionsC['originalInstructions'])):
 			print os.path.dirname(os.path.realpath(__file__))+'/results.html'
 			with open(os.path.dirname(os.path.realpath(__file__))+'/results.html','a') as f:
@@ -47,10 +72,14 @@ def PlanPathFromNL(inputStr,envPath,context_graph,trajectorySaveLocation,videoLo
 
 	# raw_input('Press enter to run trajectory')
 	# To replay a saved trajectory for a given environment execute
+	returnVal=generateFeed(robotInstructionsC,videoLocation,inputStr)
 	if videoLocation:
+		insertFeedback(returnVal)
 		PathPlanner.playTrajFromFileandSave(envPath,trajectorySaveLocation,videoLocation,camera_angle_path)
 	else:
 		PathPlanner.playTrajFromFile(envPath,trajectorySaveLocation,camera_angle_path)
+	
+	return returnVal
 
 
 if __name__ == '__main__':
@@ -64,5 +93,6 @@ if __name__ == '__main__':
 	# camera_angle_path =os.path.dirname(os.path.realpath(__file__))+ '/environment/camera_angle_env_{0}_context_1.pik'.format(envName)
 	# inputStr="'move to the blackcouch'"
 	print sys.argv[1],sys.argv[2],sys.argv[3],sys.argv[4],sys.argv[5],sys.argv[6]
-	PlanPathFromNL("'"+sys.argv[1]+"'",sys.argv[2],sys.argv[3],sys.argv[4],sys.argv[5],sys.argv[6])
+	returnVal=PlanPathFromNL("'"+sys.argv[1]+"'",sys.argv[2],sys.argv[3],sys.argv[4],sys.argv[5],sys.argv[6])
+	
 	

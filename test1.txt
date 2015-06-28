@@ -1,2 +1,2 @@
 env: 9
-text: move to lamp,move to couch, move to lamp
+text: move to lamp
