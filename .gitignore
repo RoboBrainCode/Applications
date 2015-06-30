@@ -3,3 +3,4 @@ environment/*
 environment_old/*
 video/*
 trajectory/*
+params/database/*
