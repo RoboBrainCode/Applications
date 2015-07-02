@@ -1,6 +1,6 @@
 from text_to_traject import PlanPathFromNL
 import os 
-import colladatoxml.format_tmd as formaTMD
+import RaquelAPI.format_tmd as formaTMD
 inputFile='test1.txt'
 # inputFile='test1.txt'
 
