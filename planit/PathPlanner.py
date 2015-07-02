@@ -78,8 +78,9 @@ def MultipleWayPoints(env_colladafile,context_graph,configParams,trajectoryName=
 			start_config=start_configs[i]
 			end_config=end_configs[i]
 			list_traj,env = planmanytraj(env,start_config,end_config,numPoints=numSampleTraj)
-			sorted_list_traj,sorted_scores=FindBestTraj(env_colladafile,context_graph,params_file,list_traj)
-			finalTraj.append(sorted_list_traj[0])
+			if len(list_traj)>0:
+				sorted_list_traj,sorted_scores=FindBestTraj(env_colladafile,context_graph,params_file,list_traj)
+				finalTraj.append(sorted_list_traj[0])
 			# finalTraj.append(list_traj[0])
 		pickle.dump( finalTraj, open( trajectoryName, "wb" ) )
 	if OverLayHeatMap:

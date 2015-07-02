@@ -34,7 +34,13 @@ def getPosition(env_colladafile):
 	if setPosition:
 		for body in env.GetBodies():
 			kinname = body.GetName()
-			first_name=kinname.split('-')[0]
+			if ('-' in kinname):
+				firstname=kinname.split('-')[0]
+				lastname=kinname.split('-')[1]
+				if ('.' in kinname):
+					kinname=firstname+'_'+str(int(float(lastname))+1)
+				else:
+					kinname=firstname+'_'+str(int(lastname))
 			print kinname
 			raw_input('Press to Select Position')
 			transform=robot.GetTransform()
@@ -85,6 +91,7 @@ if __name__ == "__main__":
 	import sys
 
 	env_colladafile = '../environment/env_{0}_context_1.dae'.format(sys.argv[1])
+	# env_colladafile = '../environment/env1.dae'	
 	print env_colladafile
 	getPosition(env_colladafile)
 	# arr=dict()

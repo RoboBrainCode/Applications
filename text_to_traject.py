@@ -74,7 +74,7 @@ def PlanPathFromNL(inputStr,envPath,context_graph,trajectorySaveLocation,videoLo
 	# To replay a saved trajectory for a given environment execute
 	returnVal=generateFeed(robotInstructionsC,videoLocation,inputStr)
 	if videoLocation:
-		insertFeedback(returnVal)
+		# insertFeedback(returnVal)
 		PathPlanner.playTrajFromFileandSave(envPath,trajectorySaveLocation,videoLocation,camera_angle_path)
 	else:
 		PathPlanner.playTrajFromFile(envPath,trajectorySaveLocation,camera_angle_path)

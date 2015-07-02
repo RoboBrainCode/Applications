@@ -42,7 +42,7 @@ def loadPrereq(env_colladafile,context_graph,params_file):
 	total_prob=0.0
 	for activity in activity_happening:
 		activity_local_prob[activity] = {}
-		activity_local_prob[activity]['prob'] = params[activity]['pi']
+		activity_local_prob[activity]['prob'] = params[activity]['pi']['pi']
 		total_prob = total_prob + activity_local_prob[activity]['prob']
 	for activity in activity_happening:
 		activity_local_prob[activity]['prob'] /=total_prob

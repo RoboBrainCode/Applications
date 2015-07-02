@@ -13,7 +13,7 @@ def PostWeaverQuery(fnName,params):
 		response=yaml.safe_load(r.text)
 		return response
 
-def runQuery(cypherQuery):
+def fetchQuery(cypherQuery):
 	start=cypherQuery.find('MATCH')
 	end=cypherQuery.find('RETURN')
 	end_2=cypherQuery.find('LIMIT')
@@ -72,6 +72,11 @@ def runQuery(cypherQuery):
 
 	return True
 
+def updateQuery(nodeProps):
+	fnName='updateNodeProps'
+        params=dict(Id=nodeProps['handle'],nodeProps=nodeProps)
+        result=PostWeaverQuery(fnName,params)
+        return result
 
 if __name__ == "__main__":
 	runQuery("MATCH ({handle:'phone'})")

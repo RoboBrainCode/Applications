@@ -1,2 +1,2 @@
-env: 9
-text: move to lamp
+env: 101
+text: Throw out bowls and cup

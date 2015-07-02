@@ -1,6 +1,6 @@
 import sys
 from parser import cyParser
-from runQuery import runQuery
+from runQuery import fetchQuery,updateQuery
 def Belief(p):
 	'''input a path(list of edges)
 		finds the belief of the path'''
@@ -41,13 +41,15 @@ def fetch(pattern):
 	'''
 	return_string = cyParser(pattern)
 	cypherQuery="MATCH "+ pattern +" RETURN " + return_string +" LIMIT 25"
-	result=runQuery(cypherQuery)
+	result=fetchQuery(cypherQuery)
 	if result:
 		# print result
 		return result
 	else:
 		return {'test':'no results for this query'}
-
+def update(nodeProps):
+	result=updateQuery(nodeProps)
+	return result
 # if __name__ == "__main__":
 # 	# fetch("({handle:'wall'})-[:`HAS_MATERIAL`]->(b)")
 # 	# fetch("({handle:'phone'})-[]->(e)")

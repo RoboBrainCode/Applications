@@ -1,6 +1,6 @@
 from text_to_traject import PlanPathFromNL
 import os 
-
+import colladatoxml.format_tmd as formaTMD
 inputFile='test1.txt'
 # inputFile='test1.txt'
 
@@ -22,6 +22,11 @@ for i in range(len(lines)/2):
 	envPath=os.path.dirname(os.path.realpath(__file__))+"/environment/env_{0}_context_1.dae".format(envName)
 	contextGraph=os.path.dirname(os.path.realpath(__file__))+"/environment/{0}_graph_1.xml".format(envName)
 	trajectorySaveLocation=os.path.dirname(os.path.realpath(__file__))+"/trajectory/env_{0}_context_1_{1}.tk".format(envName,videoAppend)
+	
+	formaTMD.format_tmd(envPath)
+	formaTMD.format_tmd(contextGraph)
+
+
 	# videoLocation=os.path.dirname(os.path.realpath(__file__))+"/video/env_{0}_context_1_{1}.mp4".format(envName,videoAppend)
 	# print videoLocation
 	videoDir='/'.join(os.path.dirname(os.path.realpath(__file__)).split('/')[:-1])+'/Frontend/app/images/planit'
