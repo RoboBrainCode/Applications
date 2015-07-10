@@ -1,2 +1,2 @@
-env: 101
-text: Throw out bowls and cup
+env: 1
+text: move to bed

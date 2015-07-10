@@ -20,6 +20,8 @@ import matplotlib.pyplot as plt
 import copy
 import Image
 from getPosition import setPosition
+from bs4 import BeautifulSoup
+from dbFns.main import getObjectPosition,insertBestTrajectory,getTrajectory,getBestTrajectory
 
 global RecordVal
 RecordVal=False
@@ -35,67 +37,104 @@ def waitrobot(robot):
 	while not robot.GetController().IsDone():
 		time.sleep(0.01)
 
-def MultipleWayPoints(env_colladafile,context_graph,configParams,trajectoryName=os.path.dirname(os.path.realpath(__file__))+'/trajectory/t1M.pk',display=True):
+def MultipleWayPoints(env_colladafile,context_graph,configParams,trajectoryName=os.path.dirname(os.path.realpath(__file__))+'/trajectory/t1M.pk',sortPaths=True):
 	'''
 	This filler method is only for testing purpose. You may ignore it. 
 	'''
-
 	for i in range(len(configParams['start_configs'])):
 		if not configParams['start_configs'][i]=='PR2':
 			configParams['start_configs'][i]= configParams['start_configs'][i].lower()
 		if not configParams['end_configs'][i]=='PR2':
 			configParams['end_configs'][i]= configParams['end_configs'][i].lower()
-	
-	configParams=setPosition(configParams,env_colladafile)
 
-	params_file = os.path.dirname(os.path.realpath(__file__))+'/params/params_task_bedroom_env_1,2,3,4,5,6,7,8,9_context_1,2,3,4_s_False_r_False_n_False_b_True.pik'
-	imgName=os.path.dirname(os.path.realpath(__file__))+'heatmap/env_1_context_1_beta_True_noborder_small.png'
-	
-	
 	use_beta = True
-	SetCameraAngle=False
-	OverLayHeatMap=False
-	PlanPath=True
-	runTrajectory=True
 	numSampleTraj=2
-
-
 	finalTraj=list()
 	env = Environment()	
-	# env.SetViewer('qtcoin')
 	env.Load(env_colladafile)
-	# configParams = pickle.load( open(configFile,"rb" ) )
 	robot = env.GetRobots()[0]
 	start_configs=configParams['start_configs']
 	end_configs=configParams['end_configs']
-	if SetCameraAngle:
-		viewer = env.GetViewer()
-		viewer.SetCamera(configParams['CameraAngle'])
-	# raw_input('Start Learning')
-	if PlanPath:
-		for i in range(len(start_configs)):
-			print 'Point',i,(i+1)
-			start_config=start_configs[i]
-			end_config=end_configs[i]
-			list_traj,env = planmanytraj(env,start_config,end_config,numPoints=numSampleTraj)
-			if len(list_traj)>0:
+	envName=(env_colladafile.split('/')[-1]).split('.')[0]
+	params_file='not used'
+	for i in range(len(start_configs)):
+		print 'Point',i,(i+1)
+		# start_config=getObjectPosition({'envName':envName,'objectName':start_configs[i]})['objectPosition']
+		# end_config=getObjectPosition({'envName':envName,'objectName':end_configs[i]})['objectPosition']
+		print start_configs[i],end_configs[i]
+		if sortPaths:
+			list_traj=getTrajectory({'envName':envName,'objectFrom':start_configs[i],'objectTo':end_configs[i]})
+			if 'trajectory' in list_traj and list_traj['trajectory']>0:
+				list_traj=list_traj['trajectory']
 				sorted_list_traj,sorted_scores=FindBestTraj(env_colladafile,context_graph,params_file,list_traj)
+				insertBestTrajectory({'envName':envName,'objectFrom':start_configs[i],'objectTo':end_configs[i],'bestTrajectory':sorted_list_traj[0]})
 				finalTraj.append(sorted_list_traj[0])
-			# finalTraj.append(list_traj[0])
-		pickle.dump( finalTraj, open( trajectoryName, "wb" ) )
-	if OverLayHeatMap:
-		plotOverlayHeatMap(env_colladafile,context_graph,params_file,imgName,use_beta)
-		env=loadheatmap(env,e,use_beta,imgName)
-	# if runTrajectory and display:
-	# 	raw_input('runTrajectory')
-	# 	with open(trajectoryName,'rb') as ff:
-	# 		trajs = pickle.load(ff)	
-	# 	gotoStartLocation(trajs[0],robot,env)
-	# 	time.sleep(1)
-	# 	Playtraj(trajectoryName,env)
-	# raw_input('Terminate')
-	env.Destroy()
+		else:
+			traj=getBestTrajectory({'envName':envName,'objectFrom':start_configs[i],'objectTo':end_configs[i]})['bestTrajectory']
+			finalTraj.append(traj)
 
+	env.Destroy()
+	return finalTraj
+
+
+
+# def MultipleWayPoints(env_colladafile,context_graph,configParams,trajectoryName=os.path.dirname(os.path.realpath(__file__))+'/trajectory/t1M.pk',display=True):
+# 	'''
+# 	This filler method is only for testing purpose. You may ignore it. 
+# 	'''
+# 	for i in range(len(configParams['start_configs'])):
+# 		if not configParams['start_configs'][i]=='PR2':
+# 			configParams['start_configs'][i]= configParams['start_configs'][i].lower()
+# 		if not configParams['end_configs'][i]=='PR2':
+# 			configParams['end_configs'][i]= configParams['end_configs'][i].lower()
+	
+# 	params_file = os.path.dirname(os.path.realpath(__file__))+'/params/params_task_bedroom_env_1,2,3,4,5,6,7,8,9_context_1,2,3,4_s_False_r_False_n_False_b_True.pik'
+# 	imgName=os.path.dirname(os.path.realpath(__file__))+'heatmap/env_1_context_1_beta_True_noborder_small.png'
+	
+	
+# 	use_beta = True
+# 	SetCameraAngle=False
+# 	OverLayHeatMap=False
+# 	PlanPath=True
+# 	runTrajectory=True
+# 	numSampleTraj=2
+
+
+# 	finalTraj=list()
+# 	env = Environment()	
+# 	# env.SetViewer('qtcoin')
+# 	env.Load(env_colladafile)
+# 	# configParams = pickle.load( open(configFile,"rb" ) )
+# 	robot = env.GetRobots()[0]
+# 	start_configs=configParams['start_configs']
+# 	end_configs=configParams['end_configs']
+# 	if SetCameraAngle:
+# 		viewer = env.GetViewer()
+# 		viewer.SetCamera(configParams['CameraAngle'])
+# 	# raw_input('Start Learning')
+# 	if PlanPath:
+# 		for i in range(len(start_configs)):
+# 			print 'Point',i,(i+1)
+# 			start_config=start_configs[i]
+# 			end_config=end_configs[i]
+# 			list_traj,env = planmanytraj(env,start_config,end_config,numPoints=numSampleTraj)
+# 			if len(list_traj)>0:
+# 				sorted_list_traj,sorted_scores=FindBestTraj(env_colladafile,context_graph,params_file,list_traj)
+# 				finalTraj.append(sorted_list_traj[0])
+# 			# finalTraj.append(list_traj[0])
+# 		pickle.dump( finalTraj, open( trajectoryName, "wb" ) )
+# 	if OverLayHeatMap:
+# 		plotOverlayHeatMap(env_colladafile,context_graph,params_file,imgName,use_beta)
+# 		env=loadheatmap(env,e,use_beta,imgName)
+# 	# if runTrajectory and display:
+# 	# 	raw_input('runTrajectory')
+# 	# 	with open(trajectoryName,'rb') as ff:
+# 	# 		trajs = pickle.load(ff)	
+# 	# 	gotoStartLocation(trajs[0],robot,env)
+# 	# 	time.sleep(1)
+# 	# 	Playtraj(trajectoryName,env)
+# 	# raw_input('Terminate')
+# 	env.Destroy()
 
 def playTrajFromFile(env_colladafile,trajectoryName,camera_angle_path):
 	env = Environment()	
@@ -339,12 +378,13 @@ def gotoStartLocation(openrave_traj,robot,env):
 	waitrobot(robot) 
 	return
 
-def Playtraj(traj_path,env):
+def Playtraj(trajs,env):
 	robot = env.GetRobots()[0]
-	with open(traj_path,'rb') as ff:
-		trajs = pickle.load(ff)	
+	# with open(traj_path,'rb') as ff:
+	# 	trajs = pickle.load(ff)	
 	for traj in trajs:
 		move_arm(traj,env,robot)
+		time.sleep(0.5)
 
 @openravepy.with_destroy
 def run(args=None):
@@ -375,29 +415,18 @@ class myClass():
 		os.system(os.path.dirname(os.path.realpath(__file__))+'/./kill.sh')
 		
 
-		
-
-
-
-
-
-		# playTrajFromFile(env_colladafile,trajectoryName,camera_angle_path)
-		
-
-
 # if __name__ == "__main__":
 global envF
 global trajectoryNameF
 global videoLocationF
 
-def playTrajFromFileandSave(env_colladafile,trajectoryName,videoLocation,camera_angle_path):
+def playTrajFromFileandSave(env_colladafile,finalTraj,videoLocation,camera_angle_path):
 	Yep = myClass()
 	
 	global trajectoryNameF
 	global videoLocationF
 	global envF
 
-	trajectoryNameF=trajectoryName
 	videoLocationF=videoLocation
 
 	envF = Environment()	
@@ -410,47 +439,34 @@ def playTrajFromFileandSave(env_colladafile,trajectoryName,videoLocation,camera_
 			viewer.SetCamera(camera_angle)
 	robot=envF.GetRobots()[0]
 	print 'playTrajFromFile'
-	with open(trajectoryName,'rb') as ff:
-		trajs = pickle.load(ff)	
-
+	if finalTraj:
+		trajs=finalTraj
+	else:
+		print 'No Paths provided'
+		assert False
+	trajectoryNameF=trajs
 	gotoStartLocation(trajs[0],robot,envF)
 	os.system('rm '+videoLocationF)
 	time.sleep(1)
-
-	
-
-
-
-
-
-
 	thread = Thread(target = Yep.help)
 	thread2 = Thread(target = Yep.nope)
 	thread.start()
 	thread2.start()
 	thread.join()
-
-
-		
-
-
-
 	print 'Finished'
 
-
-
-
-
-
 if __name__ == "__main__":
-	env_colladafile = 'environment/env_1_context_1.dae'
-	context_graph = 'environment/1_graph_1.xml'
+	env_colladafile = '../environment/env_1_context_1.dae'
+	context_graph = '../environment/1_graph_1.xml'
 	trajectorySaveLocation='environment/t1.pk'
 	configParams=dict()
 	configParams['start_configs']=list()
 	configParams['end_configs']=list()
-	configParams['start_configs'].append('PR2')
+	configParams['start_configs'].append('bed_1')
+	configParams['start_configs'].append('tv_1')
+	configParams['start_configs'].append('blackcouch_1')
+	configParams['end_configs'].append('tv_1')
 	configParams['end_configs'].append('blackcouch_1')
-	MultipleWayPoints(env_colladafile,context_graph,configParams,trajectorySaveLocation)
-	raw_input('Next')
-	playTrajFromFile(env_colladafile,trajectorySaveLocation)
+	configParams['end_configs'].append('bed_1')
+	finalTraj=MultipleWayPoints(env_colladafile,context_graph,configParams,trajectorySaveLocation,sortPaths=False)
+	playTrajFromFileandSave(env_colladafile,finalTraj,'environment/t1.avi','../environment/camera_angle_env_100_context_1.pik')

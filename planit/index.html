@@ -1,0 +1,10 @@
+<div ng:controller="controller">
+    <ul ui:sortable ng:model="list">
+        <li ng:repeat="item in list" class="item">{{item}}</li>
+    </ul>
+    <hr />
+    <div ng:repeat="item in list">{{item}}</div>
+</div>
+
+<script src="http://code.angularjs.org/1.0.2/angular.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui/0.4.0/angular-ui.min.js"></script>

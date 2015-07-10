@@ -6,27 +6,22 @@ import copy
 import requests
 import urllib
 import json
+from dbFns.main import inserte2eFeedback
 
-def insertFeedback(data):
-	headers = {'Content-type': 'application/json', 'Accept': 'application/json'}
-	url = "http://localhost:6363/e2eFeedback/insertFeedback/"
-	r = requests.get(url, data=json.dumps(data), headers=headers)
-	response=yaml.safe_load(r.text)
-	print response
 	
-def generateFeed(robotInstructionsC,videoPath,inputStr):
-
+def generateFeed(robotInstructionsC,videoPath,inputStr,envPath):
+	envName=(envPath.split('/')[-1]).split('.')[0]
 	tellmedaveOutput=list()
 	planitInput=list()
 	for j in range(len(robotInstructionsC['originalInstructions'])):
 		tellmedaveOutput.append(robotInstructionsC['originalInstructions'][j])
 	
+
 	for i in range(len(robotInstructionsC['start_configs'])):		
 		string='MoveFrom: '+robotInstructionsC['start_configs'][i]+' to '+robotInstructionsC['end_configs'][i]
-		planitInput.append(string)
 		feedId=".".join((videoPath.split('/')[-1]).split('.')[:-1])
 		videoPath='images/planit/'+videoPath.split('/')[-1]
-	data={'actualInput':inputStr[1:-1],'tellmedaveOutput':tellmedaveOutput,'planitInput':planitInput,'videoPath':videoPath,'feedId':feedId}
+	data={'envName':envName,'actualInput':inputStr[1:-1],'tellmedaveOutput':[tellmedaveOutput],'videoPath':videoPath,'feedId':feedId}
 	return data
 
 
@@ -68,14 +63,14 @@ def PlanPathFromNL(inputStr,envPath,context_graph,trajectorySaveLocation,videoLo
 	
 
 
-	PathPlanner.MultipleWayPoints(envPath,context_graph,robotInstructions,trajectorySaveLocation)
+	retTraj=PathPlanner.MultipleWayPoints(envPath,context_graph,robotInstructions,trajectorySaveLocation)
 
 	# raw_input('Press enter to run trajectory')
 	# To replay a saved trajectory for a given environment execute
-	returnVal=generateFeed(robotInstructionsC,videoLocation,inputStr)
+	returnVal=generateFeed(robotInstructionsC,videoLocation,inputStr,envPath)
 	if videoLocation:
-		# insertFeedback(returnVal)
-		PathPlanner.playTrajFromFileandSave(envPath,trajectorySaveLocation,videoLocation,camera_angle_path)
+		print inserte2eFeedback(returnVal)
+		PathPlanner.playTrajFromFileandSave(envPath,retTraj,videoLocation,camera_angle_path)
 	else:
 		PathPlanner.playTrajFromFile(envPath,trajectorySaveLocation,camera_angle_path)
 	
