@@ -1,0 +1,15 @@
+ornatecurtains_1
+door_1
+mobilemedcabinet_1
+tablepatient_1
+syringe_1
+anesthesia_1
+supplycart_1
+surgeonstool_2
+scissors_1
+monitorboom_1
+cabinet_1
+basecab_1
+scale_1
+wallunit_1
+spoon_1
