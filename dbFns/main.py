@@ -3,7 +3,6 @@ import os
 import json,yaml
 import sys
 sys.path.append(os.path.dirname(os.path.realpath(__file__)))
-
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "settings")
 from db.models import *
 from db.serializer import *
