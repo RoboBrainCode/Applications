@@ -63,6 +63,8 @@ def MultipleWayPoints(env_colladafile,context_graph,configParams,trajectoryName=
 		# end_config=getObjectPosition({'envName':envName,'objectName':end_configs[i]})['objectPosition']
 		print start_configs[i],end_configs[i]
 		if sortPaths:
+			if (start_configs[i]==end_configs[i]):
+				continue
 			list_traj=getTrajectory({'envName':envName,'objectFrom':start_configs[i],'objectTo':end_configs[i]})
 			if 'trajectory' in list_traj and list_traj['trajectory']>0:
 				list_traj=list_traj['trajectory']

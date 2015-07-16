@@ -3,7 +3,9 @@
 Wall_3 Wall_4 Bed_1 Tv_1 Blackcouch_1 
 Blackcouch_2 Roundtable_1 Almirah_1 Bedtable_1 Vase_1 
 Wallshelf_1 Squaremirror_1 Humansit_1 Humanreach_1 Humansit_2 
-In On)
+Humansit_3 Floorlamp_1 Pillow_2 Pillow_4 Pillow_5 
+Books_4 Books_5 Books_6 Classroomchair_1 Tv_1PowerButton 
+Floorlamp_1PowerButton In On)
 (:init 
 (IsPlaceableOn Bed_1)
 (Pressable Tv_1)
@@ -14,4 +16,8 @@ In On)
 (IsPlaceableOn Bedtable_1)
 (IsGraspable Vase_1)
 (IsPlaceableOn Wallshelf_1)
-(On Vase_1 Bedtable_1)(Near Robot Bed_1))(:goal (and (state Tv_1 Channel1)(state Tv_1 IsOn))))
+(IsGraspable Floorlamp_1)
+(IsGraspable Pillow_2)
+(IsGraspable Pillow_4)
+(IsGraspable Pillow_5)
+(On Vase_1 Bedtable_1)(On Floorlamp_1 Blackcouch_1)(On Pillow_2 Bed_1)(On Pillow_4 Wallshelf_1)(On Pillow_5 Bed_1)(Near Robot PR2))(:goal (and (state Tv_1 IsOn))))

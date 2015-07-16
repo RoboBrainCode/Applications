@@ -7,7 +7,6 @@ import requests
 import urllib
 import json
 from dbFns.main import inserte2eFeedback
-
 	
 def generateFeed(robotInstructionsC,videoPath,inputStr,envPath):
 	envName=(envPath.split('/')[-1]).split('.')[0]
@@ -23,8 +22,6 @@ def generateFeed(robotInstructionsC,videoPath,inputStr,envPath):
 		videoPath='images/planit/'+videoPath.split('/')[-1]
 	data={'envName':envName,'actualInput':inputStr[1:-1],'tellmedaveOutput':[tellmedaveOutput],'videoPath':videoPath,'feedId':feedId}
 	return data
-
-
 
 def PlanPathFromNL(inputStr,envPath,context_graph,trajectorySaveLocation,videoLocation=None,camera_angle_path=None):
 

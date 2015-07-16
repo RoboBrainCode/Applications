@@ -1,2 +1,6 @@
 env: 1
 text: move to bed
+env: 1
+text: move to tv
+env: 1
+text: move to blackcouch

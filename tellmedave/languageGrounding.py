@@ -16,7 +16,7 @@ def getFileFromURL(handle):
 	testfile.retrieve(path, os.path.dirname(os.path.realpath(__file__))+"/Dataset/webfiles/"+name)
 
 def getWeights(node):
-	with open(os.path.dirname(os.path.realpath(__file__))+"/Dataset/webfiles/weightsFile.xml",w) as weight:
+	with open(os.path.dirname(os.path.realpath(__file__))+"/Dataset/webfiles/weightsFile.xml","w") as weight:
 		weight.write(node["weights"][0])
 
 
