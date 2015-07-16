@@ -15,6 +15,11 @@ def getFileFromURL(handle):
 	print name
 	testfile.retrieve(path, os.path.dirname(os.path.realpath(__file__))+"/Dataset/webfiles/"+name)
 
+def getWeights(node):
+	with open(os.path.dirname(os.path.realpath(__file__))+"/Dataset/webfiles/weightsFile.xml",w) as weight:
+		weight.write(node["weights"][0])
+
+
 def preProcess(raquelResponse):
 	for handle in raquelResponse:
 		getFileFromURL(handle)	

@@ -833,6 +833,25 @@ namespace ProjectCompton
 			inputFile.WriteLine("}");
 			inputFile.Flush();
 			inputFile.Close();
+
+			System.IO.StreamWriter inputFile_feedback = new System.IO.StreamWriter (Constants.rootPath + "../tmd_feedback.txt");
+			foreach (Instruction inst in output)
+			{
+				inputFile_feedback.Write(inst.getControllerFunction()+',');
+				int k=1;
+				foreach (String s in inst.arguments)
+                {
+                	inputFile_feedback.Write(s+',');
+                	k++;
+                }
+                while(k<3)
+                {
+                	inputFile_feedback.Write(',');
+                	k++;
+                }
+			}
+			inputFile_feedback.Flush();
+			inputFile_feedback.Close();
 		}
 
         static void Main(string[] args)

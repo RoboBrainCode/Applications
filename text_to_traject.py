@@ -32,7 +32,8 @@ def PlanPathFromNL(inputStr,envPath,context_graph,trajectorySaveLocation,videoLo
 	raquelResponse = raquel.fetch("({handle:'tellmedave'})-[:`HAS_PARAMETER`]->(b)")
 	tellmedave.preProcess(raquelResponse['1'])
 	raquelResponse=raquel.fetch("({handle:'tellmedave'})-[:`HAS_WEIGHTS`]->(b)")
-	tellmedave.getFileFromURL(raquelResponse['1'][0])
+	raquelResponse=raquel.fetch("({handle:'"+raquelResponse['1'][0]+"'})")
+	tellmedave.getWeights(raquelResponse)
 	
 	# calling tellmedave
 
