@@ -19,7 +19,7 @@ for i in range(len(lines)/2):
 	videoAppend=(text.replace (" ", "_"))[1:-1]
 	os.system('rm '+os.path.dirname(os.path.realpath(__file__))+'/tellmedave/Dataset/VEIL500/Environment/planit/*.xml')
 	os.system('rm '+os.path.dirname(os.path.realpath(__file__))+'/tellmedave/dict.json')
-	envPath=os.path.dirname(os.path.realpath(__file__))+"/environment/env_{0}_context_1.dae".format(envName)
+	envPath=os.path.dirname(os.path.realpath(__file__))+"/planitDave/env_{0}.dae".format(envName)
 	contextGraph=os.path.dirname(os.path.realpath(__file__))+"/environment/{0}_graph_1.xml".format(envName)
 	trajectorySaveLocation=os.path.dirname(os.path.realpath(__file__))+"/trajectory/env_{0}_context_1_{1}.tk".format(envName,videoAppend)
 	

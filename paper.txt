@@ -1,0 +1,8 @@
+Pitch :
+1)Join end 2 end system:
+2)a)Real life failure is expensive to get
+ b) crowd sourced end2end system with +1/-1 reward feedback is easy and detailed feedback is hard to get
+ 3) wtih our new algorithm, we can do this=> MDP + co-active
+ 4)experiments , 
+ -overall it improved(data, metric)
+ -show that it fixed the right thing ("experts fixing each piece")

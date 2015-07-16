@@ -11,5 +11,6 @@ urlpatterns = patterns('',
     url(r'returnById/', views.returnById, name='returnById'), 
     url(r'tellmedaveFeedback/', views.tellmedaveFeedback, name='tellmedaveFeedback'), 
     url(r'planitFeedback/', views.planitFeedbackSys, name='planitFeedbackSys'), 
+    url(r'dbFns/', views.dbFns, name='dbFns')
     
 )

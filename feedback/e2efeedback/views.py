@@ -208,6 +208,9 @@ def addMoreFeeds(request):
 		return HttpResponse(json.dumps(json_feeds), content_type="application/json")
 
 
+def dbFns(request):
+	if request.method == 'GET':
+		print request
 
 
 
