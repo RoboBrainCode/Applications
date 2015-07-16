@@ -15,10 +15,9 @@ from optparse import OptionParser
 from openravepy.misc import OpenRAVEGlobalArguments
 import pickle
 import json
-from dbFns.main import insertObjectPosition
+from dbFns.main import insertObjectPosition,insertObjects
 
 def getPosition(env_colladafile):
-	print env_colladafile
 	paramsFilePrepend=(env_colladafile.split('/')[-1]).split('.')[0]
 	print paramsFilePrepend
 	env = Environment()		
@@ -30,6 +29,7 @@ def getPosition(env_colladafile):
 	position=dict()
 	positionFile="params/"+paramsFilePrepend+"_objectPosition.pk"
 	print positionFile
+	objList=list()
 	setPosition=True
 	if setPosition:
 		for body in env.GetBodies():
@@ -41,17 +41,31 @@ def getPosition(env_colladafile):
 					kinname=firstname+'_'+str(int(float(lastname))+1)
 				else:
 					kinname=firstname+'_'+str(int(lastname))
+			if 'Floor' in kinname:
+				continue
+			elif ('Wall' in kinname):
+				continue
 			print kinname
+			objList.append(kinname)
+			transform=body.GetTransform()
+			robotTransform=robot.GetTransform()
+			robotTransform[0][3]=transform[0][3]
+			robotTransform[1][3]=transform[1][3]
+			robot.SetTransform(robotTransform)
 			raw_input('Press to Select Position')
 			transform=robot.GetTransform()
 			position[kinname]=transform
 			data={'envName':paramsFilePrepend,'objectName':kinname,'objectPosition':robot.GetTransform()}
 			insertObjectPosition(data)
-		pickle.dump(position, open(positionFile,"wb" ) )
+		data={'envName':'env_1','objectsList':objList}
+		print insertObjects(data)
+		# print objList
+		raw_input('Terminate')
+		# pickle.dump(position, open(positionFile,"wb" ) )
 
 if __name__ == "__main__":
 	import sys
-	env_colladafile = '../environment/env_{0}_context_1.dae'.format(sys.argv[1])
+	env_colladafile = '../planitDave/env_{0}.dae'.format(sys.argv[1])
 	print env_colladafile
 	getPosition(env_colladafile)
 	
