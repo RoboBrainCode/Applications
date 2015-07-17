@@ -8,6 +8,7 @@ from datetime import datetime
 from models import e2eFeedback  
 from rest_framework import permissions
 from coactiveUpdate.tellmedaveUpdate import updateTellMeDave
+from dbFns.main import getObjects
 import yaml,json
 @api_view(['GET'])
 def getNLPFeedback(request):
@@ -71,11 +72,12 @@ def returnById(request):
 		for key,val in data.iteritems():
 			data[key]=val[0]
 		data=data['query']
-		print data
 		data=data[1:-1]
-		print data
 		feedList = e2eFeedback.objects.get(id=data)
 		json_feeds=feedList.to_json()
+		objList=getObjects({'envName':json_feeds['envName']})['objectsList']
+		json_feeds['objList']=objList
+		print json_feeds
 		# json_feeds = [feed.to_json() for feed in feedList]
 		return HttpResponse(json.dumps(json_feeds), content_type="application/json")
 
@@ -151,7 +153,6 @@ def recordFeedback(request):
 		feedback.save()
 
 		return HttpResponse(json.dumps({'success':1}), content_type='application/json')
-
 
 def tellmedaveFeedback(request):
 	if request.method == 'GET':
