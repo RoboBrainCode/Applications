@@ -35,16 +35,17 @@ openraveLock=Lock()
 stopValLock=Lock()
 stopVal=0
 envG=None
-envName='env_1_context_1'
-globalEnvPath='/home/siddhantmanocha/intern/roboBrainProduction/Applications/'
+envName='env_1'
+globalEnvPath="/".join(os.path.dirname(os.path.realpath(__file__)).split('/')[:-2])+'/'
 planitFeedback1=None
 startConfigPlan=None
 endConfigPlan=None
 
 
 def initOpenrave():
-	global globalEnvPath,envG,robot,trajectorySaveLocation
-	env_colladafile = globalEnvPath+'environment/{0}.dae'.format(envName)
+	global globalEnvPath,envG,robot,trajectorySaveLocation,envName
+	env_colladafile = globalEnvPath+'planitDave/{0}.dae'.format(envName)
+	print env_colladafile
 	envG=Environment()
 	envG.Load(env_colladafile)
 	envG.SetViewer('qtcoin')
@@ -77,7 +78,7 @@ def playTraj(request):
 		if (envName!=data['env']):
 			envName=data['env']
 			envG.Reset()
-			env_colladafile = globalEnvPath+'environment/{0}.dae'.format(envName)
+			env_colladafile = globalEnvPath+'planitDave/{0}.dae'.format(envName)
 			envG.Load(env_colladafile)
 			robot = envG.GetRobots()[0]
 			time.sleep(1)
