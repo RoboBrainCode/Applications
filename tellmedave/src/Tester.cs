@@ -839,7 +839,7 @@ namespace ProjectCompton
 			{
 				inputFile_feedback.Write(inst.getControllerFunction()+',');
 				int k=1;
-				foreach (String s in inst.arguments)
+				foreach (String s in inst.getArguments())
                 {
                 	inputFile_feedback.Write(s+',');
                 	k++;
@@ -849,6 +849,7 @@ namespace ProjectCompton
                 	inputFile_feedback.Write(',');
                 	k++;
                 }
+                inputFile_feedback.Write('\n');
 			}
 			inputFile_feedback.Flush();
 			inputFile_feedback.Close();
